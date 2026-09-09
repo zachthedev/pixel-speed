@@ -1,0 +1,171 @@
+<resources>
+    <string name="settings_content_card_readout">Readout</string>
+    <string name="settings_content_card_readout_profile">Readout for %1$s</string>
+    <string name="settings_content_card_units">Units</string>
+
+    <string name="settings_content_show_download_title">Show download</string>
+    <string name="settings_content_show_download_subtitle">Show the download number in the overlay</string>
+    <string name="settings_content_show_upload_title">Show upload</string>
+    <string name="settings_content_show_upload_subtitle">Show the upload number in the overlay</string>
+
+    <string name="settings_content_layout_title">Layout</string>
+    <string name="settings_content_layout_subtitle">How the two directions arrange in the overlay</string>
+    <string name="settings_content_layout_one_line">One line</string>
+    <string name="settings_content_layout_two_lines">Two lines</string>
+    <string name="settings_content_layout_download_only">Download only</string>
+    <string name="settings_content_layout_combined">Sum</string>
+
+    <string name="settings_content_direction_order_title">Direction order</string>
+    <string name="settings_content_direction_order_subtitle">Which direction reads first when both show</string>
+    <string name="settings_content_direction_order_download_first">Download first</string>
+    <string name="settings_content_direction_order_upload_first">Upload first</string>
+
+    <string name="settings_content_direction_marker_title">Direction marker</string>
+    <string name="settings_content_direction_marker_subtitle">How a direction is marked next to its number</string>
+    <string name="settings_content_direction_marker_arrows">Arrows</string>
+    <string name="settings_content_direction_marker_letters">Letters</string>
+    <!-- Direction marker choice: no marker before the number, beside Arrows and Letters -->
+    <string name="settings_content_direction_marker_none">None</string>
+
+    <string name="settings_content_network_glyph_title">Network glyph</string>
+    <string name="settings_content_network_glyph_subtitle">Show a small icon for the active network</string>
+
+    <string name="settings_content_unit_system_title">Unit system</string>
+    <string name="settings_content_unit_system_subtitle">Bits per second or bytes per second</string>
+    <string name="settings_content_unit_system_bits">Bits</string>
+    <string name="settings_content_unit_system_bytes">Bytes</string>
+
+    <string name="settings_content_unit_prefix_title">Unit prefix</string>
+    <string name="settings_content_unit_prefix_subtitle">Which magnitude the number climbs to</string>
+    <string name="settings_content_unit_prefix_auto">Auto</string>
+    <string name="settings_content_unit_prefix_kilo_bits" translatable="false">Kbps</string>
+    <string name="settings_content_unit_prefix_mega_bits" translatable="false">Mbps</string>
+    <string name="settings_content_unit_prefix_giga_bits" translatable="false">Gbps</string>
+    <string name="settings_content_unit_prefix_kilo_bytes" translatable="false">KB/s</string>
+    <string name="settings_content_unit_prefix_mega_bytes" translatable="false">MB/s</string>
+    <string name="settings_content_unit_prefix_giga_bytes" translatable="false">GB/s</string>
+    <string name="settings_content_unit_prefix_kilo_binary" translatable="false">KiB/s</string>
+    <string name="settings_content_unit_prefix_mega_binary" translatable="false">MiB/s</string>
+    <string name="settings_content_unit_prefix_giga_binary" translatable="false">GiB/s</string>
+    <string name="settings_content_auto_floor_title">Lowest unit</string>
+    <string name="settings_content_auto_floor_subtitle">Auto never drops below this unit</string>
+    <string name="settings_content_auto_floor_bare_bits" translatable="false">bps</string>
+    <string name="settings_content_auto_floor_bare_bytes" translatable="false">B/s</string>
+
+    <string name="settings_content_precision_mode_title">Precision</string>
+    <string name="settings_content_precision_mode_subtitle">Fixed digit count or fixed decimal count</string>
+    <!-- Precision mode choice: a fixed count of significant figures, beside Fixed decimals -->
+    <string name="settings_content_precision_mode_significant">Significant figures</string>
+    <!-- Precision mode choice: a fixed count of decimals, beside Significant figures -->
+    <string name="settings_content_precision_mode_fixed">Fixed decimals</string>
+
+    <string name="settings_content_significant_figures_title">Significant figures</string>
+    <string name="settings_content_significant_figures_value">Figures: %1$d</string>
+
+    <string name="settings_content_decimals_title">Decimal places</string>
+    <string name="settings_content_decimals_value">Decimals: %1$d</string>
+
+    <string name="settings_content_unit_label_title">Unit label</string>
+    <string name="settings_content_unit_label_subtitle">Auto spells it out, and drops it on the two-line stack and the halves beside the camera. The notification always spells it out.</string>
+    <string name="settings_content_unit_label_auto">Auto</string>
+    <string name="settings_content_unit_label_none">None</string>
+    <string name="settings_content_unit_label_full_bits" translatable="false">Mbps</string>
+    <string name="settings_content_unit_label_short_bits" translatable="false">Mb</string>
+    <string name="settings_content_unit_label_full_bytes" translatable="false">MB/s</string>
+    <string name="settings_content_unit_label_short_bytes" translatable="false">MB</string>
+    <string name="settings_content_unit_label_full_binary" translatable="false">MiB/s</string>
+    <string name="settings_content_unit_label_short_binary" translatable="false">MiB</string>
+
+    <string name="settings_content_fixed_width_digits_title">Fixed-width digits</string>
+    <string name="settings_content_fixed_width_digits_subtitle">Keep the number\'s width steady as it changes</string>
+
+    <string name="settings_content_binary_prefixes_title">Binary prefixes</string>
+    <string name="settings_content_binary_prefixes_subtitle">Use 1024-based prefixes instead of 1000-based</string>
+
+    <string name="settings_appearance_card_look">Look</string>
+    <string name="settings_appearance_card_look_profile">Look for %1$s</string>
+    <string name="settings_appearance_card_color">Color</string>
+    <string name="settings_appearance_card_type">Type</string>
+
+    <string name="settings_appearance_style_title">Style</string>
+    <string name="settings_appearance_style_subtitle">The overlay\'s shape and layout</string>
+    <string name="settings_appearance_style_chip">Chip</string>
+    <string name="settings_appearance_style_compact">Compact</string>
+    <string name="settings_appearance_style_compact12">Compact 12</string>
+    <string name="settings_appearance_style_stack">Stack</string>
+    <string name="settings_appearance_style_stack_no_unit">Stack, no unit</string>
+    <string name="settings_appearance_style_single">Single</string>
+    <string name="settings_appearance_style_single_no_unit">Single, no unit</string>
+    <string name="settings_appearance_style_halo">Halo</string>
+    <string name="settings_appearance_style_glyphs">Glyphs</string>
+
+    <string name="settings_appearance_status_bar_fit_title">Status bar fit</string>
+    <string name="settings_appearance_status_bar_fit_subtitle">Slim is a thin ribbon above the camera cutout</string>
+    <string name="settings_appearance_status_bar_fit_auto">Auto</string>
+    <string name="settings_appearance_status_bar_fit_manual">Manual</string>
+    <string name="settings_appearance_status_bar_fit_slim">Slim</string>
+    <string name="settings_appearance_ribbon_fallback_title">Slim ribbon fallback</string>
+    <string name="settings_appearance_ribbon_fallback_subtitle">When neither side of the camera cutout has room, use the ribbon above it</string>
+
+    <string name="settings_appearance_window_opacity_title">Opacity</string>
+    <string name="settings_appearance_window_opacity_value" translatable="false">%1$d%%</string>
+    <string name="settings_appearance_window_opacity_opaque">Opaque</string>
+    <string name="settings_appearance_window_opacity_translucent">Translucent</string>
+    <string name="settings_appearance_window_opacity_subtle">Subtle</string>
+    <!-- %1$d is the platform's touch limit as a whole percent, 80 on every Pixel. -->
+    <string name="settings_appearance_window_opacity_warning">Above %1$d%%, taps on the overlay don\'t reach what\'s under it</string>
+
+    <string name="settings_appearance_corner_radius_title">Corner shape</string>
+    <string name="settings_appearance_corner_radius_subtitle">How rounded the overlay\'s corners are</string>
+    <string name="settings_appearance_corner_radius_square">Square</string>
+    <string name="settings_appearance_corner_radius_rounded">Rounded</string>
+    <string name="settings_appearance_corner_radius_round">Round</string>
+    <string name="settings_appearance_corner_radius_pill">Pill</string>
+
+    <string name="settings_appearance_blur_behind_title">Blur behind</string>
+    <string name="settings_appearance_blur_behind_subtitle">Blur what\'s behind the overlay</string>
+
+    <string name="settings_appearance_color_mode_title">Color source</string>
+    <string name="settings_appearance_color_mode_subtitle">Where the overlay\'s colors come from</string>
+    <string name="settings_appearance_color_mode_dynamic">Dynamic</string>
+    <string name="settings_appearance_color_mode_custom">Custom</string>
+    <string name="settings_appearance_color_mode_light">Light</string>
+    <string name="settings_appearance_color_mode_dark">Dark</string>
+
+    <string name="settings_appearance_background_color_title">Background color</string>
+    <string name="settings_appearance_background_color_subtitle">The overlay\'s background color</string>
+    <string name="settings_appearance_text_color_title">Text color</string>
+    <string name="settings_appearance_text_color_subtitle">The overlay\'s text color</string>
+    <string name="settings_appearance_from_theme">From theme</string>
+
+    <string name="settings_appearance_color_by_direction_title">Color by direction</string>
+    <string name="settings_appearance_color_by_direction_subtitle">Color each direction\'s number differently</string>
+
+    <string name="settings_appearance_threshold_highlight_title">Threshold highlight</string>
+    <string name="settings_appearance_threshold_highlight_subtitle">Highlight the number above a threshold speed</string>
+
+    <string name="settings_appearance_threshold_value_title">Threshold speed</string>
+    <string name="settings_appearance_threshold_value_format" translatable="false">%1$d Mbps</string>
+
+    <string name="settings_appearance_font_family_title">Typeface</string>
+    <string name="settings_appearance_font_family_subtitle">The overlay\'s typeface</string>
+    <string name="settings_appearance_font_family_system">System</string>
+    <string name="settings_appearance_font_family_monospace">Monospace</string>
+
+    <string name="settings_appearance_font_weight_title">Text weight</string>
+    <string name="settings_appearance_font_weight_subtitle">The overlay\'s text weight</string>
+    <string name="settings_appearance_font_weight_regular">Regular</string>
+    <string name="settings_appearance_font_weight_medium">Medium</string>
+    <string name="settings_appearance_font_weight_bold">Bold</string>
+
+    <string name="settings_color_sheet_custom_title">Custom</string>
+    <string name="settings_color_sheet_use_this_color">Use this color</string>
+    <string name="settings_color_sheet_swatch_primary">Primary</string>
+    <string name="settings_color_sheet_swatch_secondary">Secondary</string>
+    <string name="settings_color_sheet_swatch_tertiary">Tertiary</string>
+    <string name="settings_color_sheet_swatch_surface">Surface</string>
+    <string name="settings_color_sheet_swatch_on_surface">On surface</string>
+    <string name="settings_color_sheet_swatch_primary_container">Primary container</string>
+    <string name="settings_color_sheet_swatch_black">Black</string>
+    <string name="settings_color_sheet_swatch_white">White</string>
+</resources>

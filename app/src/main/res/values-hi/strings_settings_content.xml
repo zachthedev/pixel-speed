@@ -1,0 +1,148 @@
+<resources>
+    <string name="settings_content_card_readout">रीडआउट</string>
+    <string name="settings_content_card_readout_profile">%1$s के लिए रीडआउट</string>
+    <string name="settings_content_card_units">इकाइयां</string>
+
+    <string name="settings_content_show_download_title">डाउनलोड दिखाएं</string>
+    <string name="settings_content_show_download_subtitle">ओवरले में डाउनलोड की संख्या दिखाएं</string>
+    <string name="settings_content_show_upload_title">अपलोड दिखाएं</string>
+    <string name="settings_content_show_upload_subtitle">ओवरले में अपलोड की संख्या दिखाएं</string>
+
+    <string name="settings_content_layout_title">लेआउट</string>
+    <string name="settings_content_layout_subtitle">ओवरले में दोनों दिशाएं कैसे व्यवस्थित हों</string>
+    <string name="settings_content_layout_one_line">एक लाइन</string>
+    <string name="settings_content_layout_two_lines">दो लाइनें</string>
+    <string name="settings_content_layout_download_only">सिर्फ़ डाउनलोड</string>
+    <string name="settings_content_layout_combined">योग</string>
+
+    <string name="settings_content_direction_order_title">दिशा क्रम</string>
+    <string name="settings_content_direction_order_subtitle">दोनों दिखने पर कौन-सी दिशा पहले आए</string>
+    <string name="settings_content_direction_order_download_first">डाउनलोड पहले</string>
+    <string name="settings_content_direction_order_upload_first">अपलोड पहले</string>
+
+    <string name="settings_content_direction_marker_title">दिशा चिह्न</string>
+    <string name="settings_content_direction_marker_subtitle">संख्या के पास दिशा कैसे चिह्नित हो</string>
+    <string name="settings_content_direction_marker_arrows">तीर</string>
+    <string name="settings_content_direction_marker_letters">अक्षर</string>
+    <string name="settings_content_direction_marker_none">कोई नहीं</string>
+
+    <string name="settings_content_network_glyph_title">नेटवर्क चिह्न</string>
+    <string name="settings_content_network_glyph_subtitle">सक्रिय नेटवर्क के लिए एक छोटा आइकन दिखाएं</string>
+
+    <string name="settings_content_unit_system_title">इकाई प्रणाली</string>
+    <string name="settings_content_unit_system_subtitle">बिट्स प्रति सेकंड या बाइट्स प्रति सेकंड</string>
+    <string name="settings_content_unit_system_bits">बिट्स</string>
+    <string name="settings_content_unit_system_bytes">बाइट्स</string>
+
+    <string name="settings_content_unit_prefix_title">इकाई उपसर्ग</string>
+    <string name="settings_content_unit_prefix_subtitle">संख्या किस परिमाण तक बढ़े</string>
+    <string name="settings_content_unit_prefix_auto">ऑटो</string>
+
+    <string name="settings_content_precision_mode_title">सटीकता</string>
+    <string name="settings_content_precision_mode_subtitle">तय अंकों की संख्या या तय दशमलव संख्या</string>
+    <string name="settings_content_precision_mode_significant">सार्थक अंक</string>
+    <string name="settings_content_precision_mode_fixed">स्थिर दशमलव</string>
+
+    <string name="settings_content_significant_figures_title">सार्थक अंक</string>
+    <string name="settings_content_significant_figures_value">अंक: %1$d</string>
+
+    <string name="settings_content_decimals_title">दशमलव स्थान</string>
+    <string name="settings_content_decimals_value">दशमलव: %1$d</string>
+
+
+    <string name="settings_content_fixed_width_digits_title">स्थिर-चौड़ाई अंक</string>
+    <string name="settings_content_fixed_width_digits_subtitle">बदलते समय संख्या की चौड़ाई स्थिर रखें</string>
+
+    <string name="settings_content_binary_prefixes_title">बाइनरी उपसर्ग</string>
+    <string name="settings_content_binary_prefixes_subtitle">1000-आधारित की बजाय 1024-आधारित उपसर्ग इस्तेमाल करें</string>
+
+    <string name="settings_appearance_card_look">रूप</string>
+    <string name="settings_appearance_card_look_profile">%1$s के लिए रूप</string>
+    <string name="settings_appearance_card_color">रंग</string>
+    <string name="settings_appearance_card_type">टाइप</string>
+
+    <string name="settings_appearance_style_title">शैली</string>
+    <string name="settings_appearance_style_subtitle">ओवरले का आकार और लेआउट</string>
+    <string name="settings_appearance_style_chip">चिप</string>
+    <string name="settings_appearance_style_compact">कॉम्पैक्ट</string>
+    <string name="settings_appearance_style_compact12">कॉम्पैक्ट 12</string>
+    <string name="settings_appearance_style_stack">स्टैक</string>
+    <string name="settings_appearance_style_stack_no_unit">स्टैक, बिना इकाई</string>
+    <string name="settings_appearance_style_single">सिंगल</string>
+    <string name="settings_appearance_style_single_no_unit">सिंगल, बिना इकाई</string>
+    <string name="settings_appearance_style_halo">हेलो</string>
+    <string name="settings_appearance_style_glyphs">चिह्न</string>
+
+    <string name="settings_appearance_status_bar_fit_title">स्टेटस बार फ़िट</string>
+    <string name="settings_appearance_status_bar_fit_subtitle">स्लिम विकल्प कैमरा कटआउट के ऊपर एक पतली पट्टी दिखाता है</string>
+    <string name="settings_appearance_status_bar_fit_auto">ऑटो</string>
+    <string name="settings_appearance_status_bar_fit_manual">मैन्युअल</string>
+    <string name="settings_appearance_status_bar_fit_slim">स्लिम</string>
+    <string name="settings_appearance_ribbon_fallback_title">पतली पट्टी पर वापस जाएँ</string>
+    <string name="settings_appearance_ribbon_fallback_subtitle">जब कैमरे के किसी भी ओर जगह न हो, तो ऊपर की पट्टी का उपयोग करें</string>
+
+    <string name="settings_appearance_window_opacity_title">अपारदर्शिता</string>
+    <string name="settings_appearance_window_opacity_opaque">अपारदर्शी</string>
+    <string name="settings_appearance_window_opacity_translucent">पारभासी</string>
+    <string name="settings_appearance_window_opacity_subtle">हल्का</string>
+    <string name="settings_appearance_window_opacity_warning">%1$d%% से ऊपर, ओवरले पर टैप नीचे वाली चीज़ तक नहीं पहुंचते</string>
+
+    <string name="settings_appearance_corner_radius_title">कोने का आकार</string>
+    <string name="settings_appearance_corner_radius_subtitle">ओवरले के कोने कितने गोल हों</string>
+    <string name="settings_appearance_corner_radius_square">चौकोर</string>
+    <string name="settings_appearance_corner_radius_rounded">गोलाकार</string>
+    <string name="settings_appearance_corner_radius_round">गोल</string>
+    <string name="settings_appearance_corner_radius_pill">पिल</string>
+
+    <string name="settings_appearance_blur_behind_title">पीछे धुंधलापन</string>
+    <string name="settings_appearance_blur_behind_subtitle">ओवरले के पीछे को धुंधला करें</string>
+
+    <string name="settings_appearance_color_mode_title">रंग स्रोत</string>
+    <string name="settings_appearance_color_mode_subtitle">ओवरले के रंग कहां से आते हैं</string>
+    <string name="settings_appearance_color_mode_dynamic">डायनामिक</string>
+    <string name="settings_appearance_color_mode_custom">कस्टम</string>
+    <string name="settings_appearance_color_mode_light">लाइट</string>
+    <string name="settings_appearance_color_mode_dark">डार्क</string>
+
+    <string name="settings_appearance_background_color_title">बैकग्राउंड रंग</string>
+    <string name="settings_appearance_background_color_subtitle">ओवरले का बैकग्राउंड रंग</string>
+    <string name="settings_appearance_text_color_title">टेक्स्ट रंग</string>
+    <string name="settings_appearance_text_color_subtitle">ओवरले का टेक्स्ट रंग</string>
+    <string name="settings_appearance_from_theme">थीम से</string>
+
+    <string name="settings_appearance_color_by_direction_title">दिशा अनुसार रंग</string>
+    <string name="settings_appearance_color_by_direction_subtitle">हर दिशा की संख्या अलग रंग में दिखाएं</string>
+
+    <string name="settings_appearance_threshold_highlight_title">सीमा हाइलाइट</string>
+    <string name="settings_appearance_threshold_highlight_subtitle">एक तय स्पीड से ऊपर संख्या को हाइलाइट करें</string>
+
+    <string name="settings_appearance_threshold_value_title">सीमा स्पीड</string>
+
+    <string name="settings_appearance_font_family_title">फ़ॉन्ट</string>
+    <string name="settings_appearance_font_family_subtitle">ओवरले का फ़ॉन्ट</string>
+    <string name="settings_appearance_font_family_system">सिस्टम</string>
+    <string name="settings_appearance_font_family_monospace">मोनोस्पेस</string>
+
+    <string name="settings_appearance_font_weight_title">टेक्स्ट वज़न</string>
+    <string name="settings_appearance_font_weight_subtitle">ओवरले का टेक्स्ट वज़न</string>
+    <string name="settings_appearance_font_weight_regular">रेगुलर</string>
+    <string name="settings_appearance_font_weight_medium">मीडियम</string>
+    <string name="settings_appearance_font_weight_bold">बोल्ड</string>
+
+    <string name="settings_color_sheet_custom_title">कस्टम</string>
+    <string name="settings_color_sheet_use_this_color">यह रंग इस्तेमाल करें</string>
+    <string name="settings_color_sheet_swatch_primary">प्राइमरी</string>
+    <string name="settings_color_sheet_swatch_secondary">सेकेंडरी</string>
+    <string name="settings_color_sheet_swatch_tertiary">टर्शियरी</string>
+    <string name="settings_color_sheet_swatch_surface">सरफ़ेस</string>
+    <string name="settings_color_sheet_swatch_on_surface">ऑन सरफ़ेस</string>
+    <string name="settings_color_sheet_swatch_primary_container">प्राइमरी कंटेनर</string>
+    <string name="settings_color_sheet_swatch_black">काला</string>
+    <string name="settings_color_sheet_swatch_white">सफ़ेद</string>
+    <string name="settings_content_unit_label_title">इकाई लेबल</string>
+    <string name="settings_content_unit_label_subtitle">ऑटो इकाई पूरी लिखता है और दो-पंक्ति वाले ढेर और कैमरे के बगल के दो हिस्सों पर उसे छोड़ देता है। सूचना में इकाई हमेशा पूरी लिखी जाती है।</string>
+    <string name="settings_content_unit_label_auto">स्वचालित</string>
+    <string name="settings_content_unit_label_none">कोई नहीं</string>
+    <string name="settings_content_auto_floor_title">सबसे छोटी इकाई</string>
+    <string name="settings_content_auto_floor_subtitle">ऑटो कभी इस इकाई से नीचे नहीं जाता</string>
+</resources>

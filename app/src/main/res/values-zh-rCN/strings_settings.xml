@@ -1,0 +1,13 @@
+<resources>
+    <string name="settings_title_content">内容</string>
+    <string name="settings_title_position">位置和大小</string>
+    <string name="settings_title_appearance">外观</string>
+    <string name="settings_title_behavior">行为</string>
+    <string name="settings_title_pause">暂停</string>
+    <string name="settings_title_profiles">配置</string>
+    <string name="settings_title_notification">通知和磁贴</string>
+    <string name="settings_title_system">系统</string>
+    <string name="settings_title_help">帮助</string>
+    <string name="settings_title_about">关于</string>
+    <string name="settings_action_back">返回</string>
+</resources>

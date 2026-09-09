@@ -1,0 +1,91 @@
+<resources>
+    <string name="settings_profiles_active">सक्रिय</string>
+    <string name="settings_profiles_summary">%1$s, %2$s, %3$s</string>
+    <string name="settings_profiles_interval_seconds">%1$s सेकंड</string>
+    <string name="settings_profiles_action_more">और कार्रवाइयां</string>
+
+    <string name="settings_profiles_style_chip">चिप</string>
+    <string name="settings_profiles_style_compact">कॉम्पैक्ट</string>
+    <string name="settings_profiles_style_compact12">कॉम्पैक्ट 12</string>
+    <string name="settings_profiles_style_stack">स्टैक</string>
+    <string name="settings_profiles_style_stack_no_unit">स्टैक, बिना इकाई</string>
+    <string name="settings_profiles_style_single">सिंगल</string>
+    <string name="settings_profiles_style_single_no_unit">सिंगल, बिना इकाई</string>
+    <string name="settings_profiles_style_halo">हेलो</string>
+    <string name="settings_profiles_style_glyphs">चिह्न</string>
+
+    <string name="settings_profiles_anchor_status_bar_cutout">कटआउट</string>
+    <string name="settings_profiles_anchor_status_bar_start">स्टेटस बार शुरुआत</string>
+    <string name="settings_profiles_anchor_status_bar_before_cutout">कटआउट से पहले</string>
+    <string name="settings_profiles_anchor_status_bar_after_cutout">कटआउट के बाद</string>
+    <string name="settings_profiles_anchor_status_bar_end">स्टेटस बार अंत</string>
+    <string name="settings_profiles_anchor_top_start">ऊपर शुरुआत</string>
+    <string name="settings_profiles_anchor_top_end">ऊपर अंत</string>
+    <string name="settings_profiles_anchor_bottom_start">नीचे शुरुआत</string>
+    <string name="settings_profiles_anchor_bottom_end">नीचे अंत</string>
+    <string name="settings_profiles_anchor_custom">कस्टम स्थिति</string>
+
+    <string name="settings_profiles_sheet_rename">नाम बदलें</string>
+    <string name="settings_profiles_sheet_duplicate">डुप्लिकेट करें</string>
+    <string name="settings_profiles_sheet_move_up">ऊपर ले जाएं</string>
+    <string name="settings_profiles_sheet_move_down">नीचे ले जाएं</string>
+    <string name="settings_profiles_sheet_delete">मिटाएं</string>
+    <string name="settings_profiles_sheet_shortcut">लॉन्चर शॉर्टकट</string>
+    <string name="settings_profiles_sheet_shortcut_subtitle">इस प्रोफ़ाइल के लिए होम स्क्रीन शॉर्टकट जोड़ता है</string>
+
+    <string name="settings_profiles_shortcut_label">%1$s पर स्विच करें</string>
+
+    <string name="settings_profiles_rename_title">प्रोफ़ाइल का नाम बदलें</string>
+    <string name="settings_profiles_rename_label">नाम</string>
+    <string name="settings_profiles_rename_error_empty">नाम खाली नहीं हो सकता</string>
+    <string name="settings_profiles_rename_error_duplicate">यह नाम पहले से किसी प्रोफ़ाइल का है</string>
+
+    <string name="settings_profiles_delete_title">प्रोफ़ाइल मिटाएं</string>
+    <string name="settings_profiles_delete_message">%1$s मिटाएं? इसे वापस नहीं लाया जा सकता।</string>
+
+    <string name="settings_profiles_add">प्रोफ़ाइल जोड़ें</string>
+    <string name="settings_profiles_add_subtitle">डिफ़ॉल्ट प्रोफ़ाइल की नक़ल बनाता है</string>
+    <string name="settings_profiles_new_name">प्रोफ़ाइल %1$d</string>
+
+    <string name="settings_shared_action_confirm">पुष्टि करें</string>
+    <string name="settings_shared_action_cancel">रद्द करें</string>
+    <string name="settings_system_advanced_mode">एडवांस्ड मोड</string>
+    <string name="settings_system_advanced_mode_subtitle">हर सेटिंग पर बारीक नियंत्रण</string>
+    <string name="settings_system_tile_added">क्विक सेटिंग्स में जोड़ा गया।</string>
+    <string name="settings_system_tile_not_added">जोड़ा नहीं गया। क्विक सेटिंग्स के एडिट मोड से इसे जोड़ें।</string>
+
+    <string name="settings_system_title_counters">काउंटर</string>
+    <string name="settings_system_title_counters_profile">%1$s के लिए काउंटर</string>
+    <string name="settings_system_title_automation">ऑटोमेशन</string>
+    <string name="settings_system_title_startup">स्टार्टअप</string>
+    <string name="settings_system_title_backup">बैकअप</string>
+    <string name="settings_system_title_reset">रीसेट</string>
+
+    <string name="settings_system_counter_source">काउंटर स्रोत</string>
+    <string name="settings_system_counter_source_physical_interfaces">फ़िज़िकल इंटरफ़ेस</string>
+    <string name="settings_system_counter_source_default_network">डिफ़ॉल्ट नेटवर्क</string>
+    <string name="settings_system_counter_source_all_interfaces">सभी इंटरफ़ेस</string>
+    <string name="settings_system_counter_source_mobile_only">सिर्फ़ मोबाइल</string>
+    <string name="settings_system_counter_source_non_mobile_only">सिर्फ़ नॉन-मोबाइल</string>
+
+    <string name="settings_system_automation_intents">ऑटोमेशन ब्रॉडकास्ट</string>
+    <string name="settings_system_automation_intents_subtitle">ऑटोमेशन ऐप्स को pause, resume और toggle भेजने देता है</string>
+
+    <string name="settings_system_start_on_boot">बूट पर शुरू करें</string>
+    <string name="settings_system_start_on_boot_subtitle">डिवाइस रीस्टार्ट होने के बाद ओवरले शुरू करता है</string>
+
+    <string name="settings_system_export">सेटिंग एक्सपोर्ट करें</string>
+    <string name="settings_system_export_subtitle">हर प्रोफ़ाइल को एक JSON फ़ाइल में सहेजता है</string>
+    <string name="settings_system_export_failed">एक्सपोर्ट विफल: %1$s</string>
+
+    <string name="settings_system_import">सेटिंग इम्पोर्ट करें</string>
+    <string name="settings_system_import_subtitle">एक JSON फ़ाइल से हर प्रोफ़ाइल बदल देता है</string>
+    <string name="settings_system_import_failed">इम्पोर्ट विफल: %1$s</string>
+
+    <string name="settings_system_reset">डिफ़ॉल्ट पर रीसेट करें</string>
+    <string name="settings_system_reset_subtitle">हर प्रोफ़ाइल और सेटिंग हटा देता है</string>
+    <string name="settings_system_reset_title">डिफ़ॉल्ट पर रीसेट करें</string>
+    <string name="settings_system_reset_message">इससे हर प्रोफ़ाइल और सेटिंग हट जाएगी। इसे वापस नहीं लाया जा सकता।</string>
+    <string name="settings_profiles_copy_suffix">" कॉपी"</string>
+    <string name="settings_system_import_too_large">आयात अस्वीकृत, फ़ाइल बाइट सीमा %1$d से बड़ी है</string>
+</resources>

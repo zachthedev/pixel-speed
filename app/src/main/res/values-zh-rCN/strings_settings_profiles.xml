@@ -1,0 +1,91 @@
+<resources>
+    <string name="settings_profiles_active">当前</string>
+    <string name="settings_profiles_summary">%1$s、%2$s、%3$s</string>
+    <string name="settings_profiles_interval_seconds">%1$s 秒</string>
+    <string name="settings_profiles_action_more">更多操作</string>
+
+    <string name="settings_profiles_style_chip">胶囊</string>
+    <string name="settings_profiles_style_compact">紧凑</string>
+    <string name="settings_profiles_style_compact12">紧凑 12</string>
+    <string name="settings_profiles_style_stack">堆叠</string>
+    <string name="settings_profiles_style_stack_no_unit">堆叠，无单位</string>
+    <string name="settings_profiles_style_single">单行</string>
+    <string name="settings_profiles_style_single_no_unit">单行，无单位</string>
+    <string name="settings_profiles_style_halo">光环</string>
+    <string name="settings_profiles_style_glyphs">图形</string>
+
+    <string name="settings_profiles_anchor_status_bar_cutout">挖孔</string>
+    <string name="settings_profiles_anchor_status_bar_start">状态栏起始端</string>
+    <string name="settings_profiles_anchor_status_bar_before_cutout">挖孔前</string>
+    <string name="settings_profiles_anchor_status_bar_after_cutout">挖孔后</string>
+    <string name="settings_profiles_anchor_status_bar_end">状态栏末端</string>
+    <string name="settings_profiles_anchor_top_start">顶部起始端</string>
+    <string name="settings_profiles_anchor_top_end">顶部末端</string>
+    <string name="settings_profiles_anchor_bottom_start">底部起始端</string>
+    <string name="settings_profiles_anchor_bottom_end">底部末端</string>
+    <string name="settings_profiles_anchor_custom">自定义位置</string>
+
+    <string name="settings_profiles_sheet_rename">重命名</string>
+    <string name="settings_profiles_sheet_duplicate">复制</string>
+    <string name="settings_profiles_sheet_move_up">上移</string>
+    <string name="settings_profiles_sheet_move_down">下移</string>
+    <string name="settings_profiles_sheet_delete">删除</string>
+    <string name="settings_profiles_sheet_shortcut">启动器快捷方式</string>
+    <string name="settings_profiles_sheet_shortcut_subtitle">为此配置添加一个主屏幕快捷方式</string>
+
+    <string name="settings_profiles_shortcut_label">切换到 %1$s</string>
+
+    <string name="settings_profiles_rename_title">重命名配置</string>
+    <string name="settings_profiles_rename_label">名称</string>
+    <string name="settings_profiles_rename_error_empty">名称不能为空</string>
+    <string name="settings_profiles_rename_error_duplicate">已有配置使用此名称</string>
+
+    <string name="settings_profiles_delete_title">删除配置</string>
+    <string name="settings_profiles_delete_message">删除 %1$s？此操作无法撤销。</string>
+
+    <string name="settings_profiles_add">添加配置</string>
+    <string name="settings_profiles_add_subtitle">复制默认配置</string>
+    <string name="settings_profiles_new_name">配置 %1$d</string>
+
+    <string name="settings_shared_action_confirm">确认</string>
+    <string name="settings_shared_action_cancel">取消</string>
+    <string name="settings_system_advanced_mode">高级模式</string>
+    <string name="settings_system_advanced_mode_subtitle">精细控制每一项设置</string>
+    <string name="settings_system_tile_added">已添加到快捷设置。</string>
+    <string name="settings_system_tile_not_added">未添加。请在快捷设置的编辑模式中添加。</string>
+
+    <string name="settings_system_title_counters">计数器</string>
+    <string name="settings_system_title_counters_profile">%1$s 的计数器</string>
+    <string name="settings_system_title_automation">自动化</string>
+    <string name="settings_system_title_startup">启动</string>
+    <string name="settings_system_title_backup">备份</string>
+    <string name="settings_system_title_reset">重置</string>
+
+    <string name="settings_system_counter_source">计数器来源</string>
+    <string name="settings_system_counter_source_physical_interfaces">物理接口</string>
+    <string name="settings_system_counter_source_default_network">默认网络</string>
+    <string name="settings_system_counter_source_all_interfaces">所有接口</string>
+    <string name="settings_system_counter_source_mobile_only">仅移动网络</string>
+    <string name="settings_system_counter_source_non_mobile_only">仅非移动网络</string>
+
+    <string name="settings_system_automation_intents">自动化广播</string>
+    <string name="settings_system_automation_intents_subtitle">允许自动化应用发送暂停、恢复和切换指令</string>
+
+    <string name="settings_system_start_on_boot">开机启动</string>
+    <string name="settings_system_start_on_boot_subtitle">设备重启后启动悬浮窗</string>
+
+    <string name="settings_system_export">导出设置</string>
+    <string name="settings_system_export_subtitle">将所有配置保存到 JSON 文件</string>
+    <string name="settings_system_export_failed">导出失败：%1$s</string>
+
+    <string name="settings_system_import">导入设置</string>
+    <string name="settings_system_import_subtitle">用 JSON 文件替换所有配置</string>
+    <string name="settings_system_import_failed">导入失败：%1$s</string>
+
+    <string name="settings_system_reset">恢复默认设置</string>
+    <string name="settings_system_reset_subtitle">清除所有配置和设置</string>
+    <string name="settings_system_reset_title">恢复默认设置</string>
+    <string name="settings_system_reset_message">这将清除所有配置和设置，且无法撤销。</string>
+    <string name="settings_profiles_copy_suffix">"副本"</string>
+    <string name="settings_system_import_too_large">导入被拒绝，文件超过字节上限 %1$d</string>
+</resources>

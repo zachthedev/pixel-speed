@@ -1,0 +1,93 @@
+<resources>
+    <string name="settings_profiles_active">Active</string>
+    <string name="settings_profiles_summary">%1$s, %2$s, %3$s</string>
+    <string name="settings_profiles_interval_seconds">%1$s s</string>
+    <string name="settings_profiles_action_more">More actions</string>
+
+    <string name="settings_profiles_style_chip">Chip</string>
+    <string name="settings_profiles_style_compact">Compact</string>
+    <string name="settings_profiles_style_compact12">Compact 12</string>
+    <string name="settings_profiles_style_stack">Stack</string>
+    <string name="settings_profiles_style_stack_no_unit">Stack, no unit</string>
+    <string name="settings_profiles_style_single">Single</string>
+    <string name="settings_profiles_style_single_no_unit">Single, no unit</string>
+    <string name="settings_profiles_style_halo">Halo</string>
+    <string name="settings_profiles_style_glyphs">Glyphs</string>
+
+    <string name="settings_profiles_anchor_status_bar_cutout">cutout</string>
+    <string name="settings_profiles_anchor_status_bar_start">status bar start</string>
+    <string name="settings_profiles_anchor_status_bar_before_cutout">before cutout</string>
+    <string name="settings_profiles_anchor_status_bar_after_cutout">after cutout</string>
+    <string name="settings_profiles_anchor_status_bar_end">status bar end</string>
+    <string name="settings_profiles_anchor_top_start">top start</string>
+    <string name="settings_profiles_anchor_top_end">top end</string>
+    <string name="settings_profiles_anchor_bottom_start">bottom start</string>
+    <string name="settings_profiles_anchor_bottom_end">bottom end</string>
+    <string name="settings_profiles_anchor_custom">custom position</string>
+
+    <string name="settings_profiles_sheet_rename">Rename</string>
+    <string name="settings_profiles_sheet_duplicate">Duplicate</string>
+    <string name="settings_profiles_sheet_move_up">Move up</string>
+    <string name="settings_profiles_sheet_move_down">Move down</string>
+    <string name="settings_profiles_sheet_delete">Delete</string>
+    <string name="settings_profiles_sheet_shortcut">Launcher shortcut</string>
+    <string name="settings_profiles_sheet_shortcut_subtitle">Adds a home screen shortcut for this profile</string>
+
+    <string name="settings_profiles_shortcut_label">Switch to %1$s</string>
+
+    <string name="settings_profiles_rename_title">Rename profile</string>
+    <string name="settings_profiles_rename_label">Name</string>
+    <string name="settings_profiles_rename_error_empty">Name can\'t be empty</string>
+    <string name="settings_profiles_rename_error_duplicate">A profile already has this name</string>
+
+    <string name="settings_profiles_delete_title">Delete profile</string>
+    <string name="settings_profiles_delete_message">Delete %1$s? This can\'t be undone.</string>
+
+    <string name="settings_profiles_add">Add profile</string>
+    <string name="settings_profiles_add_subtitle">Copies the default profile</string>
+    <string name="settings_profiles_new_name">Profile %1$d</string>
+
+    <string name="settings_shared_action_confirm">Confirm</string>
+    <string name="settings_shared_action_cancel">Cancel</string>
+
+    <string name="settings_system_advanced_mode">Advanced mode</string>
+    <string name="settings_system_advanced_mode_subtitle">Fine-grained control over every setting</string>
+    <string name="settings_system_tile_added">Added to Quick Settings.</string>
+    <string name="settings_system_tile_not_added">Not added. Add it from Quick Settings edit mode.</string>
+
+    <string name="settings_system_title_counters">Counters</string>
+    <string name="settings_system_title_counters_profile">Counters for %1$s</string>
+    <string name="settings_system_title_automation">Automation</string>
+    <string name="settings_system_title_startup">Startup</string>
+    <string name="settings_system_title_backup">Backup</string>
+    <string name="settings_system_title_reset">Reset</string>
+
+    <string name="settings_system_counter_source">Counter source</string>
+    <string name="settings_system_counter_source_physical_interfaces">Physical interfaces</string>
+    <string name="settings_system_counter_source_default_network">Default network</string>
+    <string name="settings_system_counter_source_all_interfaces">All interfaces</string>
+    <string name="settings_system_counter_source_mobile_only">Mobile only</string>
+    <string name="settings_system_counter_source_non_mobile_only">Non-mobile only</string>
+
+    <string name="settings_system_automation_intents">Automation broadcasts</string>
+    <string name="settings_system_automation_intents_subtitle">Lets automation apps send pause, resume, and toggle</string>
+
+    <string name="settings_system_start_on_boot">Start on boot</string>
+    <string name="settings_system_start_on_boot_subtitle">Starts the overlay after the device restarts</string>
+
+    <string name="settings_system_export">Export settings</string>
+    <string name="settings_system_export_subtitle">Saves every profile to a JSON file</string>
+    <string name="settings_system_export_file_name" translatable="false">pixel-speed-settings.json</string>
+    <string name="settings_system_export_failed">Export failed: %1$s</string>
+
+    <string name="settings_system_import">Import settings</string>
+    <string name="settings_system_import_subtitle">Replaces every profile from a JSON file</string>
+    <string name="settings_system_import_failed">Import failed: %1$s</string>
+
+    <string name="settings_system_reset">Reset to defaults</string>
+    <string name="settings_system_reset_subtitle">Clears every profile and setting</string>
+    <string name="settings_system_reset_title">Reset to defaults</string>
+    <string name="settings_system_reset_message">This clears every profile and setting. This can\'t be undone.</string>
+    <string name="settings_profiles_copy_suffix">" copy"</string>
+    <string name="settings_system_import_too_large">Import refused, the file is over the byte cap of %1$d</string>
+</resources>

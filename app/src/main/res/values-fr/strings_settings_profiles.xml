@@ -1,0 +1,91 @@
+<resources>
+    <string name="settings_profiles_active">Actif</string>
+    <string name="settings_profiles_summary">%1$s, %2$s, %3$s</string>
+    <string name="settings_profiles_interval_seconds">%1$s s</string>
+    <string name="settings_profiles_action_more">Plus d\'actions</string>
+
+    <string name="settings_profiles_style_chip">Puce</string>
+    <string name="settings_profiles_style_compact">Compact</string>
+    <string name="settings_profiles_style_compact12">Compact 12</string>
+    <string name="settings_profiles_style_stack">Pile</string>
+    <string name="settings_profiles_style_stack_no_unit">Pile, sans unité</string>
+    <string name="settings_profiles_style_single">Simple</string>
+    <string name="settings_profiles_style_single_no_unit">Simple, sans unité</string>
+    <string name="settings_profiles_style_halo">Halo</string>
+    <string name="settings_profiles_style_glyphs">Icônes</string>
+
+    <string name="settings_profiles_anchor_status_bar_cutout">poinçon</string>
+    <string name="settings_profiles_anchor_status_bar_start">début de la barre d\'état</string>
+    <string name="settings_profiles_anchor_status_bar_before_cutout">avant le poinçon</string>
+    <string name="settings_profiles_anchor_status_bar_after_cutout">après le poinçon</string>
+    <string name="settings_profiles_anchor_status_bar_end">fin de la barre d\'état</string>
+    <string name="settings_profiles_anchor_top_start">haut début</string>
+    <string name="settings_profiles_anchor_top_end">haut fin</string>
+    <string name="settings_profiles_anchor_bottom_start">bas début</string>
+    <string name="settings_profiles_anchor_bottom_end">bas fin</string>
+    <string name="settings_profiles_anchor_custom">position personnalisée</string>
+
+    <string name="settings_profiles_sheet_rename">Renommer</string>
+    <string name="settings_profiles_sheet_duplicate">Dupliquer</string>
+    <string name="settings_profiles_sheet_move_up">Monter</string>
+    <string name="settings_profiles_sheet_move_down">Descendre</string>
+    <string name="settings_profiles_sheet_delete">Supprimer</string>
+    <string name="settings_profiles_sheet_shortcut">Raccourci de l\'écran d\'accueil</string>
+    <string name="settings_profiles_sheet_shortcut_subtitle">Ajoute un raccourci sur l\'écran d\'accueil pour ce profil</string>
+
+    <string name="settings_profiles_shortcut_label">Passer à %1$s</string>
+
+    <string name="settings_profiles_rename_title">Renommer le profil</string>
+    <string name="settings_profiles_rename_label">Nom</string>
+    <string name="settings_profiles_rename_error_empty">Le nom ne peut pas être vide</string>
+    <string name="settings_profiles_rename_error_duplicate">Un profil porte déjà ce nom</string>
+
+    <string name="settings_profiles_delete_title">Supprimer le profil</string>
+    <string name="settings_profiles_delete_message">Supprimer %1$s ? Cette action est irréversible.</string>
+
+    <string name="settings_profiles_add">Ajouter un profil</string>
+    <string name="settings_profiles_add_subtitle">Copie le profil par défaut</string>
+    <string name="settings_profiles_new_name">Profil %1$d</string>
+
+    <string name="settings_shared_action_confirm">Confirmer</string>
+    <string name="settings_shared_action_cancel">Annuler</string>
+    <string name="settings_system_advanced_mode">Mode avancé</string>
+    <string name="settings_system_advanced_mode_subtitle">Contrôle précis de chaque réglage</string>
+    <string name="settings_system_tile_added">Ajoutée aux Paramètres rapides.</string>
+    <string name="settings_system_tile_not_added">Non ajoutée. Ajoutez-la depuis le mode d\'édition des Paramètres rapides.</string>
+
+    <string name="settings_system_title_counters">Compteurs</string>
+    <string name="settings_system_title_counters_profile">Compteurs pour %1$s</string>
+    <string name="settings_system_title_automation">Automatisation</string>
+    <string name="settings_system_title_startup">Démarrage</string>
+    <string name="settings_system_title_backup">Sauvegarde</string>
+    <string name="settings_system_title_reset">Réinitialisation</string>
+
+    <string name="settings_system_counter_source">Source des compteurs</string>
+    <string name="settings_system_counter_source_physical_interfaces">Interfaces physiques</string>
+    <string name="settings_system_counter_source_default_network">Réseau par défaut</string>
+    <string name="settings_system_counter_source_all_interfaces">Toutes les interfaces</string>
+    <string name="settings_system_counter_source_mobile_only">Mobile uniquement</string>
+    <string name="settings_system_counter_source_non_mobile_only">Non mobile uniquement</string>
+
+    <string name="settings_system_automation_intents">Diffusions d\'automatisation</string>
+    <string name="settings_system_automation_intents_subtitle">Permet aux applis d\'automatisation d\'envoyer pause, reprise et bascule</string>
+
+    <string name="settings_system_start_on_boot">Démarrer au démarrage</string>
+    <string name="settings_system_start_on_boot_subtitle">Démarre la superposition après le redémarrage de l\'appareil</string>
+
+    <string name="settings_system_export">Exporter les paramètres</string>
+    <string name="settings_system_export_subtitle">Enregistre chaque profil dans un fichier JSON</string>
+    <string name="settings_system_export_failed">Échec de l\'export : %1$s</string>
+
+    <string name="settings_system_import">Importer les paramètres</string>
+    <string name="settings_system_import_subtitle">Remplace chaque profil depuis un fichier JSON</string>
+    <string name="settings_system_import_failed">Échec de l\'import : %1$s</string>
+
+    <string name="settings_system_reset">Réinitialiser les paramètres</string>
+    <string name="settings_system_reset_subtitle">Efface chaque profil et chaque paramètre</string>
+    <string name="settings_system_reset_title">Réinitialiser les paramètres</string>
+    <string name="settings_system_reset_message">Cette action efface chaque profil et chaque paramètre. Elle est irréversible.</string>
+    <string name="settings_profiles_copy_suffix">" copie"</string>
+    <string name="settings_system_import_too_large">Importation refusée : le fichier dépasse la limite d\'octets, fixée à %1$d</string>
+</resources>

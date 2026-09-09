@@ -1,0 +1,118 @@
+<resources>
+    <string name="settings_unit_dp" translatable="false">%1$d dp</string>
+    <string name="settings_unit_sp" translatable="false">%1$d sp</string>
+    <string name="settings_unit_seconds" translatable="false">%1$d s</string>
+    <string name="settings_unit_seconds_decimal" translatable="false">%.1f s</string>
+    <string name="settings_unit_kbps" translatable="false">%1$d KB/s</string>
+
+    <string name="settings_position_card_anchor">Anchor</string>
+    <string name="settings_position_card_anchor_profile">Anchor for %1$s</string>
+    <string name="settings_position_card_nudge">Nudge</string>
+    <string name="settings_position_card_size">Size</string>
+    <string name="settings_position_anchor_title">Anchor</string>
+    <string name="settings_position_anchor_subtitle">Where the overlay sits on screen</string>
+    <string name="settings_position_anchor_portrait_title">Anchor in portrait</string>
+    <string name="settings_position_anchor_portrait_subtitle">Where the overlay sits with the phone upright</string>
+    <string name="settings_position_anchor_landscape_title">Anchor in landscape</string>
+    <string name="settings_position_anchor_landscape_subtitle">Where the overlay sits with the phone sideways</string>
+    <string name="settings_position_anchor_status_bar_cutout">Status bar, at the cutout</string>
+    <string name="settings_position_anchor_status_bar_start">Status bar, start</string>
+    <string name="settings_position_anchor_status_bar_before_cutout">Status bar, before the cutout</string>
+    <string name="settings_position_anchor_status_bar_after_cutout">Status bar, after the cutout</string>
+    <string name="settings_position_anchor_status_bar_end">Status bar, end</string>
+    <string name="settings_position_anchor_custom">Custom position</string>
+    <string name="settings_position_anchor_top_start">Top, start</string>
+    <string name="settings_position_anchor_top_end">Top, end</string>
+    <string name="settings_position_anchor_bottom_start">Bottom, start</string>
+    <string name="settings_position_anchor_bottom_end">Bottom, end</string>
+    <string name="settings_position_anchor_short_start">Start</string>
+    <string name="settings_position_anchor_short_before_cutout">Before hole</string>
+    <string name="settings_position_anchor_short_cutout">Hole</string>
+    <string name="settings_position_anchor_short_after_cutout">After hole</string>
+    <string name="settings_position_anchor_short_end">End</string>
+    <string name="settings_position_anchor_short_custom">Custom</string>
+    <string name="settings_position_adjust_title">Adjust on screen</string>
+    <string name="settings_position_adjust_subtitle">Drag the overlay where you want it</string>
+    <string name="settings_position_adjust_unavailable_subtitle">Available once the overlay is on screen</string>
+    <string name="settings_position_landscape_mode_title">Landscape anchor</string>
+    <string name="settings_position_landscape_mode_subtitle">Use the portrait anchor or a separate one</string>
+    <string name="settings_position_landscape_mode_same">Same as portrait</string>
+    <string name="settings_position_landscape_mode_separate">Separate</string>
+    <string name="settings_position_avoid_cutout_title">Avoid the cutout</string>
+    <string name="settings_position_avoid_cutout_subtitle">Slide past the camera cutout instead of covering it</string>
+    <string name="settings_position_side_flip_title">Follow the icons</string>
+    <string name="settings_position_side_flip_subtitle">Moves the readout to the side of the camera with room, by reading the status bar through an accessibility service</string>
+    <string name="settings_position_offset_x_title">Horizontal offset</string>
+    <string name="settings_position_offset_y_title">Vertical offset</string>
+    <string name="settings_position_text_size_title">Text size</string>
+    <string name="settings_position_text_size_small">Small</string>
+    <string name="settings_position_text_size_default">Default</string>
+    <string name="settings_position_text_size_large">Large</string>
+    <string name="settings_position_chip_padding_title">Chip padding</string>
+    <string name="settings_position_min_width_title">Minimum width</string>
+    <string name="settings_position_min_width_fit_content">Fit content</string>
+
+    <string name="settings_behavior_card_sampling">Sampling</string>
+    <string name="settings_behavior_card_sampling_profile">Sampling for %1$s</string>
+    <string name="settings_behavior_card_hide_when">Hide when</string>
+    <string name="settings_behavior_update_interval_title">Update interval</string>
+    <string name="settings_behavior_smoothing_title">Smoothing</string>
+    <string name="settings_behavior_smoothing_subtitle">Averages recent samples to steady the number</string>
+    <string name="settings_behavior_smoothing_none">None</string>
+    <string name="settings_behavior_smoothing_light">Light</string>
+    <string name="settings_behavior_smoothing_heavy">Heavy</string>
+    <string name="settings_behavior_hide_idle_title">Hide when idle</string>
+    <string name="settings_behavior_hide_idle_subtitle">Hide below a traffic threshold</string>
+    <string name="settings_behavior_idle_threshold_title">Idle threshold</string>
+    <string name="settings_behavior_idle_delay_title">Idle delay</string>
+    <string name="settings_behavior_offline_mode_title">When offline</string>
+    <string name="settings_behavior_offline_mode_subtitle">What shows with no traffic reading</string>
+    <string name="settings_behavior_offline_mode_dashes">Show dashes</string>
+    <string name="settings_behavior_offline_mode_hide">Hide</string>
+    <string name="settings_behavior_hide_fullscreen_title">Hide in fullscreen apps</string>
+    <string name="settings_behavior_hide_fullscreen_subtitle">Hide behind fullscreen apps</string>
+    <string name="settings_behavior_hide_landscape_title">Hide in landscape</string>
+    <string name="settings_behavior_hide_landscape_subtitle">The overlay stays off while the phone is sideways</string>
+    <string name="settings_behavior_pause_battery_saver_title">Pause in battery saver</string>
+    <string name="settings_behavior_pause_battery_saver_subtitle">Pause sampling when battery saver is on</string>
+    <string name="settings_behavior_active_now">Active now</string>
+
+    <string name="settings_pause_card_durations">Durations</string>
+    <string name="settings_pause_card_durations_profile">Durations for %1$s</string>
+    <string name="settings_pause_card_defaults">Defaults</string>
+    <string name="settings_pause_duration_slot_title">Duration %1$d</string>
+    <string name="settings_pause_add_title">Add a duration</string>
+    <string name="settings_pause_add_subtitle">Add another duration to the list</string>
+    <string name="settings_pause_remove">Remove</string>
+    <string name="settings_pause_until_resumed">Until I resume</string>
+    <string name="settings_pause_tile_default_title">Quick Settings tile default</string>
+    <string name="settings_pause_tile_default_subtitle">Duration a tile tap pauses for</string>
+    <string name="settings_pause_notification_default_title">Notification pause default</string>
+    <string name="settings_pause_notification_default_subtitle">Duration the notification action pauses for</string>
+
+    <string name="settings_notification_card_readout_surface">Readout surface</string>
+    <string name="settings_notification_card_readout_surface_profile">Readout surface for %1$s</string>
+    <string name="settings_notification_surface_title">Surface</string>
+    <string name="settings_notification_surface_subtitle">Live Update needs Android 16 or later</string>
+    <string name="settings_notification_surface_overlay">Overlay</string>
+    <string name="settings_notification_surface_live_update">Live Update</string>
+    <string name="settings_notification_surface_both">Both</string>
+    <string name="settings_notification_shows_speed_title">Show speed in notification</string>
+    <string name="settings_notification_shows_speed_subtitle">Rewrites the notification once per sample</string>
+    <string name="settings_notification_add_tile_title">Add tile</string>
+    <string name="settings_notification_add_tile_subtitle">Adds the speed tile to Quick Settings</string>
+    <string name="settings_notification_add_tile_manual_subtitle">Add the tile from Quick Settings edit mode</string>
+
+    <plurals name="settings_pause_duration_minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="settings_pause_duration_hours">
+        <item quantity="one">%1$d hour</item>
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+    <plurals name="settings_pause_duration_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+</resources>

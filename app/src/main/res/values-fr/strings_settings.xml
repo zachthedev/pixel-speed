@@ -1,0 +1,13 @@
+<resources>
+    <string name="settings_title_content">Contenu</string>
+    <string name="settings_title_position">Position et taille</string>
+    <string name="settings_title_appearance">Apparence</string>
+    <string name="settings_title_behavior">Comportement</string>
+    <string name="settings_title_pause">Pause</string>
+    <string name="settings_title_profiles">Profils</string>
+    <string name="settings_title_notification">Notification et tuile</string>
+    <string name="settings_title_system">Système</string>
+    <string name="settings_title_help">Aide</string>
+    <string name="settings_title_about">À propos</string>
+    <string name="settings_action_back">Retour</string>
+</resources>

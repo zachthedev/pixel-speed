@@ -1,0 +1,148 @@
+<resources>
+    <string name="settings_content_card_readout">读数</string>
+    <string name="settings_content_card_readout_profile">%1$s 的读数</string>
+    <string name="settings_content_card_units">单位</string>
+
+    <string name="settings_content_show_download_title">显示下载</string>
+    <string name="settings_content_show_download_subtitle">在悬浮窗中显示下载数值</string>
+    <string name="settings_content_show_upload_title">显示上传</string>
+    <string name="settings_content_show_upload_subtitle">在悬浮窗中显示上传数值</string>
+
+    <string name="settings_content_layout_title">布局</string>
+    <string name="settings_content_layout_subtitle">悬浮窗中两个方向的排列方式</string>
+    <string name="settings_content_layout_one_line">单行</string>
+    <string name="settings_content_layout_two_lines">双行</string>
+    <string name="settings_content_layout_download_only">仅下载</string>
+    <string name="settings_content_layout_combined">合计</string>
+
+    <string name="settings_content_direction_order_title">方向顺序</string>
+    <string name="settings_content_direction_order_subtitle">两者都显示时哪个方向排在前面</string>
+    <string name="settings_content_direction_order_download_first">下载在前</string>
+    <string name="settings_content_direction_order_upload_first">上传在前</string>
+
+    <string name="settings_content_direction_marker_title">方向标记</string>
+    <string name="settings_content_direction_marker_subtitle">数值旁如何标记方向</string>
+    <string name="settings_content_direction_marker_arrows">箭头</string>
+    <string name="settings_content_direction_marker_letters">字母</string>
+    <string name="settings_content_direction_marker_none">无</string>
+
+    <string name="settings_content_network_glyph_title">网络图标</string>
+    <string name="settings_content_network_glyph_subtitle">显示当前网络的小图标</string>
+
+    <string name="settings_content_unit_system_title">单位制</string>
+    <string name="settings_content_unit_system_subtitle">比特每秒或字节每秒</string>
+    <string name="settings_content_unit_system_bits">比特</string>
+    <string name="settings_content_unit_system_bytes">字节</string>
+
+    <string name="settings_content_unit_prefix_title">单位前缀</string>
+    <string name="settings_content_unit_prefix_subtitle">数值达到哪个量级</string>
+    <string name="settings_content_unit_prefix_auto">自动</string>
+
+    <string name="settings_content_precision_mode_title">精度</string>
+    <string name="settings_content_precision_mode_subtitle">固定位数或固定小数位数</string>
+    <string name="settings_content_precision_mode_significant">有效数字</string>
+    <string name="settings_content_precision_mode_fixed">固定小数</string>
+
+    <string name="settings_content_significant_figures_title">有效数字</string>
+    <string name="settings_content_significant_figures_value">位数：%1$d</string>
+
+    <string name="settings_content_decimals_title">小数位数</string>
+    <string name="settings_content_decimals_value">小数位：%1$d</string>
+
+
+    <string name="settings_content_fixed_width_digits_title">等宽数字</string>
+    <string name="settings_content_fixed_width_digits_subtitle">数值变化时保持宽度不变</string>
+
+    <string name="settings_content_binary_prefixes_title">二进制前缀</string>
+    <string name="settings_content_binary_prefixes_subtitle">使用以 1024 为基数而非 1000 为基数的前缀</string>
+
+    <string name="settings_appearance_card_look">外观</string>
+    <string name="settings_appearance_card_look_profile">%1$s 的外观</string>
+    <string name="settings_appearance_card_color">颜色</string>
+    <string name="settings_appearance_card_type">字体</string>
+
+    <string name="settings_appearance_style_title">样式</string>
+    <string name="settings_appearance_style_subtitle">悬浮窗的形状和布局</string>
+    <string name="settings_appearance_style_chip">胶囊</string>
+    <string name="settings_appearance_style_compact">紧凑</string>
+    <string name="settings_appearance_style_compact12">紧凑 12</string>
+    <string name="settings_appearance_style_stack">堆叠</string>
+    <string name="settings_appearance_style_stack_no_unit">堆叠，无单位</string>
+    <string name="settings_appearance_style_single">单行</string>
+    <string name="settings_appearance_style_single_no_unit">单行，无单位</string>
+    <string name="settings_appearance_style_halo">光环</string>
+    <string name="settings_appearance_style_glyphs">图形</string>
+
+    <string name="settings_appearance_status_bar_fit_title">状态栏适配</string>
+    <string name="settings_appearance_status_bar_fit_subtitle">"纤细"是摄像头挖孔上方的一条细带</string>
+    <string name="settings_appearance_status_bar_fit_auto">自动</string>
+    <string name="settings_appearance_status_bar_fit_manual">手动</string>
+    <string name="settings_appearance_status_bar_fit_slim">纤细</string>
+    <string name="settings_appearance_ribbon_fallback_title">改用细条</string>
+    <string name="settings_appearance_ribbon_fallback_subtitle">当摄像头两侧都没有空间时，使用其上方的细条</string>
+
+    <string name="settings_appearance_window_opacity_title">不透明度</string>
+    <string name="settings_appearance_window_opacity_opaque">不透明</string>
+    <string name="settings_appearance_window_opacity_translucent">半透明</string>
+    <string name="settings_appearance_window_opacity_subtle">淡</string>
+    <string name="settings_appearance_window_opacity_warning">超过 %1$d%% 后，点按悬浮窗不会传到下方内容</string>
+
+    <string name="settings_appearance_corner_radius_title">圆角形状</string>
+    <string name="settings_appearance_corner_radius_subtitle">悬浮窗圆角的弧度</string>
+    <string name="settings_appearance_corner_radius_square">方形</string>
+    <string name="settings_appearance_corner_radius_rounded">圆润</string>
+    <string name="settings_appearance_corner_radius_round">圆形</string>
+    <string name="settings_appearance_corner_radius_pill">胶囊形</string>
+
+    <string name="settings_appearance_blur_behind_title">背景模糊</string>
+    <string name="settings_appearance_blur_behind_subtitle">模糊悬浮窗后方的内容</string>
+
+    <string name="settings_appearance_color_mode_title">颜色来源</string>
+    <string name="settings_appearance_color_mode_subtitle">悬浮窗颜色的来源</string>
+    <string name="settings_appearance_color_mode_dynamic">动态取色</string>
+    <string name="settings_appearance_color_mode_custom">自定义</string>
+    <string name="settings_appearance_color_mode_light">浅色</string>
+    <string name="settings_appearance_color_mode_dark">深色</string>
+
+    <string name="settings_appearance_background_color_title">背景颜色</string>
+    <string name="settings_appearance_background_color_subtitle">悬浮窗的背景颜色</string>
+    <string name="settings_appearance_text_color_title">文字颜色</string>
+    <string name="settings_appearance_text_color_subtitle">悬浮窗的文字颜色</string>
+    <string name="settings_appearance_from_theme">跟随主题</string>
+
+    <string name="settings_appearance_color_by_direction_title">按方向着色</string>
+    <string name="settings_appearance_color_by_direction_subtitle">为每个方向的数值使用不同颜色</string>
+
+    <string name="settings_appearance_threshold_highlight_title">阈值高亮</string>
+    <string name="settings_appearance_threshold_highlight_subtitle">当速度超过阈值时高亮显示数值</string>
+
+    <string name="settings_appearance_threshold_value_title">阈值速度</string>
+
+    <string name="settings_appearance_font_family_title">字体</string>
+    <string name="settings_appearance_font_family_subtitle">悬浮窗的字体</string>
+    <string name="settings_appearance_font_family_system">系统</string>
+    <string name="settings_appearance_font_family_monospace">等宽</string>
+
+    <string name="settings_appearance_font_weight_title">字重</string>
+    <string name="settings_appearance_font_weight_subtitle">悬浮窗的字重</string>
+    <string name="settings_appearance_font_weight_regular">常规</string>
+    <string name="settings_appearance_font_weight_medium">中等</string>
+    <string name="settings_appearance_font_weight_bold">粗体</string>
+
+    <string name="settings_color_sheet_custom_title">自定义</string>
+    <string name="settings_color_sheet_use_this_color">使用此颜色</string>
+    <string name="settings_color_sheet_swatch_primary">主色</string>
+    <string name="settings_color_sheet_swatch_secondary">次要色</string>
+    <string name="settings_color_sheet_swatch_tertiary">第三色</string>
+    <string name="settings_color_sheet_swatch_surface">表面色</string>
+    <string name="settings_color_sheet_swatch_on_surface">表面之上</string>
+    <string name="settings_color_sheet_swatch_primary_container">主色容器</string>
+    <string name="settings_color_sheet_swatch_black">黑色</string>
+    <string name="settings_color_sheet_swatch_white">白色</string>
+    <string name="settings_content_unit_label_title">单位标签</string>
+    <string name="settings_content_unit_label_subtitle">自动模式会显示完整单位，在两行堆叠和摄像头两侧的半块上则省略。通知始终显示完整单位。</string>
+    <string name="settings_content_unit_label_auto">自动</string>
+    <string name="settings_content_unit_label_none">无</string>
+    <string name="settings_content_auto_floor_title">最小单位</string>
+    <string name="settings_content_auto_floor_subtitle">自动模式不会低于此单位</string>
+</resources>

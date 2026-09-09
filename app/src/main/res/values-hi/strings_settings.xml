@@ -1,0 +1,13 @@
+<resources>
+    <string name="settings_title_content">कॉन्टेंट</string>
+    <string name="settings_title_position">स्थिति और आकार</string>
+    <string name="settings_title_appearance">दिखावट</string>
+    <string name="settings_title_behavior">व्यवहार</string>
+    <string name="settings_title_pause">पॉज़</string>
+    <string name="settings_title_profiles">प्रोफ़ाइलें</string>
+    <string name="settings_title_notification">नोटिफ़िकेशन और टाइल</string>
+    <string name="settings_title_system">सिस्टम</string>
+    <string name="settings_title_help">मदद</string>
+    <string name="settings_title_about">ऐप के बारे में</string>
+    <string name="settings_action_back">पीछे</string>
+</resources>

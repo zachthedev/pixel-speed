@@ -1,0 +1,148 @@
+<resources>
+    <string name="settings_content_card_readout">Affichage</string>
+    <string name="settings_content_card_readout_profile">Affichage pour %1$s</string>
+    <string name="settings_content_card_units">Unités</string>
+
+    <string name="settings_content_show_download_title">Afficher le téléchargement</string>
+    <string name="settings_content_show_download_subtitle">Afficher le chiffre de téléchargement dans la superposition</string>
+    <string name="settings_content_show_upload_title">Afficher l\'envoi</string>
+    <string name="settings_content_show_upload_subtitle">Afficher le chiffre d\'envoi dans la superposition</string>
+
+    <string name="settings_content_layout_title">Disposition</string>
+    <string name="settings_content_layout_subtitle">Comment les deux sens s\'organisent dans la superposition</string>
+    <string name="settings_content_layout_one_line">Une ligne</string>
+    <string name="settings_content_layout_two_lines">Deux lignes</string>
+    <string name="settings_content_layout_download_only">Téléchargement seul</string>
+    <string name="settings_content_layout_combined">Somme</string>
+
+    <string name="settings_content_direction_order_title">Ordre des sens</string>
+    <string name="settings_content_direction_order_subtitle">Quel sens s\'affiche en premier quand les deux sont visibles</string>
+    <string name="settings_content_direction_order_download_first">Téléchargement d\'abord</string>
+    <string name="settings_content_direction_order_upload_first">Envoi d\'abord</string>
+
+    <string name="settings_content_direction_marker_title">Marqueur de sens</string>
+    <string name="settings_content_direction_marker_subtitle">Comment un sens est marqué à côté de son chiffre</string>
+    <string name="settings_content_direction_marker_arrows">Flèches</string>
+    <string name="settings_content_direction_marker_letters">Lettres</string>
+    <string name="settings_content_direction_marker_none">Aucun</string>
+
+    <string name="settings_content_network_glyph_title">Icône réseau</string>
+    <string name="settings_content_network_glyph_subtitle">Afficher une petite icône pour le réseau actif</string>
+
+    <string name="settings_content_unit_system_title">Système d\'unités</string>
+    <string name="settings_content_unit_system_subtitle">Bits par seconde ou octets par seconde</string>
+    <string name="settings_content_unit_system_bits">Bits</string>
+    <string name="settings_content_unit_system_bytes">Octets</string>
+
+    <string name="settings_content_unit_prefix_title">Préfixe d\'unité</string>
+    <string name="settings_content_unit_prefix_subtitle">Jusqu\'à quelle grandeur le chiffre monte</string>
+    <string name="settings_content_unit_prefix_auto">Auto</string>
+
+    <string name="settings_content_precision_mode_title">Précision</string>
+    <string name="settings_content_precision_mode_subtitle">Nombre de chiffres fixe ou nombre de décimales fixe</string>
+    <string name="settings_content_precision_mode_significant">Chiffres significatifs</string>
+    <string name="settings_content_precision_mode_fixed">Décimales fixes</string>
+
+    <string name="settings_content_significant_figures_title">Chiffres significatifs</string>
+    <string name="settings_content_significant_figures_value">Chiffres : %1$d</string>
+
+    <string name="settings_content_decimals_title">Décimales</string>
+    <string name="settings_content_decimals_value">Décimales : %1$d</string>
+
+
+    <string name="settings_content_fixed_width_digits_title">Chiffres à largeur fixe</string>
+    <string name="settings_content_fixed_width_digits_subtitle">Garder la largeur du chiffre stable quand il change</string>
+
+    <string name="settings_content_binary_prefixes_title">Préfixes binaires</string>
+    <string name="settings_content_binary_prefixes_subtitle">Utiliser des préfixes en base 1024 au lieu de 1000</string>
+
+    <string name="settings_appearance_card_look">Aspect</string>
+    <string name="settings_appearance_card_look_profile">Aspect pour %1$s</string>
+    <string name="settings_appearance_card_color">Couleur</string>
+    <string name="settings_appearance_card_type">Police</string>
+
+    <string name="settings_appearance_style_title">Style</string>
+    <string name="settings_appearance_style_subtitle">La forme et la disposition de la superposition</string>
+    <string name="settings_appearance_style_chip">Puce</string>
+    <string name="settings_appearance_style_compact">Compact</string>
+    <string name="settings_appearance_style_compact12">Compact 12</string>
+    <string name="settings_appearance_style_stack">Pile</string>
+    <string name="settings_appearance_style_stack_no_unit">Pile, sans unité</string>
+    <string name="settings_appearance_style_single">Simple</string>
+    <string name="settings_appearance_style_single_no_unit">Simple, sans unité</string>
+    <string name="settings_appearance_style_halo">Halo</string>
+    <string name="settings_appearance_style_glyphs">Icônes</string>
+
+    <string name="settings_appearance_status_bar_fit_title">Ajustement à la barre d\'état</string>
+    <string name="settings_appearance_status_bar_fit_subtitle">Fine est un mince ruban au-dessus du poinçon caméra</string>
+    <string name="settings_appearance_status_bar_fit_auto">Auto</string>
+    <string name="settings_appearance_status_bar_fit_manual">Manuel</string>
+    <string name="settings_appearance_status_bar_fit_slim">Fine</string>
+    <string name="settings_appearance_ribbon_fallback_title">Repli sur le ruban fin</string>
+    <string name="settings_appearance_ribbon_fallback_subtitle">Quand aucun côté de la caméra n\'a de place, utiliser le ruban au-dessus</string>
+
+    <string name="settings_appearance_window_opacity_title">Opacité</string>
+    <string name="settings_appearance_window_opacity_opaque">Opaque</string>
+    <string name="settings_appearance_window_opacity_translucent">Translucide</string>
+    <string name="settings_appearance_window_opacity_subtle">Discrète</string>
+    <string name="settings_appearance_window_opacity_warning">Au-delà de %1$d%%, les appuis sur la superposition n\'atteignent pas ce qui se trouve dessous</string>
+
+    <string name="settings_appearance_corner_radius_title">Forme des coins</string>
+    <string name="settings_appearance_corner_radius_subtitle">À quel point les coins de la superposition sont arrondis</string>
+    <string name="settings_appearance_corner_radius_square">Carré</string>
+    <string name="settings_appearance_corner_radius_rounded">Arrondi</string>
+    <string name="settings_appearance_corner_radius_round">Rond</string>
+    <string name="settings_appearance_corner_radius_pill">Pilule</string>
+
+    <string name="settings_appearance_blur_behind_title">Flou en arrière-plan</string>
+    <string name="settings_appearance_blur_behind_subtitle">Flouter ce qui se trouve derrière la superposition</string>
+
+    <string name="settings_appearance_color_mode_title">Source de couleur</string>
+    <string name="settings_appearance_color_mode_subtitle">D\'où viennent les couleurs de la superposition</string>
+    <string name="settings_appearance_color_mode_dynamic">Dynamique</string>
+    <string name="settings_appearance_color_mode_custom">Personnalisée</string>
+    <string name="settings_appearance_color_mode_light">Clair</string>
+    <string name="settings_appearance_color_mode_dark">Sombre</string>
+
+    <string name="settings_appearance_background_color_title">Couleur de fond</string>
+    <string name="settings_appearance_background_color_subtitle">La couleur de fond de la superposition</string>
+    <string name="settings_appearance_text_color_title">Couleur du texte</string>
+    <string name="settings_appearance_text_color_subtitle">La couleur du texte de la superposition</string>
+    <string name="settings_appearance_from_theme">Du thème</string>
+
+    <string name="settings_appearance_color_by_direction_title">Couleur par sens</string>
+    <string name="settings_appearance_color_by_direction_subtitle">Colorer différemment le chiffre de chaque sens</string>
+
+    <string name="settings_appearance_threshold_highlight_title">Surbrillance de seuil</string>
+    <string name="settings_appearance_threshold_highlight_subtitle">Mettre en surbrillance le chiffre au-dessus d\'une vitesse seuil</string>
+
+    <string name="settings_appearance_threshold_value_title">Vitesse seuil</string>
+
+    <string name="settings_appearance_font_family_title">Police</string>
+    <string name="settings_appearance_font_family_subtitle">La police de la superposition</string>
+    <string name="settings_appearance_font_family_system">Système</string>
+    <string name="settings_appearance_font_family_monospace">Monospace</string>
+
+    <string name="settings_appearance_font_weight_title">Graisse du texte</string>
+    <string name="settings_appearance_font_weight_subtitle">La graisse du texte de la superposition</string>
+    <string name="settings_appearance_font_weight_regular">Normale</string>
+    <string name="settings_appearance_font_weight_medium">Moyenne</string>
+    <string name="settings_appearance_font_weight_bold">Grasse</string>
+
+    <string name="settings_color_sheet_custom_title">Personnalisée</string>
+    <string name="settings_color_sheet_use_this_color">Utiliser cette couleur</string>
+    <string name="settings_color_sheet_swatch_primary">Primaire</string>
+    <string name="settings_color_sheet_swatch_secondary">Secondaire</string>
+    <string name="settings_color_sheet_swatch_tertiary">Tertiaire</string>
+    <string name="settings_color_sheet_swatch_surface">Surface</string>
+    <string name="settings_color_sheet_swatch_on_surface">Sur surface</string>
+    <string name="settings_color_sheet_swatch_primary_container">Conteneur primaire</string>
+    <string name="settings_color_sheet_swatch_black">Noir</string>
+    <string name="settings_color_sheet_swatch_white">Blanc</string>
+    <string name="settings_content_unit_label_title">Libellé de l\'unité</string>
+    <string name="settings_content_unit_label_subtitle">Auto écrit l\'unité en toutes lettres et l\'omet sur la pile à deux lignes et les moitiés à côté de la caméra. La notification l\'écrit toujours en toutes lettres.</string>
+    <string name="settings_content_unit_label_auto">Auto</string>
+    <string name="settings_content_unit_label_none">Aucun</string>
+    <string name="settings_content_auto_floor_title">Unité minimale</string>
+    <string name="settings_content_auto_floor_subtitle">Auto ne descend jamais sous cette unité</string>
+</resources>

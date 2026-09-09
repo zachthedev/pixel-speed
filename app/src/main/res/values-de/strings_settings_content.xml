@@ -1,0 +1,148 @@
+<resources>
+    <string name="settings_content_card_readout">Anzeige</string>
+    <string name="settings_content_card_readout_profile">Anzeige für %1$s</string>
+    <string name="settings_content_card_units">Einheiten</string>
+
+    <string name="settings_content_show_download_title">Download anzeigen</string>
+    <string name="settings_content_show_download_subtitle">Zeigt die Download-Zahl im Overlay</string>
+    <string name="settings_content_show_upload_title">Upload anzeigen</string>
+    <string name="settings_content_show_upload_subtitle">Zeigt die Upload-Zahl im Overlay</string>
+
+    <string name="settings_content_layout_title">Layout</string>
+    <string name="settings_content_layout_subtitle">Wie die beiden Richtungen im Overlay angeordnet sind</string>
+    <string name="settings_content_layout_one_line">Eine Zeile</string>
+    <string name="settings_content_layout_two_lines">Zwei Zeilen</string>
+    <string name="settings_content_layout_download_only">Nur Download</string>
+    <string name="settings_content_layout_combined">Summe</string>
+
+    <string name="settings_content_direction_order_title">Reihenfolge</string>
+    <string name="settings_content_direction_order_subtitle">Welche Richtung zuerst steht, wenn beide angezeigt werden</string>
+    <string name="settings_content_direction_order_download_first">Download zuerst</string>
+    <string name="settings_content_direction_order_upload_first">Upload zuerst</string>
+
+    <string name="settings_content_direction_marker_title">Richtungssymbol</string>
+    <string name="settings_content_direction_marker_subtitle">Wie eine Richtung neben ihrer Zahl markiert wird</string>
+    <string name="settings_content_direction_marker_arrows">Pfeile</string>
+    <string name="settings_content_direction_marker_letters">Buchstaben</string>
+    <string name="settings_content_direction_marker_none">Keine</string>
+
+    <string name="settings_content_network_glyph_title">Netzwerksymbol</string>
+    <string name="settings_content_network_glyph_subtitle">Zeigt ein kleines Symbol für das aktive Netzwerk</string>
+
+    <string name="settings_content_unit_system_title">Einheitensystem</string>
+    <string name="settings_content_unit_system_subtitle">Bit pro Sekunde oder Byte pro Sekunde</string>
+    <string name="settings_content_unit_system_bits">Bit</string>
+    <string name="settings_content_unit_system_bytes">Byte</string>
+
+    <string name="settings_content_unit_prefix_title">Einheitenpräfix</string>
+    <string name="settings_content_unit_prefix_subtitle">Bis zu welcher Größenordnung die Zahl steigt</string>
+    <string name="settings_content_unit_prefix_auto">Automatisch</string>
+
+    <string name="settings_content_precision_mode_title">Genauigkeit</string>
+    <string name="settings_content_precision_mode_subtitle">Feste Ziffernzahl oder feste Nachkommastellenzahl</string>
+    <string name="settings_content_precision_mode_significant">Signifikante Stellen</string>
+    <string name="settings_content_precision_mode_fixed">Feste Nachkommastellen</string>
+
+    <string name="settings_content_significant_figures_title">Signifikante Stellen</string>
+    <string name="settings_content_significant_figures_value">Stellen: %1$d</string>
+
+    <string name="settings_content_decimals_title">Nachkommastellen</string>
+    <string name="settings_content_decimals_value">Nachkommastellen: %1$d</string>
+
+
+    <string name="settings_content_fixed_width_digits_title">Ziffern mit fester Breite</string>
+    <string name="settings_content_fixed_width_digits_subtitle">Hält die Breite der Zahl konstant, während sie sich ändert</string>
+
+    <string name="settings_content_binary_prefixes_title">Binärpräfixe</string>
+    <string name="settings_content_binary_prefixes_subtitle">Verwendet Präfixe auf Basis von 1024 statt 1000</string>
+
+    <string name="settings_appearance_card_look">Optik</string>
+    <string name="settings_appearance_card_look_profile">Optik für %1$s</string>
+    <string name="settings_appearance_card_color">Farbe</string>
+    <string name="settings_appearance_card_type">Schrift</string>
+
+    <string name="settings_appearance_style_title">Stil</string>
+    <string name="settings_appearance_style_subtitle">Form und Layout des Overlays</string>
+    <string name="settings_appearance_style_chip">Chip</string>
+    <string name="settings_appearance_style_compact">Kompakt</string>
+    <string name="settings_appearance_style_compact12">Kompakt 12</string>
+    <string name="settings_appearance_style_stack">Stapel</string>
+    <string name="settings_appearance_style_stack_no_unit">Stapel, ohne Einheit</string>
+    <string name="settings_appearance_style_single">Einzeilig</string>
+    <string name="settings_appearance_style_single_no_unit">Einzeilig, ohne Einheit</string>
+    <string name="settings_appearance_style_halo">Halo</string>
+    <string name="settings_appearance_style_glyphs">Symbole</string>
+
+    <string name="settings_appearance_status_bar_fit_title">Anpassung an Statusleiste</string>
+    <string name="settings_appearance_status_bar_fit_subtitle">Schmal ist ein dünnes Band über der Kameraaussparung</string>
+    <string name="settings_appearance_status_bar_fit_auto">Automatisch</string>
+    <string name="settings_appearance_status_bar_fit_manual">Manuell</string>
+    <string name="settings_appearance_status_bar_fit_slim">Schmal</string>
+    <string name="settings_appearance_ribbon_fallback_title">Ausweichen auf das schmale Band</string>
+    <string name="settings_appearance_ribbon_fallback_subtitle">Wenn neben der Kamera auf keiner Seite Platz ist, das Band darüber verwenden</string>
+
+    <string name="settings_appearance_window_opacity_title">Deckkraft</string>
+    <string name="settings_appearance_window_opacity_opaque">Deckend</string>
+    <string name="settings_appearance_window_opacity_translucent">Durchscheinend</string>
+    <string name="settings_appearance_window_opacity_subtle">Dezent</string>
+    <string name="settings_appearance_window_opacity_warning">Über %1$d%% erreichen Berührungen des Overlays nicht, was darunter liegt</string>
+
+    <string name="settings_appearance_corner_radius_title">Eckenform</string>
+    <string name="settings_appearance_corner_radius_subtitle">Wie rund die Ecken des Overlays sind</string>
+    <string name="settings_appearance_corner_radius_square">Eckig</string>
+    <string name="settings_appearance_corner_radius_rounded">Abgerundet</string>
+    <string name="settings_appearance_corner_radius_round">Rund</string>
+    <string name="settings_appearance_corner_radius_pill">Pille</string>
+
+    <string name="settings_appearance_blur_behind_title">Hintergrund weichzeichnen</string>
+    <string name="settings_appearance_blur_behind_subtitle">Zeichnet den Hintergrund hinter dem Overlay weich</string>
+
+    <string name="settings_appearance_color_mode_title">Farbquelle</string>
+    <string name="settings_appearance_color_mode_subtitle">Woher die Farben des Overlays stammen</string>
+    <string name="settings_appearance_color_mode_dynamic">Dynamisch</string>
+    <string name="settings_appearance_color_mode_custom">Benutzerdefiniert</string>
+    <string name="settings_appearance_color_mode_light">Hell</string>
+    <string name="settings_appearance_color_mode_dark">Dunkel</string>
+
+    <string name="settings_appearance_background_color_title">Hintergrundfarbe</string>
+    <string name="settings_appearance_background_color_subtitle">Die Hintergrundfarbe des Overlays</string>
+    <string name="settings_appearance_text_color_title">Textfarbe</string>
+    <string name="settings_appearance_text_color_subtitle">Die Textfarbe des Overlays</string>
+    <string name="settings_appearance_from_theme">Aus dem Design</string>
+
+    <string name="settings_appearance_color_by_direction_title">Farbe nach Richtung</string>
+    <string name="settings_appearance_color_by_direction_subtitle">Färbt die Zahl jeder Richtung unterschiedlich ein</string>
+
+    <string name="settings_appearance_threshold_highlight_title">Schwellenwert-Hervorhebung</string>
+    <string name="settings_appearance_threshold_highlight_subtitle">Hebt die Zahl oberhalb einer Schwellengeschwindigkeit hervor</string>
+
+    <string name="settings_appearance_threshold_value_title">Schwellengeschwindigkeit</string>
+
+    <string name="settings_appearance_font_family_title">Schriftart</string>
+    <string name="settings_appearance_font_family_subtitle">Die Schriftart des Overlays</string>
+    <string name="settings_appearance_font_family_system">System</string>
+    <string name="settings_appearance_font_family_monospace">Monospace</string>
+
+    <string name="settings_appearance_font_weight_title">Schriftstärke</string>
+    <string name="settings_appearance_font_weight_subtitle">Die Schriftstärke des Overlays</string>
+    <string name="settings_appearance_font_weight_regular">Normal</string>
+    <string name="settings_appearance_font_weight_medium">Mittel</string>
+    <string name="settings_appearance_font_weight_bold">Fett</string>
+
+    <string name="settings_color_sheet_custom_title">Benutzerdefiniert</string>
+    <string name="settings_color_sheet_use_this_color">Diese Farbe verwenden</string>
+    <string name="settings_color_sheet_swatch_primary">Primär</string>
+    <string name="settings_color_sheet_swatch_secondary">Sekundär</string>
+    <string name="settings_color_sheet_swatch_tertiary">Tertiär</string>
+    <string name="settings_color_sheet_swatch_surface">Oberfläche</string>
+    <string name="settings_color_sheet_swatch_on_surface">Auf Oberfläche</string>
+    <string name="settings_color_sheet_swatch_primary_container">Primärer Container</string>
+    <string name="settings_color_sheet_swatch_black">Schwarz</string>
+    <string name="settings_color_sheet_swatch_white">Weiß</string>
+    <string name="settings_content_unit_label_title">Einheitenbezeichnung</string>
+    <string name="settings_content_unit_label_subtitle">Auto schreibt die Einheit aus und lässt sie auf dem zweizeiligen Stapel und den Hälften neben der Kamera weg. Die Benachrichtigung schreibt sie immer aus.</string>
+    <string name="settings_content_unit_label_auto">Automatisch</string>
+    <string name="settings_content_unit_label_none">Keine</string>
+    <string name="settings_content_auto_floor_title">Kleinste Einheit</string>
+    <string name="settings_content_auto_floor_subtitle">Automatisch geht nie unter diese Einheit</string>
+</resources>
