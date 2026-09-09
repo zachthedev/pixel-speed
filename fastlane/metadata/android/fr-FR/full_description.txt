@@ -1,0 +1,25 @@
+Pixel Speed affiche un petit indicateur de vos vitesses de téléchargement et d'envoi dans la barre d'état, à côté de l'encoche de la caméra, par-dessus tout ce qui est à l'écran.
+
+Il lit les compteurs du téléphone lui-même une fois par seconde. L'application n'a aucune autorisation réseau, aucune analyse d'utilisation et aucune publicité. Rien ne quitte le téléphone.
+
+CE QUE VOUS OBTENEZ
+
+• Un indicateur dans la barre d'état : téléchargement et envoi, sur une ligne ou empilés, à l'encoche ou dans un coin, avec neuf styles et une couleur qui suit votre fond d'écran.
+• Une pause depuis l'application, la tuile des réglages rapides, la notification ou un raccourci, pour cinq minutes, une heure ou jusqu'à la reprise.
+• Il se masque de lui-même quand l'écran est éteint, le téléphone verrouillé, une application en plein écran, la connexion inactive ou le téléphone à l'horizontale. Chaque règle est un interrupteur.
+• Des profils avec leur propre contenu, position, style et règles, changés depuis la tuile.
+• Le mode normal montre les réglages que la plupart des gens modifient. Le mode avancé révèle chaque réglage à sa place.
+• Exportez et importez les réglages sous forme de fichier.
+
+DÉTAILS
+
+• Bits ou octets par seconde, préfixe automatique ou fixe, chiffres significatifs ou décimales fixes.
+• Taille du texte, opacité, forme des coins, marge intérieure et largeur minimale pour que le nombre ne saute jamais.
+• Compteurs des interfaces physiques, du réseau par défaut ou de tout.
+• Intervalle de mise à jour d'une à cinq secondes.
+
+CONFIGURATION REQUISE
+
+Android 12 ou plus récent. Conçu d'abord pour l'Android le plus récent, avec la notification Live Update à partir d'Android 16.
+
+Libre et open source sous licence Apache 2.0 : https://github.com/zachthedev/pixel-speed

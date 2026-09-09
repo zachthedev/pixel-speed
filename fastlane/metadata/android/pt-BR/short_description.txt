@@ -1,0 +1,1 @@
+Velocidade de rede em tempo real na barra de status. Sem permissão de rede.

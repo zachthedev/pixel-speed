@@ -1,0 +1,1 @@
+Vitesse du réseau en direct dans la barre d'état. Aucune autorisation réseau.

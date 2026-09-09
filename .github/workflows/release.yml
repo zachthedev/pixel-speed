@@ -1,0 +1,156 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing release tag to build, such as v1.0.0"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  release-please:
+    name: Release pull request
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
+    steps:
+      # The config's "go" strategy writes CHANGELOG.md and the manifest file and nothing else: the
+      # version lives in the tag alone, which is what the Gradle build reads. The first release is
+      # 1.0.0 by the config.
+      - id: release
+        uses: googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7 # v5.0.0
+        with:
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
+
+  build:
+    name: Signed APK and App Bundle
+    # A tag pushed with the workflow's own token starts no workflow, so the build runs in the same
+    # workflow right after release-please creates the release, or by hand for an existing tag.
+    needs: release-please
+    if: always() && (needs.release-please.outputs.release_created == 'true' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    env:
+      RELEASE_TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || needs.release-please.outputs.tag_name }}
+    steps:
+      - name: Require signing secrets
+        env:
+          RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+          RELEASE_CERT_SHA256: ${{ vars.RELEASE_CERT_SHA256 }}
+        run: |
+          if [ -z "$RELEASE_KEYSTORE_BASE64" ]; then
+            echo "RELEASE_KEYSTORE_BASE64 is not set; refusing to build an unsigned release." >&2
+            exit 1
+          fi
+          if [ -z "$RELEASE_CERT_SHA256" ]; then
+            echo "The RELEASE_CERT_SHA256 repository variable is not set; nothing to verify the signature against." >&2
+            exit 1
+          fi
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ env.RELEASE_TAG }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: actions/setup-java@dd06d9cba3e5552c54d9f8ea23572deb30010f7c # v6.0.0
+        with:
+          distribution: temurin
+          java-version: 25
+
+      - uses: android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699 # v4.0.1
+        with:
+          packages: platform-tools platforms;android-37.0 build-tools;36.0.0
+
+      - uses: gradle/actions/setup-gradle@9c971963bec38e04b3d30dcc455b5382be2fdbfb # v6.3.0
+        with:
+          cache-read-only: true
+
+      # The keystore exists only in the runner's temp directory for the life of this job. Nothing
+      # below prints it, and the properties file points at that path.
+      - name: Materialize signing configuration
+        env:
+          RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+          RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+        run: |
+          umask 077
+          keystore="$RUNNER_TEMP/release.keystore"
+          printf '%s' "$RELEASE_KEYSTORE_BASE64" | base64 --decode > "$keystore"
+          {
+            printf 'storeFile=%s\n' "$keystore"
+            printf 'storePassword=%s\n' "$RELEASE_KEYSTORE_PASSWORD"
+            printf 'keyAlias=%s\n' "$RELEASE_KEY_ALIAS"
+            printf 'keyPassword=%s\n' "$RELEASE_KEY_PASSWORD"
+          } > keystore.properties
+
+      - name: Build
+        env:
+          REQUIRE_RELEASE_SIGNING: "true"
+        run: ./gradlew :app:assembleRelease :app:bundleRelease --no-daemon
+
+      # A build signed with anything but the release certificate, or stamped with anything but
+      # the tag's version, must never reach the release.
+      - name: Verify signature and version
+        env:
+          RELEASE_CERT_SHA256: ${{ vars.RELEASE_CERT_SHA256 }}
+        run: |
+          apk=app/build/outputs/apk/release/app-release.apk
+          certs=$("$ANDROID_HOME"/build-tools/36.0.0/apksigner verify --print-certs "$apk")
+          echo "$certs"
+          echo "$certs" | grep -qi "SHA-256 digest: $RELEASE_CERT_SHA256" ||
+            { echo "The APK is not signed with the release certificate." >&2; exit 1; }
+          badging=$("$ANDROID_HOME"/build-tools/36.0.0/aapt2 dump badging "$apk" | grep '^package:')
+          echo "$badging"
+          echo "$badging" | grep -q "name='tools.zach.app.pixelspeed'" ||
+            { echo "Unexpected package name." >&2; exit 1; }
+          echo "$badging" | grep -q "versionName='${RELEASE_TAG#v}'" ||
+            { echo "The versionName does not match the tag $RELEASE_TAG." >&2; exit 1; }
+
+      - name: Attach APK to the GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp app/build/outputs/apk/release/app-release.apk "pixel-speed-${RELEASE_TAG}.apk"
+          gh release upload "$RELEASE_TAG" "pixel-speed-${RELEASE_TAG}.apk" --clobber
+
+      - name: Keep the App Bundle for Play
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: pixel-speed-${{ env.RELEASE_TAG }}-bundle
+          path: app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+
+      # Runs only once a Play service account key is a repository secret; until then the bundle
+      # goes to Play by hand from the artifact above.
+      - name: Upload the App Bundle to Play's internal track
+        env:
+          PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -z "$PLAY_SERVICE_ACCOUNT_JSON" ]; then
+            echo "PLAY_SERVICE_ACCOUNT_JSON is not set; skipping the Play upload."
+            exit 0
+          fi
+          umask 077
+          printf '%s' "$PLAY_SERVICE_ACCOUNT_JSON" > "$RUNNER_TEMP/play.json"
+          PLAY_SERVICE_ACCOUNT_FILE="$RUNNER_TEMP/play.json" ./gradlew :app:publishReleaseBundle --no-daemon
+
+      - name: Remove signing material
+        if: always()
+        run: rm -f keystore.properties "$RUNNER_TEMP/release.keystore" "$RUNNER_TEMP/play.json"

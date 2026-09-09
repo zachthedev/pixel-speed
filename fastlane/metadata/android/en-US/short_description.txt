@@ -1,0 +1,1 @@
+Live network speed in the status bar. No network permission, no tracking.

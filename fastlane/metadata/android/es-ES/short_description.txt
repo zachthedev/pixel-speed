@@ -1,0 +1,1 @@
+Velocidad de red en directo en la barra de estado. Sin permiso de red.

@@ -1,0 +1,7 @@
+Première version.
+
+• Vitesses de téléchargement et d'envoi en direct dans la barre d'état, à côté de l'encoche de la caméra.
+• Pause depuis l'application, la tuile des réglages rapides, la notification ou un raccourci.
+• Masquage automatique : écran éteint, verrouillage, plein écran, connexion inactive, mode paysage.
+• Profils, neuf styles, couleurs du fond d'écran et un mode de réglages normal ou avancé.
+• Aucune autorisation réseau, aucune analyse d'utilisation.

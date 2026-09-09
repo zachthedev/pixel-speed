@@ -1,0 +1,7 @@
+First release.
+
+• Live download and upload speed in the status bar, beside the camera cutout.
+• Pause from the app, the Quick Settings tile, the notification, or a shortcut.
+• Hide rules for screen off, lock screen, fullscreen apps, idle links, and landscape.
+• Profiles, nine looks, wallpaper colors, and a regular or advanced settings mode.
+• No network permission, no analytics.

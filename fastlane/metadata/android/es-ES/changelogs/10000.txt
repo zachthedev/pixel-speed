@@ -1,0 +1,7 @@
+Primera versión.
+
+• Velocidad de descarga y subida en directo en la barra de estado, junto al recorte de la cámara.
+• Pausa desde la app, el icono de ajustes rápidos, la notificación o un acceso directo.
+• Reglas para ocultarse con la pantalla apagada, la pantalla de bloqueo, apps a pantalla completa, conexiones inactivas y modo horizontal.
+• Perfiles, nueve estilos, colores del fondo de pantalla y un modo de ajustes normal o avanzado.
+• Sin permiso de red, sin analítica.

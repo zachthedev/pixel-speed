@@ -1,0 +1,25 @@
+Pixel Speed muestra un pequeño indicador de tu velocidad de descarga y subida en la barra de estado, junto al recorte de la cámara, sobre lo que haya en pantalla.
+
+Lee los propios contadores del teléfono una vez por segundo. La app no tiene permiso de red, ni analítica, ni anuncios. Nada sale del teléfono.
+
+QUÉ INCLUYE
+
+• Un indicador en la barra de estado: descarga y subida, en una línea o apilados, en el recorte o en una esquina, con nueve estilos y un color que sigue a tu fondo de pantalla.
+• Pausa desde la app, el icono de ajustes rápidos, la notificación o un acceso directo, durante cinco minutos, una hora o hasta que la reanudes.
+• Se oculta sola cuando la pantalla está apagada, el teléfono está bloqueado, una app va a pantalla completa, la conexión está inactiva o el teléfono está de lado. Cada regla es un interruptor.
+• Perfiles con su propio contenido, posición, estilo y reglas, que cambias desde el icono.
+• El modo normal muestra los ajustes que casi todo el mundo cambia. El modo avanzado muestra cada ajuste en su sitio.
+• Exporta e importa los ajustes como archivo.
+
+DETALLES
+
+• Bits o bytes por segundo, prefijo automático o fijo, cifras significativas o decimales fijos.
+• Tamaño de texto, opacidad, forma de las esquinas, relleno y un ancho mínimo para que el número nunca salte.
+• Contadores de las interfaces físicas, de la red predeterminada o de todo.
+• Intervalo de actualización de uno a cinco segundos.
+
+REQUISITOS
+
+Android 12 o posterior. Diseñada primero para el Android más reciente, con la notificación Live Update en Android 16 y posteriores.
+
+Libre y de código abierto bajo la licencia Apache 2.0: https://github.com/zachthedev/pixel-speed

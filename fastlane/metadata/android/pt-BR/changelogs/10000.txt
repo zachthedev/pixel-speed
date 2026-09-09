@@ -1,0 +1,7 @@
+Primeira versão.
+
+• Velocidade de download e upload em tempo real na barra de status, ao lado do recorte da câmera.
+• Pause pelo app, pelo bloco de configurações rápidas, pela notificação ou por um atalho.
+• Regras de ocultação para tela desligada, tela de bloqueio, apps em tela cheia, conexões ociosas e modo paisagem.
+• Perfis, nove estilos, cores do papel de parede e um modo de configurações normal ou avançado.
+• Sem permissão de rede, sem análise de uso.

@@ -1,0 +1,25 @@
+O Pixel Speed exibe um pequeno indicador da velocidade de download e upload na barra de status, ao lado do recorte da câmera, sobre o que estiver na tela.
+
+Ele lê os próprios contadores do aparelho uma vez por segundo. O app não tem permissão de rede, análise de uso nem anúncios. Nada sai do aparelho.
+
+O QUE VOCÊ RECEBE
+
+• Um indicador na barra de status: download e upload, em uma linha ou empilhados, no recorte ou em um canto, com nove estilos e uma cor que acompanha o seu papel de parede.
+• Pause pelo app, pelo bloco de configurações rápidas, pela notificação ou por um atalho, por cinco minutos, uma hora ou até você retomar.
+• Ele se oculta sozinho quando a tela está desligada, o aparelho está bloqueado, um app está em tela cheia, a conexão está ociosa ou o aparelho está de lado. Cada regra é uma chave.
+• Perfis com conteúdo, posição, estilo e regras próprios, trocados pelo bloco.
+• O modo normal mostra as configurações que a maioria altera. O modo avançado revela cada configuração no lugar.
+• Exporte e importe as configurações como arquivo.
+
+DETALHES
+
+• Bits ou bytes por segundo, prefixo automático ou fixo, algarismos significativos ou decimais fixos.
+• Tamanho do texto, opacidade, formato dos cantos, espaçamento interno e uma largura mínima para o número nunca pular.
+• Contadores das interfaces físicas, da rede padrão ou de tudo.
+• Intervalo de atualização de um a cinco segundos.
+
+REQUISITOS
+
+Android 12 ou mais recente. Projetado primeiro para o Android mais novo, com a notificação Live Update no Android 16 e posteriores.
+
+Livre e de código aberto sob a licença Apache 2.0: https://github.com/zachthedev/pixel-speed

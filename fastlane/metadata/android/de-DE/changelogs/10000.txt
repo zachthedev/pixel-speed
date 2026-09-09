@@ -1,0 +1,7 @@
+Erste Version.
+
+• Live-Download- und Upload-Geschwindigkeit in der Statusleiste, neben der Kameraaussparung.
+• Pausieren aus der App, der Schnelleinstellungen-Kachel, der Benachrichtigung oder einer Verknüpfung.
+• Ausblendregeln für Bildschirm aus, Sperrbildschirm, Vollbild-Apps, inaktive Verbindungen und Querformat.
+• Profile, neun Stile, Hintergrundfarben und ein normaler oder erweiterter Einstellungsmodus.
+• Keine Netzwerkberechtigung, keine Analyse.

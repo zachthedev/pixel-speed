@@ -1,0 +1,25 @@
+Pixel Speed draws a small readout of your download and upload speed in the status bar, beside the camera cutout, over whatever is on screen.
+
+It reads the phone's own traffic counters once a second. The app has no network permission, no analytics, and no ads. Nothing leaves the phone.
+
+WHAT YOU GET
+
+• A readout in the status bar: download and upload, one line or stacked, at the cutout or in a corner, with nine looks and a color that follows your wallpaper.
+• Pause from the app, the Quick Settings tile, the notification, or a launcher shortcut, for five minutes, an hour, or until you resume.
+• It hides itself when the screen is off, the phone is locked, a fullscreen app runs, the link is idle, or the phone turns sideways. Each rule is a switch.
+• Profiles with their own content, position, look, and rules, switched from the tile.
+• Regular mode shows the settings most people change. Advanced mode reveals every setting in place.
+• Export and import settings as a file.
+
+DETAILS
+
+• Bits or bytes per second, automatic or fixed prefix, significant figures or fixed decimals.
+• Text size, opacity, corner shape, padding, and a minimum width so the number never jumps.
+• Counters from the physical interfaces, the default network, or everything.
+• Update interval from one to five seconds.
+
+REQUIREMENTS
+
+Android 12 or later. Designed for the newest Android first, with the Live Update notification on Android 16 and later.
+
+Free and open source under the Apache License 2.0: https://github.com/zachthedev/pixel-speed

@@ -1,0 +1,25 @@
+Pixel Speed zeigt eine kleine Anzeige deiner Download- und Upload-Geschwindigkeit in der Statusleiste, neben der Kameraaussparung, über allem, was gerade auf dem Bildschirm ist.
+
+Die App liest einmal pro Sekunde die eigenen Zähler des Geräts. Sie hat keine Netzwerkberechtigung, keine Analyse und keine Werbung. Nichts verlässt das Gerät.
+
+WAS DU BEKOMMST
+
+• Eine Anzeige in der Statusleiste: Download und Upload, in einer Zeile oder gestapelt, an der Aussparung oder in einer Ecke, mit neun Stilen und einer Farbe, die deinem Hintergrund folgt.
+• Pausieren aus der App, der Schnelleinstellungen-Kachel, der Benachrichtigung oder einer Verknüpfung, für fünf Minuten, eine Stunde oder bis du fortsetzt.
+• Blendet sich selbst aus, wenn der Bildschirm aus ist, das Gerät gesperrt ist, eine Vollbild-App läuft, die Verbindung inaktiv ist oder das Gerät quer liegt. Jede Regel ist ein Schalter.
+• Profile mit eigenem Inhalt, eigener Position, eigenem Aussehen und eigenen Regeln, umschaltbar über die Kachel.
+• Der normale Modus zeigt die Einstellungen, die die meisten ändern. Der erweiterte Modus zeigt jede Einstellung an Ort und Stelle.
+• Einstellungen als Datei exportieren und importieren.
+
+DETAILS
+
+• Bit oder Byte pro Sekunde, automatisches oder festes Präfix, signifikante Stellen oder feste Dezimalstellen.
+• Textgröße, Deckkraft, Eckenform, Innenabstand und eine Mindestbreite, damit die Zahl nie springt.
+• Zähler der physischen Schnittstellen, des Standardnetzwerks oder von allem.
+• Aktualisierungsintervall von einer bis fünf Sekunden.
+
+VORAUSSETZUNGEN
+
+Android 12 oder neuer. Für das neueste Android zuerst entworfen, mit der Live-Update-Benachrichtigung ab Android 16.
+
+Frei und quelloffen unter der Apache-Lizenz 2.0: https://github.com/zachthedev/pixel-speed
