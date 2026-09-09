@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_card_more">अधिक</string>
+    <string name="about_version_title">संस्करण</string>
+    <string name="about_version_dev_build">डेव बिल्ड</string>
+    <string name="about_license_title">लाइसेंस</string>
+    <string name="about_source_title">सोर्स कोड</string>
+    <string name="about_privacy_title">गोपनीयता</string>
+    <string name="about_privacy_subtitle">कोई नेटवर्क अनुमति नहीं, कोई एनालिटिक्स नहीं, काउंटर फ़ोन पर ही पढ़े जाते हैं।</string>
+    <string name="about_whats_new_title">नया क्या है</string>
+    <string name="about_whats_new_subtitle">हर रिलीज़ में हुए बदलाव।</string>
+    <string name="about_licenses_title">ओपन सोर्स लाइसेंस</string>
+    <string name="about_licenses_subtitle">जिन लाइब्रेरी से यह ऐप बना है।</string>
+    <string name="about_whats_new_screen_title">नया क्या है</string>
+    <string name="about_licenses_screen_title">ओपन सोर्स लाइसेंस</string>
+    <string name="about_whats_new_empty_title">अभी तक कोई रिलीज़ नोट नहीं</string>
+    <string name="about_whats_new_empty_subtitle">यह एक डेवलपमेंट बिल्ड है।</string>
+    <string name="about_privacy_empty_title">यह नीति इस बिल्ड में शामिल नहीं है।</string>
+</resources>

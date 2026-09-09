@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_card_more">Plus</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_version_dev_build">Version de développement</string>
+    <string name="about_license_title">Licence</string>
+    <string name="about_source_title">Code source</string>
+    <string name="about_privacy_title">Confidentialité</string>
+    <string name="about_privacy_subtitle">Aucune autorisation réseau, aucune analyse d\'utilisation, compteurs lus sur le téléphone.</string>
+    <string name="about_whats_new_title">Nouveautés</string>
+    <string name="about_whats_new_subtitle">Les changements de chaque version.</string>
+    <string name="about_licenses_title">Licences open source</string>
+    <string name="about_licenses_subtitle">Bibliothèques utilisées par cette application.</string>
+    <string name="about_whats_new_screen_title">Nouveautés</string>
+    <string name="about_licenses_screen_title">Licences open source</string>
+    <string name="about_whats_new_empty_title">Pas encore de notes de version</string>
+    <string name="about_whats_new_empty_subtitle">Ceci est une version de développement.</string>
+    <string name="about_privacy_empty_title">La politique n\'est pas incluse dans cette version.</string>
+</resources>

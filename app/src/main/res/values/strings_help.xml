@@ -1,0 +1,88 @@
+<resources>
+    <string name="help_link_overlay_hidden_title">Why is the overlay hidden?</string>
+    <string name="help_link_overlay_hidden_subtitle">Every reason the readout can disappear</string>
+    <string name="help_link_app_input_title">An app will not accept my taps</string>
+    <string name="help_link_app_input_subtitle">How to pause the overlay for a moment</string>
+
+    <string name="help_card_rules_you_can_turn_off">Rules you can turn off</string>
+    <string name="help_reason_screen_off_title">Screen off</string>
+    <string name="help_reason_screen_off_subtitle">Sampling stops with the screen and resumes when it turns on.</string>
+    <string name="help_reason_keyguard_title">Lock screen</string>
+    <string name="help_reason_keyguard_subtitle">Android never shows app overlays on the lock screen.</string>
+    <string name="help_reason_offline_title">Offline</string>
+    <string name="help_reason_offline_subtitle">When the chosen counters have nothing to read, the readout hides or shows dashes, per Behavior.</string>
+    <string name="help_reason_idle_title">Idle</string>
+    <string name="help_reason_idle_subtitle">Hide when idle is on and traffic stayed under the threshold.</string>
+    <string name="help_reason_fullscreen_title">Fullscreen app</string>
+    <string name="help_reason_fullscreen_subtitle">Hide in fullscreen is on and an app hid the status bar.</string>
+    <string name="help_reason_landscape_title">Landscape</string>
+    <string name="help_reason_landscape_subtitle">Hide in landscape is on and the phone is turned sideways.</string>
+    <string name="help_reason_battery_saver_title">Battery Saver</string>
+    <string name="help_reason_battery_saver_subtitle">Pause on Battery Saver is on and Battery Saver is active.</string>
+
+    <string name="help_card_android_hides_it">Android hides it for you</string>
+    <string name="help_android_system_title">System settings and dialogs</string>
+    <string name="help_android_system_subtitle">Every Settings page, permission prompt, and installer hides all app overlays while it is open.</string>
+    <string name="help_android_secure_title">Secure screens</string>
+    <string name="help_android_secure_subtitle">Payment, banking, and password screens can block overlays; Android gives no signal.</string>
+
+    <string name="help_card_app_off_or_paused">The app is off or paused</string>
+    <string name="help_paused_title">Paused</string>
+    <string name="help_paused_subtitle">A pause from Home, the tile, the notification, or a shortcut hides it until it ends.</string>
+    <string name="help_permission_removed_title">Permission removed</string>
+    <string name="help_permission_removed_subtitle">Turning off Display over other apps stops the overlay; Home shows how to restore it.</string>
+
+    <string name="help_input_screen_title">An app will not accept my taps</string>
+
+    <string name="help_card_what_is_happening">What is happening</string>
+    <string name="help_input_blocks_title">Android blocks touches under overlays</string>
+    <string name="help_input_blocks_subtitle">Some apps refuse taps while any overlay is on screen, to stop tapjacking.</string>
+    <string name="help_input_cannot_bypass_title">Pixel Speed cannot bypass it</string>
+    <string name="help_input_cannot_bypass_subtitle">The only fix is to hide the overlay for a moment.</string>
+    <string name="help_input_opacity_title">Opacity past the limit</string>
+    <string name="help_input_opacity_subtitle">An overlay more opaque than Android allows blocks the taps under it. Lower Opacity under Appearance.</string>
+
+    <string name="help_card_ways_to_pause">Ways to pause</string>
+    <string name="help_input_home_title">Home</string>
+    <string name="help_input_home_subtitle">The pause card offers your durations or until you resume.</string>
+    <string name="help_input_tile_title">Quick Settings tile</string>
+    <string name="help_input_tile_subtitle">Add the Pixel Speed tile; a tap pauses or resumes, and with several profiles it opens the picker.</string>
+    <string name="help_input_notification_title">Notification</string>
+    <string name="help_input_notification_subtitle">The status notification carries a pause action.</string>
+    <string name="help_input_shortcut_title">Launcher shortcut</string>
+    <string name="help_input_shortcut_subtitle">Long-press the app icon for Pause and Toggle shortcuts.</string>
+    <string name="help_input_automation_title">Automation apps</string>
+    <string name="help_input_automation_subtitle">Turn on Advanced mode under System, switch on Automation broadcasts, then broadcast pause or resume.</string>
+
+    <string name="help_link_system_notice_title">A system notice keeps coming back</string>
+    <string name="help_link_system_notice_subtitle">How to silence the notice about drawing over other apps</string>
+    <string name="help_notice_android_title">Android posts it, not Pixel Speed</string>
+    <string name="help_notice_android_subtitle">The lock screen hides every app overlay. After an unlock, Android treats the overlay\'s return as a new one, so the notice that Pixel Speed is displaying over other apps comes back each time.</string>
+    <string name="help_notice_swipe_title">Swiping it away does not last</string>
+    <string name="help_notice_swipe_subtitle">The next unlock brings it back. Turning its category off does last, and only affects this notice.</string>
+    <string name="help_card_silence_it">Silence it for good</string>
+    <string name="help_notice_step_1_title">1. Long-press the notice</string>
+    <string name="help_notice_step_1_subtitle">Pull down the shade and hold the notice until its options open.</string>
+    <string name="help_notice_step_2_title">2. In those options, tap Turn off</string>
+    <string name="help_notice_step_2_subtitle">Not the Turn off button on the notice itself: that one removes the overlay permission and stops Pixel Speed.</string>
+    <string name="help_notice_step_3_title">3. Switch off Pixel Speed\'s row and tap Apply</string>
+    <string name="help_notice_step_3_subtitle">The row reads “Pixel Speed displaying over other apps”. The notice does not come back.</string>
+
+    <string name="help_link_report_problem_title">Report a problem</string>
+    <string name="help_link_report_problem_subtitle">What to send, and a diagnostics file to attach</string>
+    <string name="help_card_what_helps">What helps</string>
+    <string name="help_report_describe_title">Say what happened and what you expected</string>
+    <string name="help_report_describe_subtitle">Steps that bring it back help most. Say whether it happens every time or now and then.</string>
+    <string name="help_report_picture_title">Add a picture</string>
+    <string name="help_report_picture_subtitle">A screenshot of the status bar settles most placement reports. A short screen recording settles a flicker.</string>
+    <string name="help_card_diagnostics_file">The diagnostics file</string>
+    <string name="help_report_holds_title">What it holds</string>
+    <string name="help_report_holds_subtitle">The app version, the phone model and Android version, the display and cutout geometry, which permissions are granted, the readout\'s state, your settings export with your profile names, the app\'s own recent log lines, and the last crash if one was caught.</string>
+    <string name="help_report_private_title">What it never holds</string>
+    <string name="help_report_private_subtitle">No account, no device id, no serial number, no location, nothing from other apps. Nothing is sent on its own: you open the file, then share it where you want.</string>
+    <string name="help_report_share_action">Share diagnostics</string>
+    <string name="help_report_share_working">Building the file…</string>
+    <string name="help_report_share_failed">Could not build the diagnostics file: %1$s</string>
+    <string name="help_report_issue_action">Open an issue on GitHub</string>
+    <string name="help_report_issue_hint">Attach the file to the issue after reading it.</string>
+</resources>

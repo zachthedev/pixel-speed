@@ -1,0 +1,83 @@
+<resources>
+    <string name="onboarding_step_counter">Step %1$d of %2$d</string>
+    <string name="onboarding_action_back">Back</string>
+    <string name="onboarding_action_skip">Skip</string>
+    <string name="onboarding_action_next">Next</string>
+    <string name="onboarding_action_open_settings">Open settings</string>
+    <string name="onboarding_action_allow">Allow</string>
+    <string name="onboarding_action_add_tile">Add tile</string>
+    <string name="onboarding_action_turn_on">Turn on</string>
+    <string name="onboarding_action_start">Start</string>
+
+    <string name="onboarding_welcome_title">Live network speed, always on top</string>
+    <string name="onboarding_welcome_body">A small readout of your download and upload speed, drawn over whatever is on screen.</string>
+    <string name="onboarding_welcome_fact_counters">Reads the phone\'s own counters</string>
+    <string name="onboarding_welcome_fact_no_network">No network permission</string>
+    <string name="onboarding_welcome_fact_private">No analytics. Nothing leaves the phone.</string>
+
+    <string name="onboarding_overlay_title">Allow drawing over other apps</string>
+    <string name="onboarding_overlay_step_1">Tap Open settings. Android opens a list of every app.</string>
+    <string name="onboarding_overlay_step_2">Find Pixel Speed and turn on its switch</string>
+    <string name="onboarding_overlay_step_2_samsung">On Samsung the setting is called Appear on top</string>
+    <string name="onboarding_overlay_step_3">Come back here</string>
+    <string name="onboarding_overlay_done_1">Android opened a list of every app</string>
+    <string name="onboarding_overlay_done_2">Pixel Speed\'s switch is on</string>
+    <string name="onboarding_overlay_done_3">You are back</string>
+    <string name="onboarding_overlay_granted">Allowed. The overlay can draw.</string>
+    <string name="onboarding_overlay_no_page">This device has no page for it. Look under Settings, Apps, Special app access, then come back or continue.</string>
+    <string name="onboarding_overlay_blocked_title">Android blocked the switch</string>
+    <string name="onboarding_overlay_blocked_body">Apps installed from a browser or a file need one extra step on this Android version.</string>
+    <string name="onboarding_overlay_blocked_step_1">Long-press the Pixel Speed icon and open App info</string>
+    <string name="onboarding_overlay_blocked_step_2">Tap the menu in the top corner, then Allow restricted settings</string>
+    <string name="onboarding_overlay_blocked_step_3">Come back here and open the settings page again</string>
+
+    <string name="onboarding_notifications_title">Show the status notification</string>
+    <string name="onboarding_notifications_body">It stays silent and carries pause and resume.</string>
+    <string name="onboarding_notifications_fact_controls">Pause and resume from the shade</string>
+    <string name="onboarding_notifications_fact_silent">Silent, no sound or badge</string>
+    <string name="onboarding_notifications_fact_swipe">Swipe it away any time</string>
+    <string name="onboarding_notifications_fact_swipe_sub">The controls stay in the app and the tile</string>
+
+    <string name="onboarding_tile_title">Add the Quick Settings tile</string>
+    <string name="onboarding_tile_fact_tap">A tap pauses or resumes the overlay</string>
+    <string name="onboarding_tile_fact_profiles">With several profiles it opens the picker</string>
+    <string name="onboarding_tile_hero_description">Two Quick Settings tiles: Wi-Fi, and Pixel Speed</string>
+    <string name="onboarding_tile_prompt_hint">Android asks where to put the tile.</string>
+    <string name="onboarding_tile_body_manual">Pull down Quick Settings, tap the pencil, and drag the Pixel Speed tile into place.</string>
+    <string name="onboarding_tile_added">Added to Quick Settings.</string>
+    <string name="onboarding_tile_not_added">Not added. The System screen offers it again.</string>
+
+    <string name="onboarding_keep_alive_title">Keep the overlay alive</string>
+    <string name="onboarding_keep_alive_body">%1$s phones close background apps under their own battery rules.</string>
+    <string name="onboarding_keep_alive_fact_allow">Allow Pixel Speed to ignore battery optimization</string>
+    <string name="onboarding_keep_alive_fact_cost">It reads two counters a second</string>
+    <string name="onboarding_keep_alive_fact_cost_sub">The cost is a rounding error</string>
+    <string name="onboarding_keep_alive_granted">Allowed. Battery optimization is off for Pixel Speed.</string>
+
+    <string name="onboarding_notice_title">One notice you can silence</string>
+    <string name="onboarding_notice_card_title">%1$s is displaying over other apps</string>
+    <string name="onboarding_notice_card_source">Android System</string>
+    <string name="onboarding_notice_card_caption">What the notice looks like</string>
+    <string name="onboarding_notice_card_description">Example of the notice: %1$s, from %2$s</string>
+    <string name="onboarding_notice_step_1">Pull down the shade and long-press the notice</string>
+    <string name="onboarding_notice_step_2">In the options that open, tap Turn off</string>
+    <string name="onboarding_notice_step_2_sub">Not the Turn off on the notice itself: that removes the overlay permission and stops Pixel Speed</string>
+    <string name="onboarding_notice_step_3">Switch off Pixel Speed\'s row and tap Apply</string>
+    <string name="onboarding_notice_info">With a screen lock, Android posts this notice after each unlock once the overlay runs. These three taps turn it off for good, and only this notice is affected.</string>
+
+    <string name="onboarding_side_flip_title">Follow the icons</string>
+    <string name="onboarding_side_flip_body">With more notifications the readout slides to the other side of the camera.</string>
+    <string name="onboarding_side_flip_frame_one">With one notification there is room beside the camera</string>
+    <string name="onboarding_side_flip_frame_two">When more arrive it moves out of their way</string>
+    <string name="onboarding_side_flip_fact_reads">Reads the status bar\'s icons and where they sit</string>
+    <string name="onboarding_side_flip_fact_reads_sub">Only that window. Nothing else on screen is read.</string>
+    <string name="onboarding_side_flip_fact_local">Never leaves the phone</string>
+    <string name="onboarding_side_flip_fact_off">Off until you turn it on in Accessibility settings</string>
+    <string name="onboarding_side_flip_info">Android calls this an accessibility permission. Pixel Speed uses it for one thing: to see which icons the status bar shows, so the readout can move to the side with room.</string>
+    <string name="onboarding_side_flip_on">On</string>
+
+    <string name="onboarding_start_title">Ready</string>
+    <string name="onboarding_start_body">Everything about the readout is adjustable from Home.</string>
+    <string name="onboarding_start_here_title">Here is where it will sit on this phone</string>
+    <string name="onboarding_start_preview">Preview of the overlay</string>
+</resources>

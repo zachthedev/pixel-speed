@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_card_more">更多</string>
+    <string name="about_version_title">版本</string>
+    <string name="about_version_dev_build">开发版本</string>
+    <string name="about_license_title">许可</string>
+    <string name="about_source_title">源代码</string>
+    <string name="about_privacy_title">隐私</string>
+    <string name="about_privacy_subtitle">无需网络权限，不进行数据分析，计数器在手机本地读取。</string>
+    <string name="about_whats_new_title">更新内容</string>
+    <string name="about_whats_new_subtitle">每个版本的变更内容。</string>
+    <string name="about_licenses_title">开源许可</string>
+    <string name="about_licenses_subtitle">本应用所使用的库。</string>
+    <string name="about_whats_new_screen_title">更新内容</string>
+    <string name="about_licenses_screen_title">开源许可</string>
+    <string name="about_whats_new_empty_title">暂无更新说明</string>
+    <string name="about_whats_new_empty_subtitle">这是一个开发版本。</string>
+    <string name="about_privacy_empty_title">此版本未包含隐私政策。</string>
+</resources>

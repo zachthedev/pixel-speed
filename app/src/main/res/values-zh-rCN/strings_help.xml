@@ -1,0 +1,88 @@
+<resources>
+    <string name="help_link_overlay_hidden_title">悬浮窗为什么被隐藏？</string>
+    <string name="help_link_overlay_hidden_subtitle">读数可能消失的所有原因</string>
+    <string name="help_link_app_input_title">某个应用不响应我的点击</string>
+    <string name="help_link_app_input_subtitle">如何临时暂停悬浮窗</string>
+
+    <string name="help_card_rules_you_can_turn_off">可以关闭的规则</string>
+    <string name="help_reason_screen_off_title">屏幕关闭</string>
+    <string name="help_reason_screen_off_subtitle">采样会随屏幕关闭而停止，屏幕开启后恢复。</string>
+    <string name="help_reason_keyguard_title">锁屏</string>
+    <string name="help_reason_keyguard_subtitle">系统在锁屏界面上从不显示应用悬浮窗。</string>
+    <string name="help_reason_offline_title">离线</string>
+    <string name="help_reason_offline_subtitle">所选计数器无可读取内容时，读数会隐藏或显示短横线，具体取决于"行为"设置。</string>
+    <string name="help_reason_idle_title">空闲</string>
+    <string name="help_reason_idle_subtitle">"空闲时隐藏"已开启，且流量低于阈值。</string>
+    <string name="help_reason_fullscreen_title">全屏应用</string>
+    <string name="help_reason_fullscreen_subtitle">"全屏时隐藏"已开启，且某应用隐藏了状态栏。</string>
+    <string name="help_reason_landscape_title">横屏</string>
+    <string name="help_reason_landscape_subtitle">"横屏时隐藏"已开启，且手机处于横向。</string>
+    <string name="help_reason_battery_saver_title">省电模式</string>
+    <string name="help_reason_battery_saver_subtitle">"省电模式时暂停"已开启，且省电模式正在运行。</string>
+
+    <string name="help_card_android_hides_it">系统会自动将其隐藏</string>
+    <string name="help_android_system_title">系统设置和对话框</string>
+    <string name="help_android_system_subtitle">打开任何设置页面、权限提示或安装程序时，都会隐藏所有应用悬浮窗。</string>
+    <string name="help_android_secure_title">安全屏幕</string>
+    <string name="help_android_secure_subtitle">支付、银行和密码输入界面可能会屏蔽悬浮窗，系统不会给出任何提示。</string>
+
+    <string name="help_card_app_off_or_paused">应用已关闭或已暂停</string>
+    <string name="help_paused_title">已暂停</string>
+    <string name="help_paused_subtitle">通过主页、磁贴、通知或快捷方式发起的暂停，会一直隐藏悬浮窗直到暂停结束。</string>
+    <string name="help_permission_removed_title">权限已被移除</string>
+    <string name="help_permission_removed_subtitle">关闭"显示在其他应用上层"会停止悬浮窗，主页会说明如何恢复。</string>
+
+    <string name="help_input_screen_title">某个应用不响应我的点击</string>
+
+    <string name="help_card_what_is_happening">发生了什么</string>
+    <string name="help_input_blocks_title">系统会阻止悬浮窗下方的点击</string>
+    <string name="help_input_blocks_subtitle">为防止点击劫持，部分应用在屏幕上有任何悬浮窗时会拒绝响应点击。</string>
+    <string name="help_input_cannot_bypass_title">Pixel Speed 无法绕过此限制</string>
+    <string name="help_input_cannot_bypass_subtitle">唯一的解决办法是暂时隐藏悬浮窗。</string>
+    <string name="help_input_opacity_title">不透明度超出限制</string>
+    <string name="help_input_opacity_subtitle">悬浮窗比 Android 允许的更不透明时，会拦截其下方的点按。请在“外观”中调低不透明度。</string>
+
+    <string name="help_card_ways_to_pause">暂停方式</string>
+    <string name="help_input_home_title">主页</string>
+    <string name="help_input_home_subtitle">暂停卡片提供你设置的时长选项，或"直到我恢复"。</string>
+    <string name="help_input_tile_title">快捷设置磁贴</string>
+    <string name="help_input_tile_subtitle">添加 Pixel Speed 磁贴，点一下暂停或恢复；有多个配置时会打开选择器。</string>
+    <string name="help_input_notification_title">通知</string>
+    <string name="help_input_notification_subtitle">状态通知中带有暂停操作。</string>
+    <string name="help_input_shortcut_title">启动器快捷方式</string>
+    <string name="help_input_shortcut_subtitle">长按应用图标可使用暂停和切换快捷方式。</string>
+    <string name="help_input_automation_title">自动化应用</string>
+    <string name="help_input_automation_subtitle">在“系统”中开启高级模式，打开自动化广播，然后发送暂停或恢复指令。</string>
+
+    <string name="help_link_system_notice_title">一条系统通知总是再次出现</string>
+    <string name="help_link_system_notice_subtitle">如何让“在其他应用上层显示”通知不再出现</string>
+    <string name="help_notice_android_title">它由 Android 发出，而非 Pixel Speed</string>
+    <string name="help_notice_android_subtitle">锁屏会隐藏所有应用悬浮窗。解锁后，Android 会把悬浮窗的重新出现当作新的悬浮窗，所以提示 Pixel Speed 正在其他应用上层显示的通知每次都会回来。</string>
+    <string name="help_notice_swipe_title">滑动清除并不持久</string>
+    <string name="help_notice_swipe_subtitle">下次解锁它就会回来。关闭它的类别才持久，而且只影响这一条通知。</string>
+    <string name="help_card_silence_it">永久关闭</string>
+    <string name="help_notice_step_1_title">1. 长按该通知</string>
+    <string name="help_notice_step_1_subtitle">下拉通知栏，按住该通知直到出现选项。</string>
+    <string name="help_notice_step_2_title">2. 在这些选项中点按“关闭通知功能”</string>
+    <string name="help_notice_step_2_subtitle">不是通知本身上的那个按钮：它会撤销悬浮窗权限并停止 Pixel Speed。</string>
+    <string name="help_notice_step_3_title">3. 关闭 Pixel Speed 那一行，然后点按“应用”</string>
+    <string name="help_notice_step_3_subtitle">那一行写着：“Pixel Speed”正在其他应用的上层显示内容。该通知不再出现。</string>
+
+    <string name="help_link_report_problem_title">报告问题</string>
+    <string name="help_link_report_problem_subtitle">该发送什么，以及可附上的诊断文件</string>
+    <string name="help_card_what_helps">什么有帮助</string>
+    <string name="help_report_describe_title">说明发生了什么，以及你原本期望的结果</string>
+    <string name="help_report_describe_subtitle">能让问题重现的步骤最有帮助。说明它是每次都发生，还是偶尔发生。</string>
+    <string name="help_report_picture_title">附上一张图片</string>
+    <string name="help_report_picture_subtitle">一张状态栏截图能解决大多数位置问题的报告。一段简短的录屏能解决闪烁问题。</string>
+    <string name="help_card_diagnostics_file">诊断文件</string>
+    <string name="help_report_holds_title">其中包含的内容</string>
+    <string name="help_report_holds_subtitle">应用版本、手机型号和 Android 版本、屏幕和挖孔的几何信息、已授予哪些权限、读数的状态、包含配置文件名称的设置导出、应用自身最近的日志行，以及最近一次崩溃（如果捕获到的话）。</string>
+    <string name="help_report_private_title">其中绝不会包含的内容</string>
+    <string name="help_report_private_subtitle">没有账号、没有设备 ID、没有序列号、没有位置信息，也没有来自其他应用的任何内容。任何内容都不会自动发送：你先打开文件，再分享到你想要的地方。</string>
+    <string name="help_report_share_action">分享诊断信息</string>
+    <string name="help_report_share_working">正在生成文件…</string>
+    <string name="help_report_share_failed">无法生成诊断文件：%1$s</string>
+    <string name="help_report_issue_action">在 GitHub 上提交 issue</string>
+    <string name="help_report_issue_hint">阅读文件后，将其附加到 issue 中。</string>
+</resources>

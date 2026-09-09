@@ -1,0 +1,88 @@
+<resources>
+    <string name="help_link_overlay_hidden_title">Pourquoi la superposition est-elle masquée ?</string>
+    <string name="help_link_overlay_hidden_subtitle">Toutes les raisons pour lesquelles l\'affichage peut disparaître</string>
+    <string name="help_link_app_input_title">Une appli n\'accepte pas mes appuis</string>
+    <string name="help_link_app_input_subtitle">Comment mettre la superposition en pause un instant</string>
+
+    <string name="help_card_rules_you_can_turn_off">Règles que vous pouvez désactiver</string>
+    <string name="help_reason_screen_off_title">Écran éteint</string>
+    <string name="help_reason_screen_off_subtitle">L\'échantillonnage s\'arrête avec l\'écran et reprend à son allumage.</string>
+    <string name="help_reason_keyguard_title">Écran de verrouillage</string>
+    <string name="help_reason_keyguard_subtitle">Android n\'affiche jamais les superpositions d\'applis sur l\'écran de verrouillage.</string>
+    <string name="help_reason_offline_title">Hors ligne</string>
+    <string name="help_reason_offline_subtitle">Quand les compteurs choisis n\'ont rien à lire, l\'affichage se masque ou montre des tirets, selon Comportement.</string>
+    <string name="help_reason_idle_title">Inactif</string>
+    <string name="help_reason_idle_subtitle">Masquer si inactif est activé et le trafic est resté sous le seuil.</string>
+    <string name="help_reason_fullscreen_title">Appli plein écran</string>
+    <string name="help_reason_fullscreen_subtitle">Masquer en plein écran est activé et une appli a masqué la barre d\'état.</string>
+    <string name="help_reason_landscape_title">Paysage</string>
+    <string name="help_reason_landscape_subtitle">Masquer en paysage est activé et le téléphone est tourné sur le côté.</string>
+    <string name="help_reason_battery_saver_title">Économiseur de batterie</string>
+    <string name="help_reason_battery_saver_subtitle">Suspendre en économiseur de batterie est activé et l\'économiseur de batterie est actif.</string>
+
+    <string name="help_card_android_hides_it">Android la masque pour vous</string>
+    <string name="help_android_system_title">Paramètres système et boîtes de dialogue</string>
+    <string name="help_android_system_subtitle">Chaque page des paramètres, invite d\'autorisation et installateur masque toutes les superpositions d\'applis pendant qu\'elle est ouverte.</string>
+    <string name="help_android_secure_title">Écrans sécurisés</string>
+    <string name="help_android_secure_subtitle">Les écrans de paiement, bancaires et de mot de passe peuvent bloquer les superpositions ; Android ne donne aucun signal.</string>
+
+    <string name="help_card_app_off_or_paused">L\'application est désactivée ou en pause</string>
+    <string name="help_paused_title">En pause</string>
+    <string name="help_paused_subtitle">Une pause lancée depuis l\'accueil, la tuile, la notification ou un raccourci la masque jusqu\'à la fin.</string>
+    <string name="help_permission_removed_title">Autorisation retirée</string>
+    <string name="help_permission_removed_subtitle">Désactiver Affichage par-dessus les autres applis arrête la superposition ; l\'accueil indique comment la restaurer.</string>
+
+    <string name="help_input_screen_title">Une appli n\'accepte pas mes appuis</string>
+
+    <string name="help_card_what_is_happening">Ce qui se passe</string>
+    <string name="help_input_blocks_title">Android bloque les appuis sous les superpositions</string>
+    <string name="help_input_blocks_subtitle">Certaines applis refusent les appuis tant qu\'une superposition est à l\'écran, pour éviter le tapjacking.</string>
+    <string name="help_input_cannot_bypass_title">Pixel Speed ne peut pas contourner ce blocage</string>
+    <string name="help_input_cannot_bypass_subtitle">La seule solution est de masquer la superposition un instant.</string>
+    <string name="help_input_opacity_title">Opacité au-delà de la limite</string>
+    <string name="help_input_opacity_subtitle">Une superposition plus opaque que ne l\'autorise Android bloque les appuis en dessous. Réduisez l\'opacité dans Apparence.</string>
+
+    <string name="help_card_ways_to_pause">Façons de mettre en pause</string>
+    <string name="help_input_home_title">Accueil</string>
+    <string name="help_input_home_subtitle">La carte de pause propose vos durées ou jusqu\'à la reprise.</string>
+    <string name="help_input_tile_title">Tuile Paramètres rapides</string>
+    <string name="help_input_tile_subtitle">Ajoutez la tuile Pixel Speed ; un appui met en pause ou reprend, et avec plusieurs profils il ouvre le sélecteur.</string>
+    <string name="help_input_notification_title">Notification</string>
+    <string name="help_input_notification_subtitle">La notification d\'état propose une action de pause.</string>
+    <string name="help_input_shortcut_title">Raccourci de l\'écran d\'accueil</string>
+    <string name="help_input_shortcut_subtitle">Appuyez de manière prolongée sur l\'icône de l\'appli pour les raccourcis Pause et Basculer.</string>
+    <string name="help_input_automation_title">Applis d\'automatisation</string>
+    <string name="help_input_automation_subtitle">Activez le mode avancé dans Système, activez les diffusions d\'automatisation, puis diffusez une pause ou une reprise.</string>
+
+    <string name="help_link_system_notice_title">Une notification système revient sans cesse</string>
+    <string name="help_link_system_notice_subtitle">Comment faire taire la notification d\'affichage sur les autres applications</string>
+    <string name="help_notice_android_title">C\'est Android qui la publie, pas Pixel Speed</string>
+    <string name="help_notice_android_subtitle">L\'écran de verrouillage masque toute superposition d\'appli. Après un déverrouillage, Android traite le retour de la superposition comme une nouvelle, donc la notification indiquant que Pixel Speed est affichée sur les autres applications revient à chaque fois.</string>
+    <string name="help_notice_swipe_title">La balayer ne dure pas</string>
+    <string name="help_notice_swipe_subtitle">Le prochain déverrouillage la ramène. Désactiver sa catégorie, en revanche, est durable et ne touche que cette notification.</string>
+    <string name="help_card_silence_it">La faire taire pour de bon</string>
+    <string name="help_notice_step_1_title">1. Appuyez de manière prolongée sur la notification</string>
+    <string name="help_notice_step_1_subtitle">Ouvrez le volet des notifications et maintenez la notification jusqu\'à ce que ses options s\'ouvrent.</string>
+    <string name="help_notice_step_2_title">2. Dans ces options, touchez Désactiver</string>
+    <string name="help_notice_step_2_subtitle">Pas le bouton Désactiver de la notification elle-même : celui-ci retire l\'autorisation de superposition et arrête Pixel Speed.</string>
+    <string name="help_notice_step_3_title">3. Désactivez la ligne de Pixel Speed et touchez Appliquer</string>
+    <string name="help_notice_step_3_subtitle">La ligne indique « Pixel Speed est affichée sur les autres applications ». La notification ne revient pas.</string>
+
+    <string name="help_link_report_problem_title">Signaler un problème</string>
+    <string name="help_link_report_problem_subtitle">Quoi envoyer, et un fichier de diagnostic à joindre</string>
+    <string name="help_card_what_helps">Ce qui aide</string>
+    <string name="help_report_describe_title">Dites ce qui s\'est passé et ce que vous attendiez</string>
+    <string name="help_report_describe_subtitle">Les étapes qui le reproduisent aident le plus. Dites si cela arrive à chaque fois ou seulement de temps en temps.</string>
+    <string name="help_report_picture_title">Ajoutez une image</string>
+    <string name="help_report_picture_subtitle">Une capture d\'écran de la barre d\'état règle la plupart des signalements de placement. Un court enregistrement d\'écran règle un scintillement.</string>
+    <string name="help_card_diagnostics_file">Le fichier de diagnostic</string>
+    <string name="help_report_holds_title">Ce qu\'il contient</string>
+    <string name="help_report_holds_subtitle">La version de l\'appli, le modèle du téléphone et la version d\'Android, la géométrie de l\'écran et de l\'encoche, les autorisations accordées, l\'état de l\'affichage, votre export des réglages avec les noms de vos profils, les dernières lignes du journal de l\'appli elle-même et le dernier plantage, s\'il en a été capturé un.</string>
+    <string name="help_report_private_title">Ce qu\'il ne contient jamais</string>
+    <string name="help_report_private_subtitle">Aucun compte, aucun identifiant d\'appareil, aucun numéro de série, aucune position, rien venant d\'autres applis. Rien n\'est envoyé tout seul : vous ouvrez le fichier, puis vous le partagez où vous voulez.</string>
+    <string name="help_report_share_action">Partager les données de diagnostic</string>
+    <string name="help_report_share_working">Création du fichier…</string>
+    <string name="help_report_share_failed">Impossible de créer le fichier de diagnostic : %1$s</string>
+    <string name="help_report_issue_action">Ouvrir une issue sur GitHub</string>
+    <string name="help_report_issue_hint">Joignez le fichier à l\'issue après l\'avoir lu.</string>
+</resources>

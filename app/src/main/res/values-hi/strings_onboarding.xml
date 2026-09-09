@@ -1,0 +1,82 @@
+<resources>
+    <string name="onboarding_step_counter">चरण %1$d/%2$d</string>
+    <string name="onboarding_action_back">पीछे</string>
+    <string name="onboarding_action_skip">छोड़ें</string>
+    <string name="onboarding_action_next">अगला</string>
+    <string name="onboarding_action_open_settings">सेटिंग खोलें</string>
+    <string name="onboarding_action_allow">अनुमति दें</string>
+    <string name="onboarding_action_add_tile">टाइल जोड़ें</string>
+    <string name="onboarding_action_start">शुरू करें</string>
+
+    <string name="onboarding_welcome_title">लाइव नेटवर्क स्पीड, हमेशा ऊपर</string>
+    <string name="onboarding_welcome_body">आपकी डाउनलोड और अपलोड स्पीड की एक छोटी रीडिंग, स्क्रीन पर जो भी हो उसके ऊपर बनी हुई।</string>
+    <string name="onboarding_welcome_fact_counters">फ़ोन के अपने काउंटर पढ़ता है</string>
+    <string name="onboarding_welcome_fact_no_network">नेटवर्क की कोई अनुमति नहीं</string>
+    <string name="onboarding_welcome_fact_private">कोई एनालिटिक्स नहीं। फ़ोन से कुछ बाहर नहीं जाता।</string>
+
+    <string name="onboarding_overlay_title">अन्य ऐप्स पर बनाने की अनुमति दें</string>
+    <string name="onboarding_overlay_step_1">सेटिंग खोलें पर टैप करें। Android हर ऐप की सूची खोलता है।</string>
+    <string name="onboarding_overlay_step_2">Pixel Speed ढूँढें और उसका स्विच चालू करें</string>
+    <string name="onboarding_overlay_step_2_samsung">Samsung पर इस सेटिंग का नाम सबसे ऊपर दिखाएँ है</string>
+    <string name="onboarding_overlay_step_3">यहाँ वापस आएँ</string>
+    <string name="onboarding_overlay_done_1">Android ने हर ऐप की सूची खोली</string>
+    <string name="onboarding_overlay_done_2">Pixel Speed का स्विच चालू है</string>
+    <string name="onboarding_overlay_done_3">आप वापस आ गए</string>
+    <string name="onboarding_overlay_granted">अनुमति मिल गई। ओवरले बन सकता है।</string>
+    <string name="onboarding_overlay_no_page">इस डिवाइस पर इसके लिए कोई पेज नहीं है। सेटिंग, ऐप्स, स्पेशल ऐप एक्सेस में देखें, फिर वापस आएं या जारी रखें।</string>
+    <string name="onboarding_overlay_blocked_title">Android ने स्विच रोक दिया</string>
+    <string name="onboarding_overlay_blocked_body">ब्राउज़र या फ़ाइल से इंस्टॉल किए गए ऐप्स को इस Android वर्शन पर एक अतिरिक्त चरण चाहिए।</string>
+    <string name="onboarding_overlay_blocked_step_1">Pixel Speed आइकन को दबाए रखें और ऐप की जानकारी खोलें</string>
+    <string name="onboarding_overlay_blocked_step_2">ऊपरी कोने में मेन्यू पर टैप करें, फिर प्रतिबंधित सेटिंग की अनुमति दें चुनें</string>
+    <string name="onboarding_overlay_blocked_step_3">यहां वापस आएं और सेटिंग पेज फिर से खोलें</string>
+
+    <string name="onboarding_notifications_title">स्टेटस नोटिफ़िकेशन दिखाएं</string>
+    <string name="onboarding_notifications_body">यह चुप रहती है और रोकें और जारी रखें रखती है।</string>
+    <string name="onboarding_notifications_fact_controls">नोटिफ़िकेशन पैनल से रोकें और जारी रखें</string>
+    <string name="onboarding_notifications_fact_silent">चुप, न आवाज़ न बैज</string>
+    <string name="onboarding_notifications_fact_swipe">कभी भी स्वाइप करके हटाएँ</string>
+    <string name="onboarding_notifications_fact_swipe_sub">नियंत्रण ऐप और टाइल में बने रहते हैं</string>
+
+    <string name="onboarding_tile_title">क्विक सेटिंग्स टाइल जोड़ें</string>
+    <string name="onboarding_tile_fact_tap">एक टैप ओवरले को रोकता या जारी रखता है</string>
+    <string name="onboarding_tile_fact_profiles">कई प्रोफ़ाइल होने पर यह चयनकर्ता खोलता है</string>
+    <string name="onboarding_tile_hero_description">क्विक सेटिंग्स की दो टाइलें: Wi-Fi और Pixel Speed</string>
+    <string name="onboarding_tile_prompt_hint">Android पूछता है कि टाइल कहाँ रखनी है।</string>
+    <string name="onboarding_tile_body_manual">क्विक सेटिंग्स को नीचे खींचें, पेंसिल पर टैप करें, और Pixel Speed टाइल को जगह पर खींचें।</string>
+    <string name="onboarding_tile_added">क्विक सेटिंग्स में जोड़ा गया।</string>
+    <string name="onboarding_tile_not_added">जोड़ा नहीं गया। सिस्टम स्क्रीन इसे फिर से देती है।</string>
+
+    <string name="onboarding_keep_alive_title">ओवरले को चालू रखें</string>
+    <string name="onboarding_keep_alive_body">%1$s फ़ोन अपने बैटरी नियमों के अनुसार पृष्ठभूमि के ऐप्स बंद कर देते हैं।</string>
+    <string name="onboarding_keep_alive_fact_allow">Pixel Speed को बैटरी ऑप्टिमाइज़ेशन अनदेखा करने दें</string>
+    <string name="onboarding_keep_alive_fact_cost">यह प्रति सेकंड दो काउंटर पढ़ता है</string>
+    <string name="onboarding_keep_alive_fact_cost_sub">खर्च नाममात्र का है</string>
+    <string name="onboarding_keep_alive_granted">अनुमति मिल गई। Pixel Speed के लिए बैटरी ऑप्टिमाइज़ेशन बंद है।</string>
+
+    <string name="onboarding_notice_title">एक सूचना जिसे आप बंद कर सकते हैं</string>
+    <string name="onboarding_notice_card_title">%1$s अन्य ऐप्लिकेशन के ऊपर दिखाई दे रहा है</string>
+    <string name="onboarding_notice_card_source">Android सिस्टम</string>
+    <string name="onboarding_notice_card_caption">सूचना ऐसी दिखती है</string>
+    <string name="onboarding_notice_card_description">सूचना का उदाहरण: %1$s, %2$s से</string>
+    <string name="onboarding_notice_step_1">नोटिफ़िकेशन पैनल नीचे खींचें और सूचना को देर तक दबाएँ</string>
+    <string name="onboarding_notice_step_2">खुलने वाले विकल्पों में बंद करें पर टैप करें</string>
+    <string name="onboarding_notice_step_2_sub">सूचना पर दिखने वाला बंद करें नहीं: वह ओवरले की अनुमति हटा देता है और Pixel Speed को रोक देता है</string>
+    <string name="onboarding_notice_step_3">Pixel Speed की पंक्ति बंद करें और लागू करें पर टैप करें</string>
+    <string name="onboarding_notice_info">स्क्रीन लॉक होने पर, ओवरले चलने के बाद Android हर अनलॉक के बाद यह सूचना भेजता है। ये तीन टैप इसे हमेशा के लिए बंद कर देते हैं, और सिर्फ़ यही सूचना प्रभावित होती है।</string>
+
+    <string name="onboarding_start_title">तैयार</string>
+    <string name="onboarding_start_body">रीडआउट की हर चीज़ होम से बदली जा सकती है।</string>
+    <string name="onboarding_start_preview">ओवरले का पूर्वावलोकन</string>
+    <string name="onboarding_action_turn_on">चालू करें</string>
+    <string name="onboarding_side_flip_title">आइकन का अनुसरण करें</string>
+    <string name="onboarding_side_flip_body">ज़्यादा सूचनाएँ आने पर रीडआउट कैमरे की दूसरी तरफ़ सरक जाता है।</string>
+    <string name="onboarding_side_flip_frame_one">एक सूचना होने पर कैमरे के पास जगह रहती है</string>
+    <string name="onboarding_side_flip_frame_two">और सूचनाएँ आने पर रीडआउट उनके रास्ते से हट जाता है</string>
+    <string name="onboarding_side_flip_fact_reads">स्टेटस बार के आइकन और उनकी जगह पढ़ता है</string>
+    <string name="onboarding_side_flip_fact_reads_sub">सिर्फ़ वही विंडो। स्क्रीन पर और कुछ नहीं पढ़ा जाता।</string>
+    <string name="onboarding_side_flip_fact_local">कभी फ़ोन से बाहर नहीं जाता</string>
+    <string name="onboarding_side_flip_fact_off">जब तक आप इसे एक्सेसिबिलिटी सेटिंग में चालू न करें, यह बंद रहता है</string>
+    <string name="onboarding_side_flip_info">Android इसे एक्सेसिबिलिटी अनुमति कहता है। Pixel Speed इसका सिर्फ़ एक काम के लिए इस्तेमाल करता है: यह देखना कि स्टेटस बार कौन से आइकन दिखा रहा है, ताकि रीडआउट जगह वाली तरफ़ जा सके।</string>
+    <string name="onboarding_side_flip_on">चालू</string>
+    <string name="onboarding_start_here_title">इस फ़ोन पर यह यहाँ रहेगा</string>
+</resources>

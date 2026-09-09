@@ -1,0 +1,88 @@
+<resources>
+    <string name="help_link_overlay_hidden_title">Por que a sobreposição está oculta?</string>
+    <string name="help_link_overlay_hidden_subtitle">Todos os motivos pelos quais o indicador pode desaparecer</string>
+    <string name="help_link_app_input_title">Um app não aceita meus toques</string>
+    <string name="help_link_app_input_subtitle">Como pausar a sobreposição por um instante</string>
+
+    <string name="help_card_rules_you_can_turn_off">Regras que você pode desativar</string>
+    <string name="help_reason_screen_off_title">Tela desligada</string>
+    <string name="help_reason_screen_off_subtitle">A amostragem para junto com a tela e retoma quando ela liga.</string>
+    <string name="help_reason_keyguard_title">Tela de bloqueio</string>
+    <string name="help_reason_keyguard_subtitle">O Android nunca exibe sobreposições de apps na tela de bloqueio.</string>
+    <string name="help_reason_offline_title">Off-line</string>
+    <string name="help_reason_offline_subtitle">Quando os contadores escolhidos não têm nada a ler, o indicador se oculta ou mostra traços, conforme definido em Comportamento.</string>
+    <string name="help_reason_idle_title">Ocioso</string>
+    <string name="help_reason_idle_subtitle">Ocultar quando ocioso está ativado e o tráfego ficou abaixo do limite.</string>
+    <string name="help_reason_fullscreen_title">App em tela cheia</string>
+    <string name="help_reason_fullscreen_subtitle">Ocultar em tela cheia está ativado e um app ocultou a barra de status.</string>
+    <string name="help_reason_landscape_title">Paisagem</string>
+    <string name="help_reason_landscape_subtitle">Ocultar em paisagem está ativado e o aparelho está de lado.</string>
+    <string name="help_reason_battery_saver_title">Economia de bateria</string>
+    <string name="help_reason_battery_saver_subtitle">Pausar na economia de bateria está ativado e a Economia de bateria está ativa.</string>
+
+    <string name="help_card_android_hides_it">O Android a oculta por você</string>
+    <string name="help_android_system_title">Configurações e caixas de diálogo do sistema</string>
+    <string name="help_android_system_subtitle">Toda página de Configurações, solicitação de permissão e instalador oculta todas as sobreposições de apps enquanto estiver aberto.</string>
+    <string name="help_android_secure_title">Telas seguras</string>
+    <string name="help_android_secure_subtitle">Telas de pagamento, bancárias e de senha podem bloquear sobreposições; o Android não dá nenhum aviso.</string>
+
+    <string name="help_card_app_off_or_paused">O app está desativado ou pausado</string>
+    <string name="help_paused_title">Pausado</string>
+    <string name="help_paused_subtitle">Uma pausa feita na Início, no bloco, na notificação ou em um atalho oculta a sobreposição até terminar.</string>
+    <string name="help_permission_removed_title">Permissão removida</string>
+    <string name="help_permission_removed_subtitle">Desativar Exibir sobre outros apps interrompe a sobreposição; a tela Início mostra como restaurá-la.</string>
+
+    <string name="help_input_screen_title">Um app não aceita meus toques</string>
+
+    <string name="help_card_what_is_happening">O que está acontecendo</string>
+    <string name="help_input_blocks_title">O Android bloqueia toques sob sobreposições</string>
+    <string name="help_input_blocks_subtitle">Alguns apps recusam toques enquanto qualquer sobreposição estiver na tela, para evitar tapjacking.</string>
+    <string name="help_input_cannot_bypass_title">O Pixel Speed não consegue contornar isso</string>
+    <string name="help_input_cannot_bypass_subtitle">A única solução é ocultar a sobreposição por um instante.</string>
+    <string name="help_input_opacity_title">Opacidade acima do limite</string>
+    <string name="help_input_opacity_subtitle">Uma sobreposição mais opaca do que o Android permite bloqueia os toques abaixo dela. Reduza a opacidade em Aparência.</string>
+
+    <string name="help_card_ways_to_pause">Formas de pausar</string>
+    <string name="help_input_home_title">Início</string>
+    <string name="help_input_home_subtitle">O cartão de pausa oferece suas durações ou até você retomar.</string>
+    <string name="help_input_tile_title">Bloco de Configurações rápidas</string>
+    <string name="help_input_tile_subtitle">Adicione o bloco do Pixel Speed; um toque pausa ou retoma, e com vários perfis abre o seletor.</string>
+    <string name="help_input_notification_title">Notificação</string>
+    <string name="help_input_notification_subtitle">A notificação de status traz uma ação de pausar.</string>
+    <string name="help_input_shortcut_title">Atalho na tela inicial</string>
+    <string name="help_input_shortcut_subtitle">Toque e segure o ícone do app para acessar os atalhos Pausar e Alternar.</string>
+    <string name="help_input_automation_title">Apps de automação</string>
+    <string name="help_input_automation_subtitle">Ative o modo avançado em Sistema, ative as transmissões de automação e depois transmita pausar ou retomar.</string>
+
+    <string name="help_link_system_notice_title">Um aviso do sistema volta sempre</string>
+    <string name="help_link_system_notice_subtitle">Como silenciar o aviso de exibição sobre outros apps</string>
+    <string name="help_notice_android_title">Quem publica é o Android, não o Pixel Speed</string>
+    <string name="help_notice_android_subtitle">A tela de bloqueio esconde toda sobreposição de app. Após um desbloqueio, o Android trata a volta da sobreposição como uma nova, então o aviso de que o Pixel Speed está exibido sobre outros apps volta a cada vez.</string>
+    <string name="help_notice_swipe_title">Deslizar para fechar não dura</string>
+    <string name="help_notice_swipe_subtitle">O próximo desbloqueio o traz de volta. Desativar a categoria dele dura, e afeta só este aviso.</string>
+    <string name="help_card_silence_it">Silenciar de vez</string>
+    <string name="help_notice_step_1_title">1. Toque e segure o aviso</string>
+    <string name="help_notice_step_1_subtitle">Puxe o painel de notificações e segure o aviso até as opções dele abrirem.</string>
+    <string name="help_notice_step_2_title">2. Nessas opções, toque em Desativar</string>
+    <string name="help_notice_step_2_subtitle">Não o botão Desativar do próprio aviso: esse remove a permissão de sobreposição e para o Pixel Speed.</string>
+    <string name="help_notice_step_3_title">3. Desligue a linha do Pixel Speed e toque em Aplicar</string>
+    <string name="help_notice_step_3_subtitle">A linha diz “Pixel Speed exibido sobre outros apps”. O aviso não volta.</string>
+
+    <string name="help_link_report_problem_title">Relatar um problema</string>
+    <string name="help_link_report_problem_subtitle">O que enviar, e um arquivo de diagnóstico para anexar</string>
+    <string name="help_card_what_helps">O que ajuda</string>
+    <string name="help_report_describe_title">Diga o que aconteceu e o que você esperava</string>
+    <string name="help_report_describe_subtitle">Os passos que fazem acontecer de novo ajudam mais. Diga se acontece toda vez ou só de vez em quando.</string>
+    <string name="help_report_picture_title">Adicione uma imagem</string>
+    <string name="help_report_picture_subtitle">Uma captura de tela da barra de status resolve a maioria dos relatos de posicionamento. Uma gravação curta da tela resolve uma tremulação.</string>
+    <string name="help_card_diagnostics_file">O arquivo de diagnóstico</string>
+    <string name="help_report_holds_title">O que ele contém</string>
+    <string name="help_report_holds_subtitle">A versão do app, o modelo do telefone e a versão do Android, a geometria da tela e do recorte, quais permissões foram concedidas, o estado da leitura, a exportação das suas configurações com os nomes dos seus perfis, as linhas de registro recentes do próprio app e a última falha, se alguma foi capturada.</string>
+    <string name="help_report_private_title">O que ele nunca contém</string>
+    <string name="help_report_private_subtitle">Nenhuma conta, nenhum id de dispositivo, nenhum número de série, nenhuma localização, nada vindo de outros apps. Nada é enviado sozinho: você abre o arquivo e depois o compartilha onde quiser.</string>
+    <string name="help_report_share_action">Compartilhar dados de diagnóstico</string>
+    <string name="help_report_share_working">Criando o arquivo…</string>
+    <string name="help_report_share_failed">Não foi possível criar o arquivo de diagnóstico: %1$s</string>
+    <string name="help_report_issue_action">Abrir um issue no GitHub</string>
+    <string name="help_report_issue_hint">Anexe o arquivo ao issue depois de lê-lo.</string>
+</resources>

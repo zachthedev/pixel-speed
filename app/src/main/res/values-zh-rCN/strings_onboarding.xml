@@ -1,0 +1,82 @@
+<resources>
+    <string name="onboarding_step_counter">第 %1$d 步，共 %2$d 步</string>
+    <string name="onboarding_action_back">返回</string>
+    <string name="onboarding_action_skip">跳过</string>
+    <string name="onboarding_action_next">下一步</string>
+    <string name="onboarding_action_open_settings">打开设置</string>
+    <string name="onboarding_action_allow">允许</string>
+    <string name="onboarding_action_add_tile">添加磁贴</string>
+    <string name="onboarding_action_start">开始</string>
+
+    <string name="onboarding_welcome_title">实时网速，始终置顶</string>
+    <string name="onboarding_welcome_body">一个小小的读数，显示你的下载和上传速度，叠加在屏幕上的任何内容之上。</string>
+    <string name="onboarding_welcome_fact_counters">读取手机自己的计数器</string>
+    <string name="onboarding_welcome_fact_no_network">无需网络权限</string>
+    <string name="onboarding_welcome_fact_private">没有分析统计。任何数据都不会离开手机。</string>
+
+    <string name="onboarding_overlay_title">允许显示在其他应用上层</string>
+    <string name="onboarding_overlay_step_1">点按“打开设置”。Android 会打开所有应用的列表。</string>
+    <string name="onboarding_overlay_step_2">找到 Pixel Speed 并打开它的开关</string>
+    <string name="onboarding_overlay_step_2_samsung">在三星手机上，该设置名为“显示在最上层”</string>
+    <string name="onboarding_overlay_step_3">回到这里</string>
+    <string name="onboarding_overlay_done_1">Android 已打开所有应用的列表</string>
+    <string name="onboarding_overlay_done_2">Pixel Speed 的开关已打开</string>
+    <string name="onboarding_overlay_done_3">你已回来</string>
+    <string name="onboarding_overlay_granted">已允许，悬浮窗现在可以显示。</string>
+    <string name="onboarding_overlay_no_page">此设备没有对应的设置页面。请在"设置 > 应用 > 特殊应用权限"中查找，然后返回或继续。</string>
+    <string name="onboarding_overlay_blocked_title">系统阻止了该开关</string>
+    <string name="onboarding_overlay_blocked_body">在此系统版本上，从浏览器或文件安装的应用需要多一个步骤。</string>
+    <string name="onboarding_overlay_blocked_step_1">长按 Pixel Speed 图标，打开应用信息</string>
+    <string name="onboarding_overlay_blocked_step_2">点击右上角菜单，然后选择"允许受限设置"</string>
+    <string name="onboarding_overlay_blocked_step_3">返回此处，再次打开设置页面</string>
+
+    <string name="onboarding_notifications_title">显示状态通知</string>
+    <string name="onboarding_notifications_body">它保持静音，并提供暂停和继续。</string>
+    <string name="onboarding_notifications_fact_controls">在通知栏中暂停和继续</string>
+    <string name="onboarding_notifications_fact_silent">静音，无声音，无角标</string>
+    <string name="onboarding_notifications_fact_swipe">随时可以滑动清除</string>
+    <string name="onboarding_notifications_fact_swipe_sub">控件仍在应用和磁贴中</string>
+
+    <string name="onboarding_tile_title">添加快捷设置磁贴</string>
+    <string name="onboarding_tile_fact_tap">点按一下即可暂停或继续悬浮窗</string>
+    <string name="onboarding_tile_fact_profiles">有多个配置时会打开选择器</string>
+    <string name="onboarding_tile_hero_description">两个快捷设置磁贴：Wi-Fi 和 Pixel Speed</string>
+    <string name="onboarding_tile_prompt_hint">Android 会询问磁贴放在哪里。</string>
+    <string name="onboarding_tile_body_manual">下拉快捷设置，点击铅笔图标，将 Pixel Speed 磁贴拖到合适位置。</string>
+    <string name="onboarding_tile_added">已添加到快捷设置。</string>
+    <string name="onboarding_tile_not_added">未添加。“系统”页面可以再次添加。</string>
+
+    <string name="onboarding_keep_alive_title">让悬浮窗保持运行</string>
+    <string name="onboarding_keep_alive_body">%1$s 手机会按自己的电池规则关闭后台应用。</string>
+    <string name="onboarding_keep_alive_fact_allow">允许 Pixel Speed 忽略电池优化</string>
+    <string name="onboarding_keep_alive_fact_cost">它每秒读取两个计数器</string>
+    <string name="onboarding_keep_alive_fact_cost_sub">开销小到可以忽略</string>
+    <string name="onboarding_keep_alive_granted">已允许，Pixel Speed 已关闭电池优化。</string>
+
+    <string name="onboarding_notice_title">一条你可以关闭的通知</string>
+    <string name="onboarding_notice_card_title">“%1$s”正在其他应用的上层显示内容</string>
+    <string name="onboarding_notice_card_source">Android 系统</string>
+    <string name="onboarding_notice_card_caption">通知的样子</string>
+    <string name="onboarding_notice_card_description">通知示例：%1$s，来自 %2$s</string>
+    <string name="onboarding_notice_step_1">下拉通知栏，长按该通知</string>
+    <string name="onboarding_notice_step_2">在弹出的选项中点按“关闭通知功能”</string>
+    <string name="onboarding_notice_step_2_sub">不是通知本身上的那个按钮：它会撤销悬浮窗权限并停止 Pixel Speed</string>
+    <string name="onboarding_notice_step_3">关闭 Pixel Speed 那一行，然后点按“应用”</string>
+    <string name="onboarding_notice_info">设置了锁屏后，悬浮窗运行时 Android 会在每次解锁后发出这条通知。这三步会永久关闭它，而且只影响这一条通知。</string>
+
+    <string name="onboarding_start_title">准备就绪</string>
+    <string name="onboarding_start_body">读数的所有内容都可以在主页中调整。</string>
+    <string name="onboarding_start_preview">悬浮窗预览</string>
+    <string name="onboarding_action_turn_on">开启</string>
+    <string name="onboarding_side_flip_title">跟随图标</string>
+    <string name="onboarding_side_flip_body">通知变多时，读数会滑到摄像头的另一侧。</string>
+    <string name="onboarding_side_flip_frame_one">只有一条通知时，摄像头旁有空间</string>
+    <string name="onboarding_side_flip_frame_two">更多通知到来时，读数会让开</string>
+    <string name="onboarding_side_flip_fact_reads">读取状态栏图标及其位置</string>
+    <string name="onboarding_side_flip_fact_reads_sub">只读取该窗口。屏幕上的其他内容一概不读。</string>
+    <string name="onboarding_side_flip_fact_local">绝不离开手机</string>
+    <string name="onboarding_side_flip_fact_off">在你于无障碍设置中开启前保持关闭</string>
+    <string name="onboarding_side_flip_info">Android 把它称为无障碍权限。Pixel Speed 只用它做一件事：查看状态栏显示了哪些图标，好让读数移到有空间的一侧。</string>
+    <string name="onboarding_side_flip_on">已开启</string>
+    <string name="onboarding_start_here_title">在这部手机上，它会显示在这里</string>
+</resources>

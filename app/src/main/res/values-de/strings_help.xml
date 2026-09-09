@@ -1,0 +1,88 @@
+<resources>
+    <string name="help_link_overlay_hidden_title">Warum ist das Overlay ausgeblendet?</string>
+    <string name="help_link_overlay_hidden_subtitle">Alle Gründe, aus denen die Anzeige verschwinden kann</string>
+    <string name="help_link_app_input_title">Eine App reagiert nicht auf mein Tippen</string>
+    <string name="help_link_app_input_subtitle">So pausierst du das Overlay kurz</string>
+
+    <string name="help_card_rules_you_can_turn_off">Regeln, die du ausschalten kannst</string>
+    <string name="help_reason_screen_off_title">Bildschirm aus</string>
+    <string name="help_reason_screen_off_subtitle">Die Messung stoppt mit dem Bildschirm und läuft weiter, sobald er sich einschaltet.</string>
+    <string name="help_reason_keyguard_title">Sperrbildschirm</string>
+    <string name="help_reason_keyguard_subtitle">Android zeigt App-Overlays nie auf dem Sperrbildschirm.</string>
+    <string name="help_reason_offline_title">Offline</string>
+    <string name="help_reason_offline_subtitle">Wenn die gewählten Zähler nichts zu lesen haben, blendet sich die Anzeige aus oder zeigt Striche, je nach Verhalten.</string>
+    <string name="help_reason_idle_title">Inaktiv</string>
+    <string name="help_reason_idle_subtitle">„Bei Inaktivität ausblenden“ ist an und der Datenverkehr blieb unter dem Schwellenwert.</string>
+    <string name="help_reason_fullscreen_title">Vollbild-App</string>
+    <string name="help_reason_fullscreen_subtitle">„In Vollbild-Apps ausblenden“ ist an und eine App hat die Statusleiste ausgeblendet.</string>
+    <string name="help_reason_landscape_title">Querformat</string>
+    <string name="help_reason_landscape_subtitle">„Im Querformat ausblenden“ ist an und das Smartphone ist gedreht.</string>
+    <string name="help_reason_battery_saver_title">Energiesparmodus</string>
+    <string name="help_reason_battery_saver_subtitle">„Bei Energiesparmodus pausieren“ ist an und der Energiesparmodus ist aktiv.</string>
+
+    <string name="help_card_android_hides_it">Android blendet es für dich aus</string>
+    <string name="help_android_system_title">Systemeinstellungen und Dialoge</string>
+    <string name="help_android_system_subtitle">Jede Einstellungsseite, jede Berechtigungsabfrage und jeder Installationsvorgang blendet alle App-Overlays aus, solange sie geöffnet ist.</string>
+    <string name="help_android_secure_title">Sichere Bildschirme</string>
+    <string name="help_android_secure_subtitle">Zahlungs-, Banking- und Passwortbildschirme können Overlays blockieren; Android gibt kein Signal.</string>
+
+    <string name="help_card_app_off_or_paused">Die App ist aus oder pausiert</string>
+    <string name="help_paused_title">Pausiert</string>
+    <string name="help_paused_subtitle">Eine Pause über die Startseite, die Kachel, die Benachrichtigung oder eine Verknüpfung blendet es aus, bis sie endet.</string>
+    <string name="help_permission_removed_title">Berechtigung entzogen</string>
+    <string name="help_permission_removed_subtitle">Das Deaktivieren von „Über anderen Apps anzeigen“ stoppt das Overlay; die Startseite zeigt, wie du sie wiederherstellst.</string>
+
+    <string name="help_input_screen_title">Eine App reagiert nicht auf mein Tippen</string>
+
+    <string name="help_card_what_is_happening">Was passiert hier</string>
+    <string name="help_input_blocks_title">Android blockiert Eingaben unter Overlays</string>
+    <string name="help_input_blocks_subtitle">Manche Apps verweigern Eingaben, solange ein Overlay angezeigt wird, um Tapjacking zu verhindern.</string>
+    <string name="help_input_cannot_bypass_title">Pixel Speed kann das nicht umgehen</string>
+    <string name="help_input_cannot_bypass_subtitle">Die einzige Lösung ist, das Overlay kurz auszublenden.</string>
+    <string name="help_input_opacity_title">Deckkraft über dem Limit</string>
+    <string name="help_input_opacity_subtitle">Ein Overlay, das deckender ist, als Android erlaubt, blockiert die Tipper darunter. Verringere die Deckkraft unter Aussehen.</string>
+
+    <string name="help_card_ways_to_pause">Möglichkeiten zu pausieren</string>
+    <string name="help_input_home_title">Startseite</string>
+    <string name="help_input_home_subtitle">Die Pause-Karte bietet deine Dauern oder bis du fortsetzt.</string>
+    <string name="help_input_tile_title">Schnelleinstellungen-Kachel</string>
+    <string name="help_input_tile_subtitle">Füge die Pixel Speed-Kachel hinzu; ein Tipp pausiert oder setzt fort, bei mehreren Profilen öffnet er die Auswahl.</string>
+    <string name="help_input_notification_title">Benachrichtigung</string>
+    <string name="help_input_notification_subtitle">Die Statusbenachrichtigung enthält eine Pause-Aktion.</string>
+    <string name="help_input_shortcut_title">App-Verknüpfung</string>
+    <string name="help_input_shortcut_subtitle">Halte das App-Symbol gedrückt für die Verknüpfungen Pausieren und Umschalten.</string>
+    <string name="help_input_automation_title">Automatisierungs-Apps</string>
+    <string name="help_input_automation_subtitle">Schalte unter System den erweiterten Modus ein, aktiviere Automatisierungs-Broadcasts und sende dann Pausieren oder Fortsetzen.</string>
+
+    <string name="help_link_system_notice_title">Ein Systemhinweis kommt immer wieder</string>
+    <string name="help_link_system_notice_subtitle">So schaltest du den Hinweis über das Anzeigen über anderen Apps stumm</string>
+    <string name="help_notice_android_title">Android sendet ihn, nicht Pixel Speed</string>
+    <string name="help_notice_android_subtitle">Der Sperrbildschirm blendet jedes App-Overlay aus. Nach dem Entsperren wertet Android die Rückkehr des Overlays als neues Overlay, deshalb kommt der Hinweis, dass Pixel Speed über anderen Apps angezeigt wird, jedes Mal zurück.</string>
+    <string name="help_notice_swipe_title">Wegwischen hält nicht</string>
+    <string name="help_notice_swipe_subtitle">Beim nächsten Entsperren ist er wieder da. Die Kategorie auszuschalten hält dauerhaft und betrifft nur diesen Hinweis.</string>
+    <string name="help_card_silence_it">Dauerhaft stummschalten</string>
+    <string name="help_notice_step_1_title">1. Halte den Hinweis gedrückt</string>
+    <string name="help_notice_step_1_subtitle">Ziehe die Benachrichtigungsleiste herunter und halte den Hinweis, bis seine Optionen erscheinen.</string>
+    <string name="help_notice_step_2_title">2. Tippe in diesen Optionen auf Deaktivieren</string>
+    <string name="help_notice_step_2_subtitle">Nicht die Schaltfläche Deaktivieren am Hinweis selbst: die entzieht die Overlay-Berechtigung und stoppt Pixel Speed.</string>
+    <string name="help_notice_step_3_title">3. Schalte die Zeile von Pixel Speed aus und tippe auf Anwenden</string>
+    <string name="help_notice_step_3_subtitle">Die Zeile heißt „Pixel Speed wird über anderen Apps angezeigt“. Der Hinweis kommt nicht zurück.</string>
+
+    <string name="help_link_report_problem_title">Ein Problem melden</string>
+    <string name="help_link_report_problem_subtitle">Was du schicken solltest, und eine Diagnosedatei zum Anhängen</string>
+    <string name="help_card_what_helps">Was hilft</string>
+    <string name="help_report_describe_title">Sag, was passiert ist und was du erwartet hast</string>
+    <string name="help_report_describe_subtitle">Schritte, die es wieder auslösen, helfen am meisten. Sag, ob es jedes Mal passiert oder nur ab und zu.</string>
+    <string name="help_report_picture_title">Füge ein Bild hinzu</string>
+    <string name="help_report_picture_subtitle">Ein Screenshot der Statusleiste klärt die meisten Berichte zur Platzierung. Eine kurze Bildschirmaufnahme klärt ein Flackern.</string>
+    <string name="help_card_diagnostics_file">Die Diagnosedatei</string>
+    <string name="help_report_holds_title">Was sie enthält</string>
+    <string name="help_report_holds_subtitle">Die App-Version, das Telefonmodell und die Android-Version, die Geometrie von Display und Aussparung, welche Berechtigungen erteilt sind, den Zustand der Anzeige, deinen Einstellungsexport mit deinen Profilnamen, die letzten Protokollzeilen der App selbst und den letzten Absturz, falls einer erfasst wurde.</string>
+    <string name="help_report_private_title">Was sie nie enthält</string>
+    <string name="help_report_private_subtitle">Kein Konto, keine Geräte-ID, keine Seriennummer, keinen Standort, nichts aus anderen Apps. Nichts wird von selbst gesendet: Du öffnest die Datei und teilst sie dann, wo du willst.</string>
+    <string name="help_report_share_action">Diagnosedaten teilen</string>
+    <string name="help_report_share_working">Datei wird erstellt…</string>
+    <string name="help_report_share_failed">Die Diagnosedatei konnte nicht erstellt werden: %1$s</string>
+    <string name="help_report_issue_action">Ein Issue auf GitHub öffnen</string>
+    <string name="help_report_issue_hint">Hänge die Datei an das Issue an, nachdem du sie gelesen hast.</string>
+</resources>

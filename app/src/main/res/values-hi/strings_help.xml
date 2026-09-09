@@ -1,0 +1,88 @@
+<resources>
+    <string name="help_link_overlay_hidden_title">ओवरले क्यों छिपा है?</string>
+    <string name="help_link_overlay_hidden_subtitle">रीडआउट के गायब होने की हर वजह</string>
+    <string name="help_link_app_input_title">कोई ऐप मेरे टैप स्वीकार नहीं कर रहा</string>
+    <string name="help_link_app_input_subtitle">ओवरले को पल भर के लिए कैसे रोकें</string>
+
+    <string name="help_card_rules_you_can_turn_off">नियम जिन्हें आप बंद कर सकते हैं</string>
+    <string name="help_reason_screen_off_title">स्क्रीन बंद</string>
+    <string name="help_reason_screen_off_subtitle">स्क्रीन बंद होते ही सैंपलिंग रुक जाती है और चालू होने पर फिर शुरू होती है।</string>
+    <string name="help_reason_keyguard_title">लॉक स्क्रीन</string>
+    <string name="help_reason_keyguard_subtitle">Android लॉक स्क्रीन पर कभी ऐप ओवरले नहीं दिखाता।</string>
+    <string name="help_reason_offline_title">ऑफ़लाइन</string>
+    <string name="help_reason_offline_subtitle">चुने गए काउंटरों में पढ़ने को कुछ न होने पर, Behavior के अनुसार रीडआउट छिप जाता है या डैश दिखाता है।</string>
+    <string name="help_reason_idle_title">निष्क्रिय</string>
+    <string name="help_reason_idle_subtitle">निष्क्रिय होने पर छिपाएं चालू है और ट्रैफ़िक सीमा से कम रहा।</string>
+    <string name="help_reason_fullscreen_title">फ़ुलस्क्रीन ऐप</string>
+    <string name="help_reason_fullscreen_subtitle">फ़ुलस्क्रीन में छिपाएं चालू है और किसी ऐप ने स्टेटस बार छिपा दिया।</string>
+    <string name="help_reason_landscape_title">लैंडस्केप</string>
+    <string name="help_reason_landscape_subtitle">लैंडस्केप में छिपाएं चालू है और फ़ोन बग़ल में घुमाया गया है।</string>
+    <string name="help_reason_battery_saver_title">बैटरी सेवर</string>
+    <string name="help_reason_battery_saver_subtitle">बैटरी सेवर पर रोकें चालू है और बैटरी सेवर सक्रिय है।</string>
+
+    <string name="help_card_android_hides_it">Android इसे आपके लिए छिपाता है</string>
+    <string name="help_android_system_title">सिस्टम सेटिंग और डायलॉग</string>
+    <string name="help_android_system_subtitle">हर सेटिंग पेज, अनुमति प्रॉम्प्ट और इंस्टॉलर खुले रहने पर सभी ऐप ओवरले छिपा देता है।</string>
+    <string name="help_android_secure_title">सुरक्षित स्क्रीन</string>
+    <string name="help_android_secure_subtitle">भुगतान, बैंकिंग और पासवर्ड स्क्रीन ओवरले को रोक सकती हैं; Android कोई संकेत नहीं देता।</string>
+
+    <string name="help_card_app_off_or_paused">ऐप बंद है या रोका गया है</string>
+    <string name="help_paused_title">रोका गया</string>
+    <string name="help_paused_subtitle">होम, टाइल, नोटिफ़िकेशन या शॉर्टकट से किया गया पॉज़ इसे खत्म होने तक छिपाए रखता है।</string>
+    <string name="help_permission_removed_title">अनुमति हटा दी गई</string>
+    <string name="help_permission_removed_subtitle">अन्य ऐप्स पर दिखाएं बंद करने से ओवरले रुक जाता है; होम इसे वापस पाने का तरीका दिखाता है।</string>
+
+    <string name="help_input_screen_title">कोई ऐप मेरे टैप स्वीकार नहीं कर रहा</string>
+
+    <string name="help_card_what_is_happening">क्या हो रहा है</string>
+    <string name="help_input_blocks_title">Android ओवरले के नीचे टच रोकता है</string>
+    <string name="help_input_blocks_subtitle">टैपजैकिंग रोकने के लिए, कुछ ऐप्स ओवरले स्क्रीन पर होने पर टैप स्वीकार नहीं करते।</string>
+    <string name="help_input_cannot_bypass_title">Pixel Speed इसे बायपास नहीं कर सकता</string>
+    <string name="help_input_cannot_bypass_subtitle">एकमात्र उपाय है ओवरले को पल भर के लिए छिपाना।</string>
+    <string name="help_input_opacity_title">सीमा से ज़्यादा अपारदर्शिता</string>
+    <string name="help_input_opacity_subtitle">Android की अनुमति से ज़्यादा अपारदर्शी ओवरले अपने नीचे के टैप रोक देता है। दिखावट में अपारदर्शिता कम करें।</string>
+
+    <string name="help_card_ways_to_pause">रोकने के तरीके</string>
+    <string name="help_input_home_title">होम</string>
+    <string name="help_input_home_subtitle">पॉज़ कार्ड आपकी तय अवधियां या फिर से शुरू करने तक का विकल्प देता है।</string>
+    <string name="help_input_tile_title">क्विक सेटिंग्स टाइल</string>
+    <string name="help_input_tile_subtitle">Pixel Speed टाइल जोड़ें; एक टैप रोकता या फिर से शुरू करता है, और कई प्रोफ़ाइल होने पर चयनकर्ता खोलता है।</string>
+    <string name="help_input_notification_title">नोटिफ़िकेशन</string>
+    <string name="help_input_notification_subtitle">स्टेटस नोटिफ़िकेशन में एक पॉज़ एक्शन होता है।</string>
+    <string name="help_input_shortcut_title">लॉन्चर शॉर्टकट</string>
+    <string name="help_input_shortcut_subtitle">रोकें और पॉज़ टॉगल करें शॉर्टकट के लिए ऐप आइकन को दबाए रखें।</string>
+    <string name="help_input_automation_title">ऑटोमेशन ऐप्स</string>
+    <string name="help_input_automation_subtitle">सिस्टम में एडवांस्ड मोड चालू करें, ऑटोमेशन ब्रॉडकास्ट चालू करें, फिर pause या resume ब्रॉडकास्ट करें।</string>
+
+    <string name="help_link_system_notice_title">एक सिस्टम सूचना बार-बार लौट आती है</string>
+    <string name="help_link_system_notice_subtitle">अन्य ऐप्लिकेशन के ऊपर दिखने वाली सूचना को कैसे बंद करें</string>
+    <string name="help_notice_android_title">इसे Android भेजता है, Pixel Speed नहीं</string>
+    <string name="help_notice_android_subtitle">लॉक स्क्रीन हर ऐप ओवरले को छिपा देती है। अनलॉक के बाद Android ओवरले के लौटने को नया ओवरले मानता है, इसलिए यह सूचना कि Pixel Speed अन्य ऐप्लिकेशन के ऊपर दिखाई दे रहा है, हर बार वापस आती है।</string>
+    <string name="help_notice_swipe_title">स्वाइप करके हटाना टिकता नहीं</string>
+    <string name="help_notice_swipe_subtitle">अगला अनलॉक इसे वापस ले आता है। इसकी श्रेणी बंद करना टिकता है, और सिर्फ़ इसी सूचना पर असर डालता है।</string>
+    <string name="help_card_silence_it">इसे हमेशा के लिए बंद करें</string>
+    <string name="help_notice_step_1_title">1. सूचना को देर तक दबाएँ</string>
+    <string name="help_notice_step_1_subtitle">नोटिफ़िकेशन पैनल नीचे खींचें और सूचना को तब तक दबाए रखें जब तक उसके विकल्प न खुल जाएँ।</string>
+    <string name="help_notice_step_2_title">2. उन विकल्पों में बंद करें पर टैप करें</string>
+    <string name="help_notice_step_2_subtitle">सूचना पर दिखने वाला बंद करें बटन नहीं: वह ओवरले की अनुमति हटा देता है और Pixel Speed को रोक देता है।</string>
+    <string name="help_notice_step_3_title">3. Pixel Speed की पंक्ति बंद करें और लागू करें पर टैप करें</string>
+    <string name="help_notice_step_3_subtitle">पंक्ति पर “Pixel Speed अन्य ऐप्लिकेशन के ऊपर दिखाई दे रहा है” लिखा है। सूचना वापस नहीं आती।</string>
+
+    <string name="help_link_report_problem_title">समस्या की रिपोर्ट करें</string>
+    <string name="help_link_report_problem_subtitle">क्या भेजें, और जोड़ने के लिए एक डायग्नोस्टिक फ़ाइल</string>
+    <string name="help_card_what_helps">क्या मदद करता है</string>
+    <string name="help_report_describe_title">बताएँ कि क्या हुआ और आप क्या उम्मीद कर रहे थे</string>
+    <string name="help_report_describe_subtitle">समस्या को दोबारा लाने वाले चरण सबसे ज़्यादा मदद करते हैं। बताएँ कि यह हर बार होता है या कभी-कभी।</string>
+    <string name="help_report_picture_title">एक तस्वीर जोड़ें</string>
+    <string name="help_report_picture_subtitle">स्टेटस बार का स्क्रीनशॉट रीडआउट की जगह से जुड़ी ज़्यादातर रिपोर्ट सुलझा देता है। एक छोटी स्क्रीन रिकॉर्डिंग झिलमिलाहट की समस्या सुलझा देती है।</string>
+    <string name="help_card_diagnostics_file">डायग्नोस्टिक फ़ाइल</string>
+    <string name="help_report_holds_title">इसमें क्या शामिल है</string>
+    <string name="help_report_holds_subtitle">ऐप का वर्शन, फ़ोन का मॉडल और Android वर्शन, डिस्प्ले और कटआउट की ज्यामिति, कौन सी अनुमतियाँ दी गई हैं, रीडआउट की स्थिति, आपकी प्रोफ़ाइल के नामों सहित आपकी सेटिंग्स का एक्सपोर्ट, ऐप की अपनी हाल की लॉग लाइनें, और आख़िरी क्रैश, अगर कोई पकड़ा गया हो।</string>
+    <string name="help_report_private_title">इसमें क्या कभी शामिल नहीं होता</string>
+    <string name="help_report_private_subtitle">कोई खाता नहीं, कोई डिवाइस आईडी नहीं, कोई सीरियल नंबर नहीं, कोई लोकेशन नहीं, दूसरे ऐप्स से कुछ नहीं। कुछ भी अपने आप नहीं भेजा जाता: आप फ़ाइल खोलते हैं, फिर उसे जहाँ चाहें साझा करते हैं।</string>
+    <string name="help_report_share_action">डायग्नोस्टिक डेटा साझा करें</string>
+    <string name="help_report_share_working">फ़ाइल बनाई जा रही है…</string>
+    <string name="help_report_share_failed">डायग्नोस्टिक फ़ाइल नहीं बनाई जा सकी: %1$s</string>
+    <string name="help_report_issue_action">GitHub पर इश्यू खोलें</string>
+    <string name="help_report_issue_hint">फ़ाइल पढ़ने के बाद उसे इश्यू में जोड़ें।</string>
+</resources>

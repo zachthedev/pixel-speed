@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_card_more">Mais</string>
+    <string name="about_version_title">Versão</string>
+    <string name="about_version_dev_build">Build de desenvolvimento</string>
+    <string name="about_license_title">Licença</string>
+    <string name="about_source_title">Código-fonte</string>
+    <string name="about_privacy_title">Privacidade</string>
+    <string name="about_privacy_subtitle">Sem permissão de rede, sem análise de uso, contadores lidos no aparelho.</string>
+    <string name="about_whats_new_title">Novidades</string>
+    <string name="about_whats_new_subtitle">Mudanças em cada versão.</string>
+    <string name="about_licenses_title">Licenças de código aberto</string>
+    <string name="about_licenses_subtitle">Bibliotecas usadas na criação deste app.</string>
+    <string name="about_whats_new_screen_title">Novidades</string>
+    <string name="about_licenses_screen_title">Licenças de código aberto</string>
+    <string name="about_whats_new_empty_title">Ainda não há notas de versão</string>
+    <string name="about_whats_new_empty_subtitle">Esta é uma build de desenvolvimento.</string>
+    <string name="about_privacy_empty_title">A política não está nesta compilação.</string>
+</resources>

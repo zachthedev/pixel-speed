@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_card_app" translatable="false">Pixel Speed</string>
+    <string name="about_card_more">More</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_version_dev_build">Dev build</string>
+    <string name="about_license_title">License</string>
+    <string name="about_license_subtitle" translatable="false">Apache-2.0</string>
+    <string name="about_source_title">Source code</string>
+    <string name="about_privacy_title">Privacy</string>
+    <string name="about_privacy_subtitle">No network permission, no analytics, counters read on the phone.</string>
+    <string name="about_whats_new_title">What\'s new</string>
+    <string name="about_whats_new_subtitle">Changes in each release.</string>
+    <string name="about_licenses_title">Open source licenses</string>
+    <string name="about_licenses_subtitle">Libraries this app is built with.</string>
+    <string name="about_whats_new_screen_title">What\'s new</string>
+    <string name="about_licenses_screen_title">Open source licenses</string>
+    <string name="about_whats_new_empty_title">No release notes yet</string>
+    <string name="about_whats_new_empty_subtitle">This is a development build.</string>
+    <string name="about_privacy_empty_title">The policy is not in this build.</string>
+</resources>

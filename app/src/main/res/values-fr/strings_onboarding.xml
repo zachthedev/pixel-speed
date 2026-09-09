@@ -1,0 +1,82 @@
+<resources>
+    <string name="onboarding_step_counter">Étape %1$d sur %2$d</string>
+    <string name="onboarding_action_back">Retour</string>
+    <string name="onboarding_action_skip">Ignorer</string>
+    <string name="onboarding_action_next">Suivant</string>
+    <string name="onboarding_action_open_settings">Ouvrir les paramètres</string>
+    <string name="onboarding_action_allow">Autoriser</string>
+    <string name="onboarding_action_add_tile">Ajouter la tuile</string>
+    <string name="onboarding_action_start">Démarrer</string>
+
+    <string name="onboarding_welcome_title">La vitesse du réseau en direct, toujours au premier plan</string>
+    <string name="onboarding_welcome_body">Un petit affichage de vos débits en réception et en envoi, dessiné par-dessus ce qui est à l\'écran.</string>
+    <string name="onboarding_welcome_fact_counters">Lit les compteurs du téléphone lui-même</string>
+    <string name="onboarding_welcome_fact_no_network">Aucune autorisation réseau</string>
+    <string name="onboarding_welcome_fact_private">Aucune analyse. Rien ne quitte le téléphone.</string>
+
+    <string name="onboarding_overlay_title">Autoriser l\'affichage par-dessus les autres applis</string>
+    <string name="onboarding_overlay_step_1">Touchez Ouvrir les paramètres. Android ouvre une liste de toutes les applis.</string>
+    <string name="onboarding_overlay_step_2">Trouvez Pixel Speed et activez son interrupteur</string>
+    <string name="onboarding_overlay_step_2_samsung">Sur Samsung, ce paramètre s\'appelle Apparaître en haut</string>
+    <string name="onboarding_overlay_step_3">Revenez ici</string>
+    <string name="onboarding_overlay_done_1">Android a ouvert une liste de toutes les applis</string>
+    <string name="onboarding_overlay_done_2">L\'interrupteur de Pixel Speed est activé</string>
+    <string name="onboarding_overlay_done_3">Vous êtes de retour</string>
+    <string name="onboarding_overlay_granted">Autorisé. La superposition peut s\'afficher.</string>
+    <string name="onboarding_overlay_no_page">Cet appareil n\'a pas de page pour cela. Cherchez dans Paramètres, Applications, Accès spécial des applis, puis revenez ici ou continuez.</string>
+    <string name="onboarding_overlay_blocked_title">Android a bloqué l\'interrupteur</string>
+    <string name="onboarding_overlay_blocked_body">Les applis installées depuis un navigateur ou un fichier nécessitent une étape supplémentaire sur cette version d\'Android.</string>
+    <string name="onboarding_overlay_blocked_step_1">Appuyez de manière prolongée sur l\'icône Pixel Speed et ouvrez Infos sur l\'application</string>
+    <string name="onboarding_overlay_blocked_step_2">Appuyez sur le menu en haut, puis sur Autoriser les paramètres restreints</string>
+    <string name="onboarding_overlay_blocked_step_3">Revenez ici et rouvrez la page des paramètres</string>
+
+    <string name="onboarding_notifications_title">Afficher la notification d\'état</string>
+    <string name="onboarding_notifications_body">Elle reste silencieuse et porte pause et reprise.</string>
+    <string name="onboarding_notifications_fact_controls">Pause et reprise depuis le volet</string>
+    <string name="onboarding_notifications_fact_silent">Silencieuse, sans son ni pastille</string>
+    <string name="onboarding_notifications_fact_swipe">Balayez-la à tout moment</string>
+    <string name="onboarding_notifications_fact_swipe_sub">Les commandes restent dans l\'appli et la tuile</string>
+
+    <string name="onboarding_tile_title">Ajouter la tuile Paramètres rapides</string>
+    <string name="onboarding_tile_fact_tap">Un appui met la superposition en pause ou la reprend</string>
+    <string name="onboarding_tile_fact_profiles">Avec plusieurs profils, il ouvre le sélecteur</string>
+    <string name="onboarding_tile_hero_description">Deux tuiles Paramètres rapides : Wi-Fi et Pixel Speed</string>
+    <string name="onboarding_tile_prompt_hint">Android demande où placer la tuile.</string>
+    <string name="onboarding_tile_body_manual">Faites glisser vers le bas pour ouvrir Paramètres rapides, appuyez sur le crayon, puis faites glisser la tuile Pixel Speed à sa place.</string>
+    <string name="onboarding_tile_added">Ajoutée aux Paramètres rapides.</string>
+    <string name="onboarding_tile_not_added">Non ajoutée. L\'écran Système la propose de nouveau.</string>
+
+    <string name="onboarding_keep_alive_title">Garder la superposition active</string>
+    <string name="onboarding_keep_alive_body">Les téléphones %1$s ferment les applis en arrière-plan selon leurs propres règles de batterie.</string>
+    <string name="onboarding_keep_alive_fact_allow">Autorisez Pixel Speed à ignorer l\'optimisation de la batterie</string>
+    <string name="onboarding_keep_alive_fact_cost">Elle lit deux compteurs par seconde</string>
+    <string name="onboarding_keep_alive_fact_cost_sub">Le coût est une erreur d\'arrondi</string>
+    <string name="onboarding_keep_alive_granted">Autorisé. L\'optimisation de la batterie est désactivée pour Pixel Speed.</string>
+
+    <string name="onboarding_notice_title">Une notification que vous pouvez faire taire</string>
+    <string name="onboarding_notice_card_title">%1$s est affichée sur les autres applications</string>
+    <string name="onboarding_notice_card_source">Système Android</string>
+    <string name="onboarding_notice_card_caption">À quoi ressemble la notification</string>
+    <string name="onboarding_notice_card_description">Exemple de la notification : %1$s, de %2$s</string>
+    <string name="onboarding_notice_step_1">Ouvrez le volet des notifications et appuyez longuement sur la notification</string>
+    <string name="onboarding_notice_step_2">Dans les options qui s\'ouvrent, touchez Désactiver</string>
+    <string name="onboarding_notice_step_2_sub">Pas le Désactiver de la notification elle-même : celui-ci retire l\'autorisation de superposition et arrête Pixel Speed</string>
+    <string name="onboarding_notice_step_3">Désactivez la ligne de Pixel Speed et touchez Appliquer</string>
+    <string name="onboarding_notice_info">Avec un verrouillage de l\'écran, Android publie cette notification après chaque déverrouillage une fois la superposition active. Ces trois appuis la désactivent pour de bon, et seule cette notification est concernée.</string>
+
+    <string name="onboarding_start_title">Prêt</string>
+    <string name="onboarding_start_body">Tout ce qui concerne l\'affichage est réglable depuis l\'accueil.</string>
+    <string name="onboarding_start_preview">Aperçu de la superposition</string>
+    <string name="onboarding_action_turn_on">Activer</string>
+    <string name="onboarding_side_flip_title">Suivre les icônes</string>
+    <string name="onboarding_side_flip_body">Quand les notifications s\'accumulent, l\'affichage glisse de l\'autre côté de la caméra.</string>
+    <string name="onboarding_side_flip_frame_one">Avec une notification, il y a de la place à côté de la caméra</string>
+    <string name="onboarding_side_flip_frame_two">Quand d\'autres arrivent, l\'affichage s\'écarte pour leur laisser la place</string>
+    <string name="onboarding_side_flip_fact_reads">Lit les icônes de la barre d\'état et leur position</string>
+    <string name="onboarding_side_flip_fact_reads_sub">Seulement cette fenêtre. Rien d\'autre à l\'écran n\'est lu.</string>
+    <string name="onboarding_side_flip_fact_local">Ne quitte jamais le téléphone</string>
+    <string name="onboarding_side_flip_fact_off">Désactivé tant que vous ne l\'activez pas dans les paramètres d\'accessibilité</string>
+    <string name="onboarding_side_flip_info">Android appelle cela une permission d\'accessibilité. Pixel Speed s\'en sert pour une seule chose : voir quelles icônes la barre d\'état affiche, pour que l\'affichage se place du côté où il y a de la place.</string>
+    <string name="onboarding_side_flip_on">Activé</string>
+    <string name="onboarding_start_here_title">Voici où il se placera sur ce téléphone</string>
+</resources>
