@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Translate Pixel Speed
+    url: https://hosted.weblate.org/projects/pixel-speed/
+    about: Translations are edited on Weblate, not in issues.
+  - name: Report a security problem
+    url: https://github.com/zachthedev/pixel-speed/security/advisories/new
+    about: Private report, never a public issue.

@@ -1,0 +1,37 @@
+name: Feature request
+description: Something Pixel Speed could do, or do differently.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What you want
+      description: The behavior, as you would see it on the phone.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: The situation it helps in. A concrete case beats a general one.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where it lives
+      options:
+        - The readout itself
+        - Position and placement
+        - Content and units
+        - Look and color
+        - Rules for hiding and pausing
+        - Profiles and automation
+        - Quick Settings tile or notification
+        - Onboarding, Help, or About
+        - Somewhere else
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Sketches, screenshots of another app doing it, or the settings you use today.

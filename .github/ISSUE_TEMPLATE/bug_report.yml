@@ -1,0 +1,71 @@
+name: Bug report
+description: Something in Pixel Speed does not behave as described.
+labels: [bug]
+body:
+  - type: input
+    id: phone
+    attributes:
+      label: Phone
+      placeholder: Pixel 11 Pro
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      description: Settings > About phone > Android version.
+      placeholder: "17"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Pixel Speed version
+      description: Shown on the About screen inside the app.
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Installed from
+      options:
+        - Google Play
+        - Obtainium
+        - F-Droid
+        - APK from a GitHub release
+        - Built from source
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Position and pick a corner
+        2. Lock and unlock the phone
+        3. The readout draws over the clock
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics file
+      description: In the app, open Help > Report a problem > Share diagnostics, read the file, then drag it here. It carries your settings export with your profile names, the display geometry, the app's recent log, and the last crash. No account, device id, serial number, or location.
+  - type: textarea
+    id: settings
+    attributes:
+      label: Settings that matter
+      description: Anything off the defaults, such as the look, the position, advanced mode rows, or a profile, if the diagnostics file is not attached.
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or recording
+      description: Drag an image or a video here. A picture of the status bar settles most placement reports.
