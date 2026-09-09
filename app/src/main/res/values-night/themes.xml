@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PixelSpeed" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/page_surface</item>
+    </style>
+
+    <!-- The launch theme hands off to Theme.PixelSpeed once installSplashScreen() runs. -->
+    <style name="Theme.PixelSpeed.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenBackground">@color/page_surface</item>
+        <item name="postSplashScreenTheme">@style/Theme.PixelSpeed</item>
+    </style>
+</resources>

@@ -1,0 +1,83 @@
+<resources>
+    <string name="notification_channel_name">Geschwindigkeitsoverlay</string>
+    <string name="notification_channel_description">Hält das Overlay aktiv und bietet Pausieren und Fortsetzen.</string>
+    <string name="notification_title_off">Overlay aus</string>
+    <string name="notification_title_running">Overlay an</string>
+    <string name="notification_title_hidden">Overlay ausgeblendet</string>
+    <string name="notification_title_paused">Overlay pausiert</string>
+    <string name="notification_title_needs_permission">Overlay-Berechtigung erforderlich</string>
+    <string name="notification_text_needs_permission">Öffne die App, um die Anzeige über anderen Apps zuzulassen.</string>
+    <string name="notification_action_open">Öffnen</string>
+
+    <string name="overlay_window_title">Pixel Speed-Overlay</string>
+    <string name="overlay_probe_window_title">Pixel Speed-Vollbildtest</string>
+    <string name="home_profile_active">Aktives Profil</string>
+    <string name="overlay_transport_cellular">Mobile Daten</string>
+    <string name="overlay_transport_ethernet">Ethernet</string>
+    <string name="content_description_download">Download</string>
+    <string name="content_description_upload">Upload</string>
+    <string name="content_description_combined">Download und Upload kombiniert</string>
+    <string name="overlay_half_reading">%1$s: %2$s %3$s</string>
+    <string name="overlay_half_no_reading">%1$s: kein Messwert</string>
+    <string name="overlay_half_loading">%1$s: warten auf den ersten Messwert</string>
+    <string name="overlay_loading">Warten auf den ersten Messwert</string>
+
+    <string name="home_state_title">Overlay anzeigen</string>
+    <string name="home_state_off">Aus</string>
+    <string name="home_state_on">An</string>
+    <string name="home_state_hidden">Ausgeblendet</string>
+    <string name="home_state_paused">Pausiert</string>
+    <string name="home_state_needs_permission">Benötigt Overlay-Berechtigung</string>
+    <string name="home_action_grant_permission">Anzeige über anderen Apps zulassen</string>
+    <string name="home_permission_hint">Android öffnet eine Liste aller Apps. Suche Pixel Speed, schalte es ein und kehre dann zurück.</string>
+    <string name="home_section_settings">Einstellungen</string>
+    <string name="home_hidden_reasons">Ausgeblendet: %1$s</string>
+    <string name="home_fit_hint">Die Anzeige ragt über die Statusleiste hinaus. Probiere die Passform Schmal unter Aussehen.</string>
+    <string name="home_pause_title">Overlay pausieren</string>
+    <string name="home_pause_until_resumed">Manuell</string>
+    <string name="home_pause_duration">Dauer</string>
+    <string name="home_pause_choose">Dauer wählen</string>
+    <string name="home_profiles_manage">Verwalten</string>
+    <string name="home_auto_revoke_title">Berechtigungen bei Nichtnutzung behalten</string>
+    <string name="home_auto_revoke_body">Android entzieht Apps, die seit Monaten nicht geöffnet wurden, ihre Berechtigungen. Schalte „App-Aktivität pausieren, falls nicht verwendet“ für Pixel Speed aus.</string>
+    <string name="home_action_app_settings">App-Info</string>
+    <string name="home_action_dismiss">Verwerfen</string>
+    <string name="edit_mode_done">Verschieben beendet</string>
+    <string name="home_summary_two_part">%1$s, %2$s</string>
+    <string name="home_summary_three_part">%1$s, %2$s, %3$s</string>
+    <string name="home_summary_content_both">Download und Upload</string>
+    <string name="home_summary_content_download_only">Nur Download</string>
+    <string name="home_summary_content_upload_only">Nur Upload</string>
+    <string name="home_summary_content_none">Nichts angezeigt</string>
+    <string name="home_summary_appearance_opacity">%1$s Deckkraft</string>
+    <string name="home_summary_appearance_opacity_blocks_taps">%1$s Deckkraft, blockiert Tipper</string>
+    <string name="home_summary_behavior_no_rules">Keine Regeln zum automatischen Ausblenden</string>
+    <string name="home_summary_behavior_rule_idle">Blendet bei Inaktivität aus</string>
+    <string name="home_summary_behavior_rule_fullscreen">Blendet im Vollbild aus</string>
+    <string name="home_summary_behavior_rule_landscape">Blendet im Querformat aus</string>
+    <string name="home_summary_behavior_rule_battery_saver">Pausiert im Energiesparmodus</string>
+    <string name="home_summary_behavior_updates">Aktualisierung alle %1$s</string>
+    <plurals name="home_summary_profiles_count">
+        <item quantity="one">%d Profil</item>
+        <item quantity="other">%d Profile</item>
+    </plurals>
+    <string name="home_summary_profiles_active">%1$s aktiv</string>
+    <string name="home_summary_system_starts_on_boot">Startet beim Hochfahren</string>
+    <string name="home_summary_system_manual_start">Manueller Start</string>
+    <string name="home_summary_system_advanced_mode">erweiterter Modus</string>
+    <string name="home_summary_help">Warum sich das Overlay ausblendet, welche Apps Tipps blockieren</string>
+    <string name="home_summary_about">Version, Lizenz, Quellcode</string>
+    <plurals name="home_duration_minutes">
+        <item quantity="one">%d Min.</item>
+        <item quantity="other">%d Min.</item>
+    </plurals>
+    <plurals name="home_duration_hours">
+        <item quantity="one">%d Stunde</item>
+        <item quantity="other">%d Stunden</item>
+    </plurals>
+    <plurals name="home_duration_days">
+        <item quantity="one">%d Tag</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <string name="side_flip_service_description">Liest die Symbole der Statusleiste und ihre Position, damit die Geschwindigkeitsanzeige auf die Seite der Kamera mit Platz wechseln kann. Liest kein anderes Fenster und keine Inhalte. Nichts verlässt das Telefon.</string>
+</resources>

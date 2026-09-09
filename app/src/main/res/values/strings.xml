@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name" translatable="false">Pixel Speed</string>
+
+    <string name="special_use_subtype" translatable="false">Draws a small always-on-top overlay with the live network speed while the user has it enabled.</string>
+
+    <string name="notification_channel_name">Speed overlay</string>
+    <string name="notification_channel_description">Keeps the overlay running and offers pause and resume.</string>
+    <string name="notification_title_off">Overlay off</string>
+    <string name="notification_title_running">Overlay on</string>
+    <string name="notification_title_hidden">Overlay hidden</string>
+    <string name="notification_title_paused">Overlay paused</string>
+    <string name="notification_title_needs_permission">Overlay permission needed</string>
+    <string name="notification_text_needs_permission">Open the app to allow drawing over other apps.</string>
+    <string name="notification_action_open">Open</string>
+
+    <string name="overlay_window_title">Pixel Speed overlay</string>
+    <string name="overlay_probe_window_title">Pixel Speed fullscreen probe</string>
+    <string name="home_profile_active">Active profile</string>
+    <string name="overlay_transport_wifi" translatable="false">Wi-Fi</string>
+    <string name="overlay_transport_cellular">Mobile data</string>
+    <string name="overlay_transport_ethernet">Ethernet</string>
+    <string name="overlay_transport_vpn" translatable="false">VPN</string>
+    <string name="content_description_download">Download</string>
+    <string name="content_description_upload">Upload</string>
+    <string name="content_description_combined">Download and upload combined</string>
+    <string name="overlay_half_reading">%1$s: %2$s %3$s</string>
+    <string name="overlay_half_no_reading">%1$s: no reading</string>
+    <string name="overlay_half_loading">%1$s: waiting for the first reading</string>
+    <string name="overlay_loading">Waiting for the first reading</string>
+
+    <string name="home_state_title">Show overlay</string>
+    <string name="home_state_off">Off</string>
+    <string name="home_state_on">On</string>
+    <string name="home_state_hidden">Hidden</string>
+    <string name="home_state_paused">Paused</string>
+    <string name="home_state_needs_permission">Needs overlay permission</string>
+    <string name="home_action_grant_permission">Allow drawing over apps</string>
+    <string name="home_permission_hint">Android opens a list of every app. Find Pixel Speed and turn it on, then come back.</string>
+    <string name="home_section_settings">Settings</string>
+    <string name="home_hidden_reasons">Hidden: %1$s</string>
+    <string name="home_fit_hint">The readout overruns the status bar. Try the Slim fit in Appearance.</string>
+    <string name="home_pause_title">Pause the overlay</string>
+    <string name="home_pause_until_resumed">Manual</string>
+    <string name="home_pause_duration">Duration</string>
+    <string name="home_pause_choose">Choose a duration</string>
+    <string name="home_profiles_manage">Manage</string>
+    <string name="home_auto_revoke_title">Keep permissions while unused</string>
+    <string name="home_auto_revoke_body">Android removes permissions from apps you have not opened for months. Turn off Pause app activity if unused for Pixel Speed.</string>
+    <string name="home_action_app_settings">App settings</string>
+    <string name="home_action_dismiss">Dismiss</string>
+    <string name="edit_mode_done">Done moving</string>
+    <string name="home_summary_two_part">%1$s, %2$s</string>
+    <string name="home_summary_three_part">%1$s, %2$s, %3$s</string>
+    <string name="home_summary_content_both">Download and upload</string>
+    <string name="home_summary_content_download_only">Download only</string>
+    <string name="home_summary_content_upload_only">Upload only</string>
+    <string name="home_summary_content_none">Nothing shown</string>
+    <string name="home_summary_appearance_opacity">%1$s opacity</string>
+    <string name="home_summary_appearance_opacity_blocks_taps">%1$s opacity, blocks taps</string>
+    <string name="home_summary_behavior_no_rules">No auto-hide rules</string>
+    <string name="home_summary_behavior_rule_idle">Hides when idle</string>
+    <string name="home_summary_behavior_rule_fullscreen">Hides in fullscreen</string>
+    <string name="home_summary_behavior_rule_landscape">Hides in landscape</string>
+    <string name="home_summary_behavior_rule_battery_saver">Pauses on battery saver</string>
+    <!-- %1$s is the update interval as a duration, so the line reads "updates every 1 s". -->
+    <string name="home_summary_behavior_updates">%1$s updates</string>
+    <plurals name="home_summary_profiles_count">
+        <item quantity="one">%d profile</item>
+        <item quantity="other">%d profiles</item>
+    </plurals>
+    <string name="home_summary_profiles_active">%1$s active</string>
+    <string name="home_summary_system_starts_on_boot">Starts on boot</string>
+    <string name="home_summary_system_manual_start">Manual start</string>
+    <!-- A fragment joined into Home's System summary line after other items. Keep it lowercase -->
+    <string name="home_summary_system_advanced_mode">advanced mode</string>
+    <string name="home_summary_help">Why the overlay hides, apps that block taps</string>
+    <string name="home_summary_about">Version, license, source code</string>
+    <plurals name="home_duration_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="home_duration_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="home_duration_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+
+    <string name="side_flip_service_description">Reads the status bar\'s icons and where they sit, so the speed readout can move to the side of the camera with room. Reads no other window and no content. Nothing leaves the phone.</string>
+</resources>

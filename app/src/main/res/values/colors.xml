@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The launcher icon's ground; the foreground arrows share it so their tails vanish into it. -->
+    <color name="ic_launcher_background">#4C5B8A</color>
+    <!-- The window behind Compose takes the closest system neutral tone to the page surface. -->
+    <color name="page_surface">@android:color/system_neutral1_50</color>
+</resources>

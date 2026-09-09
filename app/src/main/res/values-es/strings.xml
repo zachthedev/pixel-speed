@@ -1,0 +1,87 @@
+<resources>
+    <string name="notification_channel_name">Superposición de velocidad</string>
+    <string name="notification_channel_description">Mantiene la superposición activa y ofrece pausar y reanudar.</string>
+    <string name="notification_title_off">Superposición desactivada</string>
+    <string name="notification_title_running">Superposición activada</string>
+    <string name="notification_title_hidden">Superposición oculta</string>
+    <string name="notification_title_paused">Superposición en pausa</string>
+    <string name="notification_title_needs_permission">Falta el permiso de superposición</string>
+    <string name="notification_text_needs_permission">Abre la app para permitir mostrar sobre otras apps.</string>
+    <string name="notification_action_open">Abrir</string>
+
+    <string name="overlay_window_title">Superposición de Pixel Speed</string>
+    <string name="overlay_probe_window_title">Sonda de pantalla completa de Pixel Speed</string>
+    <string name="home_profile_active">Perfil activo</string>
+    <string name="overlay_transport_cellular">Datos móviles</string>
+    <string name="overlay_transport_ethernet">Ethernet</string>
+    <string name="content_description_download">Descarga</string>
+    <string name="content_description_upload">Subida</string>
+    <string name="content_description_combined">Descarga y subida combinadas</string>
+    <string name="overlay_half_reading">%1$s: %2$s %3$s</string>
+    <string name="overlay_half_no_reading">%1$s: sin lectura</string>
+    <string name="overlay_half_loading">%1$s: esperando la primera lectura</string>
+    <string name="overlay_loading">Esperando la primera lectura</string>
+
+    <string name="home_state_title">Mostrar superposición</string>
+    <string name="home_state_off">Desactivada</string>
+    <string name="home_state_on">Activada</string>
+    <string name="home_state_hidden">Oculta</string>
+    <string name="home_state_paused">En pausa</string>
+    <string name="home_state_needs_permission">Necesita permiso de superposición</string>
+    <string name="home_action_grant_permission">Permitir mostrar sobre apps</string>
+    <string name="home_permission_hint">Android abre una lista con todas las apps. Busca Pixel Speed, actívalo y vuelve aquí.</string>
+    <string name="home_section_settings">Ajustes</string>
+    <string name="home_hidden_reasons">Oculta: %1$s</string>
+    <string name="home_fit_hint">La lectura desborda la barra de estado. Prueba el ajuste Fina en Apariencia.</string>
+    <string name="home_pause_title">Pausar la superposición</string>
+    <string name="home_pause_until_resumed">Manual</string>
+    <string name="home_pause_duration">Duración</string>
+    <string name="home_pause_choose">Elige una duración</string>
+    <string name="home_profiles_manage">Gestionar</string>
+    <string name="home_auto_revoke_title">Mantener permisos si no se usa</string>
+    <string name="home_auto_revoke_body">Android retira los permisos de las apps que llevan meses sin abrirse. Desactiva Pausar la actividad de la app si no se usa para Pixel Speed.</string>
+    <string name="home_action_app_settings">Ajustes de la app</string>
+    <string name="home_action_dismiss">Descartar</string>
+    <string name="edit_mode_done">Terminar de mover</string>
+    <string name="home_summary_two_part">%1$s, %2$s</string>
+    <string name="home_summary_three_part">%1$s, %2$s, %3$s</string>
+    <string name="home_summary_content_both">Descarga y subida</string>
+    <string name="home_summary_content_download_only">Solo descarga</string>
+    <string name="home_summary_content_upload_only">Solo subida</string>
+    <string name="home_summary_content_none">Nada mostrado</string>
+    <string name="home_summary_appearance_opacity">Opacidad del %1$s</string>
+    <string name="home_summary_appearance_opacity_blocks_taps">Opacidad del %1$s, bloquea los toques</string>
+    <string name="home_summary_behavior_no_rules">Sin reglas de ocultación automática</string>
+    <string name="home_summary_behavior_rule_idle">Se oculta en inactividad</string>
+    <string name="home_summary_behavior_rule_fullscreen">Se oculta en pantalla completa</string>
+    <string name="home_summary_behavior_rule_landscape">Se oculta en horizontal</string>
+    <string name="home_summary_behavior_rule_battery_saver">Se pausa con el ahorro de batería</string>
+    <string name="home_summary_behavior_updates">Actualiza cada %1$s</string>
+    <plurals name="home_summary_profiles_count">
+        <item quantity="one">%d perfil</item>
+        <item quantity="many">%d perfiles</item>
+        <item quantity="other">%d perfiles</item>
+    </plurals>
+    <string name="home_summary_profiles_active">%1$s activo</string>
+    <string name="home_summary_system_starts_on_boot">Se inicia al arrancar</string>
+    <string name="home_summary_system_manual_start">Inicio manual</string>
+    <string name="home_summary_system_advanced_mode">modo avanzado</string>
+    <string name="home_summary_help">Por qué se oculta la superposición, apps que bloquean los toques</string>
+    <string name="home_summary_about">Versión, licencia, código fuente</string>
+    <plurals name="home_duration_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="many">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="home_duration_hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="many">%d horas</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="home_duration_days">
+        <item quantity="one">%d día</item>
+        <item quantity="many">%d días</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <string name="side_flip_service_description">Lee los iconos de la barra de estado y su posición, para que la lectura de velocidad pueda moverse al lado de la cámara con espacio. No lee ninguna otra ventana ni contenido. Nada sale del teléfono.</string>
+</resources>

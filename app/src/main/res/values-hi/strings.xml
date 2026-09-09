@@ -1,0 +1,83 @@
+<resources>
+    <string name="notification_channel_name">स्पीड ओवरले</string>
+    <string name="notification_channel_description">ओवरले को चालू रखता है और रोकने व फिर से शुरू करने का विकल्प देता है।</string>
+    <string name="notification_title_off">ओवरले बंद</string>
+    <string name="notification_title_running">ओवरले चालू</string>
+    <string name="notification_title_hidden">ओवरले छिपा हुआ</string>
+    <string name="notification_title_paused">ओवरले रोका गया</string>
+    <string name="notification_title_needs_permission">ओवरले अनुमति चाहिए</string>
+    <string name="notification_text_needs_permission">अन्य ऐप्स के ऊपर दिखाने की अनुमति देने के लिए ऐप खोलें।</string>
+    <string name="notification_action_open">खोलें</string>
+
+    <string name="overlay_window_title">Pixel Speed ओवरले</string>
+    <string name="overlay_probe_window_title">Pixel Speed फ़ुलस्क्रीन प्रोब</string>
+    <string name="home_profile_active">सक्रिय प्रोफ़ाइल</string>
+    <string name="overlay_transport_cellular">मोबाइल डेटा</string>
+    <string name="overlay_transport_ethernet">ईथरनेट</string>
+    <string name="content_description_download">डाउनलोड</string>
+    <string name="content_description_upload">अपलोड</string>
+    <string name="content_description_combined">डाउनलोड और अपलोड मिलाकर</string>
+    <string name="overlay_half_reading">%1$s: %2$s %3$s</string>
+    <string name="overlay_half_no_reading">%1$s: कोई रीडिंग नहीं</string>
+    <string name="overlay_half_loading">%1$s: पहली रीडिंग की प्रतीक्षा है</string>
+    <string name="overlay_loading">पहली रीडिंग की प्रतीक्षा है</string>
+
+    <string name="home_state_title">ओवरले दिखाएं</string>
+    <string name="home_state_off">बंद</string>
+    <string name="home_state_on">चालू</string>
+    <string name="home_state_hidden">छिपा हुआ</string>
+    <string name="home_state_paused">रोका गया</string>
+    <string name="home_state_needs_permission">ओवरले अनुमति चाहिए</string>
+    <string name="home_action_grant_permission">ऐप्स पर बनाने की अनुमति दें</string>
+    <string name="home_permission_hint">Android हर ऐप की एक सूची खोलता है। Pixel Speed ढूंढें और उसे चालू करें, फिर वापस आएं।</string>
+    <string name="home_section_settings">सेटिंग</string>
+    <string name="home_hidden_reasons">छिपा: %1$s</string>
+    <string name="home_fit_hint">रीडआउट स्टेटस बार से बाहर निकल रहा है। दिखावट में स्लिम फ़िट आज़माएं।</string>
+    <string name="home_pause_title">ओवरले रोकें</string>
+    <string name="home_pause_until_resumed">मैन्युअल</string>
+    <string name="home_pause_duration">अवधि</string>
+    <string name="home_pause_choose">अवधि चुनें</string>
+    <string name="home_profiles_manage">प्रबंधित करें</string>
+    <string name="home_auto_revoke_title">उपयोग न होने पर भी अनुमतियां रखें</string>
+    <string name="home_auto_revoke_body">जो ऐप्स आपने महीनों से नहीं खोले हैं, उनकी अनुमतियां Android हटा देता है। Pixel Speed के लिए उपयोग न होने पर ऐप गतिविधि रोकें बंद करें।</string>
+    <string name="home_action_app_settings">ऐप सेटिंग</string>
+    <string name="home_action_dismiss">खारिज करें</string>
+    <string name="edit_mode_done">ले जाना पूरा हुआ</string>
+    <string name="home_summary_two_part">%1$s, %2$s</string>
+    <string name="home_summary_three_part">%1$s, %2$s, %3$s</string>
+    <string name="home_summary_content_both">डाउनलोड और अपलोड</string>
+    <string name="home_summary_content_download_only">सिर्फ़ डाउनलोड</string>
+    <string name="home_summary_content_upload_only">सिर्फ़ अपलोड</string>
+    <string name="home_summary_content_none">कुछ नहीं दिखाया गया</string>
+    <string name="home_summary_appearance_opacity">%1$s अपारदर्शिता</string>
+    <string name="home_summary_appearance_opacity_blocks_taps">%1$s अपारदर्शिता, टैप रोकता है</string>
+    <string name="home_summary_behavior_no_rules">कोई ऑटो-हाइड नियम नहीं</string>
+    <string name="home_summary_behavior_rule_idle">निष्क्रिय होने पर छिपता है</string>
+    <string name="home_summary_behavior_rule_fullscreen">फ़ुलस्क्रीन में छिपता है</string>
+    <string name="home_summary_behavior_rule_landscape">लैंडस्केप में छिपता है</string>
+    <string name="home_summary_behavior_rule_battery_saver">बैटरी सेवर में रुकता है</string>
+    <string name="home_summary_behavior_updates">हर %1$s में अपडेट</string>
+    <plurals name="home_summary_profiles_count">
+        <item quantity="one">%d प्रोफ़ाइल</item>
+        <item quantity="other">%d प्रोफ़ाइलें</item>
+    </plurals>
+    <string name="home_summary_profiles_active">%1$s सक्रिय</string>
+    <string name="home_summary_system_starts_on_boot">बूट पर शुरू होता है</string>
+    <string name="home_summary_system_manual_start">मैन्युअल शुरुआत</string>
+    <string name="home_summary_system_advanced_mode">एडवांस्ड मोड</string>
+    <string name="home_summary_help">ओवरले क्यों छिपता है, कौन-से ऐप्स टैप रोकते हैं</string>
+    <string name="home_summary_about">वर्शन, लाइसेंस, सोर्स कोड</string>
+    <plurals name="home_duration_minutes">
+        <item quantity="one">%d मिनट</item>
+        <item quantity="other">%d मिनट</item>
+    </plurals>
+    <plurals name="home_duration_hours">
+        <item quantity="one">%d घंटा</item>
+        <item quantity="other">%d घंटे</item>
+    </plurals>
+    <plurals name="home_duration_days">
+        <item quantity="one">%d दिन</item>
+        <item quantity="other">%d दिन</item>
+    </plurals>
+    <string name="side_flip_service_description">स्टेटस बार के आइकन और उनकी जगह पढ़ता है, ताकि स्पीड रीडआउट कैमरे के उस तरफ़ जा सके जहाँ जगह हो। कोई दूसरी विंडो या सामग्री नहीं पढ़ता। कुछ भी फ़ोन से बाहर नहीं जाता।</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="notification_action_pause">Pausar</string>
+    <string name="notification_action_resume">Reanudar</string>
+    <string name="notification_action_grant_permission">Conceder permiso</string>
+
+    <string name="notification_body_paused_until">En pausa hasta las %1$s</string>
+    <string name="notification_body_speed">%1$s %2$s bajada, %3$s %4$s subida</string>
+
+    <string name="notification_reason_screen_off">pantalla apagada</string>
+    <string name="notification_reason_keyguard">pantalla de bloqueo</string>
+    <string name="notification_reason_offline">sin conexión</string>
+    <string name="notification_reason_idle">inactividad</string>
+    <string name="notification_reason_fullscreen">app a pantalla completa</string>
+    <string name="notification_reason_landscape">horizontal</string>
+    <string name="notification_reason_battery_saver">ahorro de batería</string>
+
+    <string name="notification_metric_label_download">Descarga</string>
+    <string name="notification_metric_label_upload">Subida</string>
+</resources>

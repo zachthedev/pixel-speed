@@ -1,0 +1,87 @@
+<resources>
+    <string name="notification_channel_name">Superposition de vitesse</string>
+    <string name="notification_channel_description">Maintient la superposition active et propose la mise en pause et la reprise.</string>
+    <string name="notification_title_off">Superposition désactivée</string>
+    <string name="notification_title_running">Superposition activée</string>
+    <string name="notification_title_hidden">Superposition masquée</string>
+    <string name="notification_title_paused">Superposition en pause</string>
+    <string name="notification_title_needs_permission">Autorisation de superposition requise</string>
+    <string name="notification_text_needs_permission">Ouvrez l\'application pour autoriser l\'affichage par-dessus les autres applis.</string>
+    <string name="notification_action_open">Ouvrir</string>
+
+    <string name="overlay_window_title">Superposition Pixel Speed</string>
+    <string name="overlay_probe_window_title">Sonde plein écran Pixel Speed</string>
+    <string name="home_profile_active">Profil actif</string>
+    <string name="overlay_transport_cellular">Données mobiles</string>
+    <string name="overlay_transport_ethernet">Ethernet</string>
+    <string name="content_description_download">Téléchargement</string>
+    <string name="content_description_upload">Envoi</string>
+    <string name="content_description_combined">Téléchargement et envoi combinés</string>
+    <string name="overlay_half_reading">%1$s : %2$s %3$s</string>
+    <string name="overlay_half_no_reading">%1$s : aucune mesure</string>
+    <string name="overlay_half_loading">%1$s : en attente de la première mesure</string>
+    <string name="overlay_loading">En attente de la première mesure</string>
+
+    <string name="home_state_title">Afficher la superposition</string>
+    <string name="home_state_off">Désactivée</string>
+    <string name="home_state_on">Activée</string>
+    <string name="home_state_hidden">Masquée</string>
+    <string name="home_state_paused">En pause</string>
+    <string name="home_state_needs_permission">Autorisation de superposition requise</string>
+    <string name="home_action_grant_permission">Autoriser l\'affichage par-dessus les applis</string>
+    <string name="home_permission_hint">Android ouvre une liste de toutes les applis. Trouvez Pixel Speed, activez-la, puis revenez ici.</string>
+    <string name="home_section_settings">Paramètres</string>
+    <string name="home_hidden_reasons">Masquée : %1$s</string>
+    <string name="home_fit_hint">La lecture déborde de la barre d\'état. Essayez l\'ajustement Fine dans Apparence.</string>
+    <string name="home_pause_title">Mettre la superposition en pause</string>
+    <string name="home_pause_until_resumed">Manuel</string>
+    <string name="home_pause_duration">Durée</string>
+    <string name="home_pause_choose">Choisir une durée</string>
+    <string name="home_profiles_manage">Gérer</string>
+    <string name="home_auto_revoke_title">Conserver les autorisations si inutilisée</string>
+    <string name="home_auto_revoke_body">Android retire les autorisations des applis non ouvertes depuis plusieurs mois. Désactivez Suspendre l\'activité de l\'appli si elle est inutilisée pour Pixel Speed.</string>
+    <string name="home_action_app_settings">Paramètres de l\'application</string>
+    <string name="home_action_dismiss">Ignorer</string>
+    <string name="edit_mode_done">Terminer le déplacement</string>
+    <string name="home_summary_two_part">%1$s, %2$s</string>
+    <string name="home_summary_three_part">%1$s, %2$s, %3$s</string>
+    <string name="home_summary_content_both">Téléchargement et envoi</string>
+    <string name="home_summary_content_download_only">Téléchargement seul</string>
+    <string name="home_summary_content_upload_only">Envoi seul</string>
+    <string name="home_summary_content_none">Rien affiché</string>
+    <string name="home_summary_appearance_opacity">Opacité à %1$s</string>
+    <string name="home_summary_appearance_opacity_blocks_taps">Opacité à %1$s, bloque les appuis</string>
+    <string name="home_summary_behavior_no_rules">Aucune règle de masquage automatique</string>
+    <string name="home_summary_behavior_rule_idle">Se masque en cas d\'inactivité</string>
+    <string name="home_summary_behavior_rule_fullscreen">Se masque en plein écran</string>
+    <string name="home_summary_behavior_rule_landscape">Se masque en paysage</string>
+    <string name="home_summary_behavior_rule_battery_saver">Se met en pause en économiseur de batterie</string>
+    <string name="home_summary_behavior_updates">Mise à jour toutes les %1$s</string>
+    <plurals name="home_summary_profiles_count">
+        <item quantity="one">%d profil</item>
+        <item quantity="many">%d profils</item>
+        <item quantity="other">%d profils</item>
+    </plurals>
+    <string name="home_summary_profiles_active">%1$s actif</string>
+    <string name="home_summary_system_starts_on_boot">Se lance au démarrage</string>
+    <string name="home_summary_system_manual_start">Lancement manuel</string>
+    <string name="home_summary_system_advanced_mode">mode avancé</string>
+    <string name="home_summary_help">Pourquoi la superposition se masque, applis qui bloquent les appuis</string>
+    <string name="home_summary_about">Version, licence, code source</string>
+    <plurals name="home_duration_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="many">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="home_duration_hours">
+        <item quantity="one">%d heure</item>
+        <item quantity="many">%d heures</item>
+        <item quantity="other">%d heures</item>
+    </plurals>
+    <plurals name="home_duration_days">
+        <item quantity="one">%d jour</item>
+        <item quantity="many">%d jours</item>
+        <item quantity="other">%d jours</item>
+    </plurals>
+    <string name="side_flip_service_description">Lit les icônes de la barre d\'état et leur position, pour que l\'affichage de la vitesse puisse se placer du côté de la caméra où il y a de la place. Ne lit aucune autre fenêtre ni aucun contenu. Rien ne quitte le téléphone.</string>
+</resources>

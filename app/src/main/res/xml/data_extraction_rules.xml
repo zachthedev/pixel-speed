@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The crash record is diagnostic state for this phone; it never follows a backup or a
+     transfer to a new phone. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="diagnostics" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="diagnostics" />
+    </device-transfer>
+</data-extraction-rules>

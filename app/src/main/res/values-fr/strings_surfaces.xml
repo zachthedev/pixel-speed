@@ -1,0 +1,16 @@
+<resources>
+    <string name="tile_speed_label">Superposition</string>
+    <string name="tile_speed_paused_until">En pause jusqu\'à %1$s</string>
+    <string name="tile_speed_off">Toucher pour démarrer</string>
+    <string name="tile_speed_state_description">Téléchargement %1$s %2$s, envoi %3$s %4$s</string>
+    <string name="tile_dialog_pause_for">Pause %1$s</string>
+    <string name="tile_dialog_durations">Autres durées</string>
+
+
+    <string name="shortcut_pause_5_short">Pause 5 min</string>
+    <string name="shortcut_pause_5_long">Mettre la superposition en pause pendant 5 minutes</string>
+    <string name="shortcut_pause_60_short">Pause 1 h</string>
+    <string name="shortcut_pause_60_long">Mettre la superposition en pause pendant 1 heure</string>
+    <string name="shortcut_toggle_short">Pause/reprise</string>
+    <string name="shortcut_toggle_long">Mettre en pause ou reprendre la superposition</string>
+</resources>

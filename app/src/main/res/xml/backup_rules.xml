@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The crash record is diagnostic state for this phone; it never follows a backup. -->
+<full-backup-content>
+    <exclude domain="file" path="diagnostics" />
+</full-backup-content>

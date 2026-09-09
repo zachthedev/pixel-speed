@@ -1,0 +1,19 @@
+<resources>
+    <string name="notification_action_pause">Pausieren</string>
+    <string name="notification_action_resume">Fortsetzen</string>
+    <string name="notification_action_grant_permission">Berechtigung erteilen</string>
+
+    <string name="notification_body_paused_until">Pausiert bis %1$s</string>
+    <string name="notification_body_speed">%1$s %2$s runter, %3$s %4$s hoch</string>
+
+    <string name="notification_reason_screen_off">Bildschirm aus</string>
+    <string name="notification_reason_keyguard">Sperrbildschirm</string>
+    <string name="notification_reason_offline">offline</string>
+    <string name="notification_reason_idle">inaktiv</string>
+    <string name="notification_reason_fullscreen">Vollbild-App</string>
+    <string name="notification_reason_landscape">Querformat</string>
+    <string name="notification_reason_battery_saver">Energiesparmodus</string>
+
+    <string name="notification_metric_label_download">Download</string>
+    <string name="notification_metric_label_upload">Upload</string>
+</resources>

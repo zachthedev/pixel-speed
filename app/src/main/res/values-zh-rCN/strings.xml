@@ -1,0 +1,79 @@
+<resources>
+    <string name="notification_channel_name">速度悬浮窗</string>
+    <string name="notification_channel_description">让悬浮窗保持运行，并提供暂停和恢复功能。</string>
+    <string name="notification_title_off">悬浮窗已关闭</string>
+    <string name="notification_title_running">悬浮窗已开启</string>
+    <string name="notification_title_hidden">悬浮窗已隐藏</string>
+    <string name="notification_title_paused">悬浮窗已暂停</string>
+    <string name="notification_title_needs_permission">需要悬浮窗权限</string>
+    <string name="notification_text_needs_permission">打开应用以允许显示在其他应用上层。</string>
+    <string name="notification_action_open">打开</string>
+
+    <string name="overlay_window_title">Pixel Speed 悬浮窗</string>
+    <string name="overlay_probe_window_title">Pixel Speed 全屏检测</string>
+    <string name="home_profile_active">当前配置</string>
+    <string name="overlay_transport_cellular">移动数据</string>
+    <string name="overlay_transport_ethernet">以太网</string>
+    <string name="content_description_download">下载</string>
+    <string name="content_description_upload">上传</string>
+    <string name="content_description_combined">下载和上传合计</string>
+    <string name="overlay_half_reading">%1$s：%2$s %3$s</string>
+    <string name="overlay_half_no_reading">%1$s：无读数</string>
+    <string name="overlay_half_loading">%1$s：正在等待第一个读数</string>
+    <string name="overlay_loading">正在等待第一个读数</string>
+
+    <string name="home_state_title">显示悬浮窗</string>
+    <string name="home_state_off">关闭</string>
+    <string name="home_state_on">开启</string>
+    <string name="home_state_hidden">已隐藏</string>
+    <string name="home_state_paused">已暂停</string>
+    <string name="home_state_needs_permission">需要悬浮窗权限</string>
+    <string name="home_action_grant_permission">允许显示在其他应用上层</string>
+    <string name="home_permission_hint">系统会打开所有应用的列表。找到 Pixel Speed 并开启，然后返回。</string>
+    <string name="home_section_settings">设置</string>
+    <string name="home_hidden_reasons">已隐藏：%1$s</string>
+    <string name="home_fit_hint">读数超出了状态栏。请在“外观”中试试“纤细”适配。</string>
+    <string name="home_pause_title">暂停悬浮窗</string>
+    <string name="home_pause_until_resumed">手动</string>
+    <string name="home_pause_duration">时长</string>
+    <string name="home_pause_choose">选择时长</string>
+    <string name="home_profiles_manage">管理</string>
+    <string name="home_auto_revoke_title">未使用时保留权限</string>
+    <string name="home_auto_revoke_body">系统会移除数月未打开的应用的权限。请为 Pixel Speed 关闭"未使用时暂停应用活动"。</string>
+    <string name="home_action_app_settings">应用设置</string>
+    <string name="home_action_dismiss">关闭</string>
+    <string name="edit_mode_done">完成移动</string>
+    <string name="home_summary_two_part">%1$s、%2$s</string>
+    <string name="home_summary_three_part">%1$s、%2$s、%3$s</string>
+    <string name="home_summary_content_both">下载和上传</string>
+    <string name="home_summary_content_download_only">仅下载</string>
+    <string name="home_summary_content_upload_only">仅上传</string>
+    <string name="home_summary_content_none">不显示任何内容</string>
+    <string name="home_summary_appearance_opacity">不透明度 %1$s</string>
+    <string name="home_summary_appearance_opacity_blocks_taps">不透明度 %1$s，会拦截点按</string>
+    <string name="home_summary_behavior_no_rules">无自动隐藏规则</string>
+    <string name="home_summary_behavior_rule_idle">空闲时隐藏</string>
+    <string name="home_summary_behavior_rule_fullscreen">全屏时隐藏</string>
+    <string name="home_summary_behavior_rule_landscape">横屏时隐藏</string>
+    <string name="home_summary_behavior_rule_battery_saver">省电模式时暂停</string>
+    <string name="home_summary_behavior_updates">每 %1$s 更新一次</string>
+    <plurals name="home_summary_profiles_count">
+        <item quantity="other">%d 个配置</item>
+    </plurals>
+    <string name="home_summary_profiles_active">%1$s 生效中</string>
+    <string name="home_summary_system_starts_on_boot">开机自启动</string>
+    <string name="home_summary_system_manual_start">手动启动</string>
+    <string name="home_summary_system_advanced_mode">高级模式</string>
+    <string name="home_summary_help">悬浮窗为何隐藏，哪些应用会拦截点击</string>
+    <string name="home_summary_about">版本、许可证、源代码</string>
+    <plurals name="home_duration_minutes">
+        <item quantity="other">%d 分钟</item>
+    </plurals>
+    <plurals name="home_duration_hours">
+        <item quantity="other">%d 小时</item>
+    </plurals>
+    <plurals name="home_duration_days">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <string name="side_flip_service_description">读取状态栏图标及其位置，让速度读数可以移到摄像头旁有空间的一侧。不读取其他窗口和内容。任何数据都不会离开手机。</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="notification_action_pause">रोकें</string>
+    <string name="notification_action_resume">फिर से शुरू करें</string>
+    <string name="notification_action_grant_permission">अनुमति दें</string>
+
+    <string name="notification_body_paused_until">%1$s तक रोका गया</string>
+    <string name="notification_body_speed">%1$s %2$s डाउनलोड, %3$s %4$s अपलोड</string>
+
+    <string name="notification_reason_screen_off">स्क्रीन बंद</string>
+    <string name="notification_reason_keyguard">लॉक स्क्रीन</string>
+    <string name="notification_reason_offline">ऑफ़लाइन</string>
+    <string name="notification_reason_idle">निष्क्रिय</string>
+    <string name="notification_reason_fullscreen">फ़ुलस्क्रीन ऐप</string>
+    <string name="notification_reason_landscape">लैंडस्केप</string>
+    <string name="notification_reason_battery_saver">बैटरी सेवर</string>
+
+    <string name="notification_metric_label_download">डाउनलोड</string>
+    <string name="notification_metric_label_upload">अपलोड</string>
+</resources>

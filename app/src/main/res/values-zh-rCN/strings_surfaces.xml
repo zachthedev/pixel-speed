@@ -1,0 +1,16 @@
+<resources>
+    <string name="tile_speed_label">速度悬浮窗</string>
+    <string name="tile_speed_paused_until">暂停至 %1$s</string>
+    <string name="tile_speed_off">点按即可启动</string>
+    <string name="tile_speed_state_description">下载 %1$s %2$s，上传 %3$s %4$s</string>
+    <string name="tile_dialog_pause_for">暂停 %1$s</string>
+    <string name="tile_dialog_durations">其他时长</string>
+
+
+    <string name="shortcut_pause_5_short">暂停 5 分钟</string>
+    <string name="shortcut_pause_5_long">暂停悬浮窗 5 分钟</string>
+    <string name="shortcut_pause_60_short">暂停 1 小时</string>
+    <string name="shortcut_pause_60_long">暂停悬浮窗 1 小时</string>
+    <string name="shortcut_toggle_short">切换暂停</string>
+    <string name="shortcut_toggle_long">暂停或恢复悬浮窗</string>
+</resources>

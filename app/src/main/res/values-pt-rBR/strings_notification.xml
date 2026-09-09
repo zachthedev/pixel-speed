@@ -1,0 +1,19 @@
+<resources>
+    <string name="notification_action_pause">Pausar</string>
+    <string name="notification_action_resume">Retomar</string>
+    <string name="notification_action_grant_permission">Conceder permissão</string>
+
+    <string name="notification_body_paused_until">Pausado até %1$s</string>
+    <string name="notification_body_speed">%1$s %2$s de download, %3$s %4$s de upload</string>
+
+    <string name="notification_reason_screen_off">tela desligada</string>
+    <string name="notification_reason_keyguard">tela de bloqueio</string>
+    <string name="notification_reason_offline">off-line</string>
+    <string name="notification_reason_idle">ocioso</string>
+    <string name="notification_reason_fullscreen">app em tela cheia</string>
+    <string name="notification_reason_landscape">paisagem</string>
+    <string name="notification_reason_battery_saver">economia de bateria</string>
+
+    <string name="notification_metric_label_download">Download</string>
+    <string name="notification_metric_label_upload">Upload</string>
+</resources>

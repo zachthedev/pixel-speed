@@ -1,0 +1,19 @@
+<resources>
+    <string name="notification_action_pause">Pause</string>
+    <string name="notification_action_resume">Resume</string>
+    <string name="notification_action_grant_permission">Grant permission</string>
+
+    <string name="notification_body_paused_until">Paused until %1$s</string>
+    <string name="notification_body_speed">%1$s %2$s down, %3$s %4$s up</string>
+
+    <string name="notification_reason_screen_off">screen off</string>
+    <string name="notification_reason_keyguard">lock screen</string>
+    <string name="notification_reason_offline">offline</string>
+    <string name="notification_reason_idle">idle</string>
+    <string name="notification_reason_fullscreen">fullscreen app</string>
+    <string name="notification_reason_landscape">landscape</string>
+    <string name="notification_reason_battery_saver">battery saver</string>
+
+    <string name="notification_metric_label_download">Download</string>
+    <string name="notification_metric_label_upload">Upload</string>
+</resources>

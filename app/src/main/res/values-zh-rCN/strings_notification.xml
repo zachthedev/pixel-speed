@@ -1,0 +1,19 @@
+<resources>
+    <string name="notification_action_pause">暂停</string>
+    <string name="notification_action_resume">恢复</string>
+    <string name="notification_action_grant_permission">授予权限</string>
+
+    <string name="notification_body_paused_until">暂停至 %1$s</string>
+    <string name="notification_body_speed">下载 %1$s %2$s，上传 %3$s %4$s</string>
+
+    <string name="notification_reason_screen_off">屏幕关闭</string>
+    <string name="notification_reason_keyguard">锁屏</string>
+    <string name="notification_reason_offline">离线</string>
+    <string name="notification_reason_idle">空闲</string>
+    <string name="notification_reason_fullscreen">全屏应用</string>
+    <string name="notification_reason_landscape">横屏</string>
+    <string name="notification_reason_battery_saver">省电模式</string>
+
+    <string name="notification_metric_label_download">下载</string>
+    <string name="notification_metric_label_upload">上传</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="tile_speed_label">Speed overlay</string>
+    <string name="tile_speed_pair" translatable="false">%1$s / %2$s</string>
+    <string name="tile_speed_subtitle_profile" translatable="false">%1$s · %2$s</string>
+    <string name="tile_speed_paused_until">Paused until %1$s</string>
+    <string name="tile_speed_off">Tap to start</string>
+    <string name="tile_speed_state_description">Download %1$s %2$s, upload %3$s %4$s</string>
+    <string name="tile_dialog_pause_for">Pause %1$s</string>
+    <string name="tile_dialog_durations">Other durations</string>
+
+
+    <string name="shortcut_pause_5_short">Pause 5 min</string>
+    <string name="shortcut_pause_5_long">Pause the overlay for 5 minutes</string>
+    <string name="shortcut_pause_60_short">Pause 1 hour</string>
+    <string name="shortcut_pause_60_long">Pause the overlay for 1 hour</string>
+    <string name="shortcut_toggle_short">Toggle pause</string>
+    <string name="shortcut_toggle_long">Pause or resume the overlay</string>
+</resources>

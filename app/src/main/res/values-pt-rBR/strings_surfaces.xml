@@ -1,0 +1,16 @@
+<resources>
+    <string name="tile_speed_label">Sobreposição</string>
+    <string name="tile_speed_paused_until">Pausado até %1$s</string>
+    <string name="tile_speed_off">Toque para iniciar</string>
+    <string name="tile_speed_state_description">Download de %1$s %2$s, upload de %3$s %4$s</string>
+    <string name="tile_dialog_pause_for">Pausar %1$s</string>
+    <string name="tile_dialog_durations">Outras durações</string>
+
+
+    <string name="shortcut_pause_5_short">Pausar 5 min</string>
+    <string name="shortcut_pause_5_long">Pausar a sobreposição por 5 minutos</string>
+    <string name="shortcut_pause_60_short">Pausar 1 hora</string>
+    <string name="shortcut_pause_60_long">Pausar a sobreposição por 1 hora</string>
+    <string name="shortcut_toggle_short">Alternar pausa</string>
+    <string name="shortcut_toggle_long">Pausar ou retomar a sobreposição</string>
+</resources>

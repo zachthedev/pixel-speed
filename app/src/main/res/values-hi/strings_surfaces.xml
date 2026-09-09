@@ -1,0 +1,16 @@
+<resources>
+    <string name="tile_speed_label">स्पीड ओवरले</string>
+    <string name="tile_speed_paused_until">%1$s तक रुका</string>
+    <string name="tile_speed_off">शुरू करने के लिए टैप करें</string>
+    <string name="tile_speed_state_description">डाउनलोड %1$s %2$s, अपलोड %3$s %4$s</string>
+    <string name="tile_dialog_pause_for">%1$s रोकें</string>
+    <string name="tile_dialog_durations">अन्य अवधि</string>
+
+
+    <string name="shortcut_pause_5_short">5 मिनट रोकें</string>
+    <string name="shortcut_pause_5_long">ओवरले को 5 मिनट के लिए रोकें</string>
+    <string name="shortcut_pause_60_short">1 घंटा रोकें</string>
+    <string name="shortcut_pause_60_long">ओवरले को 1 घंटे के लिए रोकें</string>
+    <string name="shortcut_toggle_short">पॉज़ टॉगल करें</string>
+    <string name="shortcut_toggle_long">ओवरले रोकें या फिर से शुरू करें</string>
+</resources>

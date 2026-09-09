@@ -1,0 +1,43 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="pause_5"
+        android:enabled="true"
+        android:icon="@drawable/ic_arrow_downward"
+        android:shortcutShortLabel="@string/shortcut_pause_5_short"
+        android:shortcutLongLabel="@string/shortcut_pause_5_long">
+        <intent
+            android:action="tools.zach.app.pixelspeed.action.SHORTCUT_PAUSE"
+            android:targetPackage="tools.zach.app.pixelspeed"
+            android:targetClass="tools.zach.app.pixelspeed.service.ShortcutActivity">
+            <extra
+                android:key="tools.zach.app.pixelspeed.extra.MINUTES"
+                android:value="5" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="pause_60"
+        android:enabled="true"
+        android:icon="@drawable/ic_arrow_upward"
+        android:shortcutShortLabel="@string/shortcut_pause_60_short"
+        android:shortcutLongLabel="@string/shortcut_pause_60_long">
+        <intent
+            android:action="tools.zach.app.pixelspeed.action.SHORTCUT_PAUSE"
+            android:targetPackage="tools.zach.app.pixelspeed"
+            android:targetClass="tools.zach.app.pixelspeed.service.ShortcutActivity">
+            <extra
+                android:key="tools.zach.app.pixelspeed.extra.MINUTES"
+                android:value="60" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="toggle"
+        android:enabled="true"
+        android:icon="@drawable/ic_readout"
+        android:shortcutShortLabel="@string/shortcut_toggle_short"
+        android:shortcutLongLabel="@string/shortcut_toggle_long">
+        <intent
+            android:action="tools.zach.app.pixelspeed.action.SHORTCUT_TOGGLE"
+            android:targetPackage="tools.zach.app.pixelspeed"
+            android:targetClass="tools.zach.app.pixelspeed.service.ShortcutActivity" />
+    </shortcut>
+</shortcuts>
