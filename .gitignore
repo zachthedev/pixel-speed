@@ -1,0 +1,49 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# Project additions
+# Release signing configuration; the keystore itself is covered by the patterns above
+keystore.properties
+
+# Play service account keys never enter the repository
+*service-account*.json
+# Kotlin compiler session data
+.kotlin/
+
+# macOS
+.DS_Store
+
+# Claude Code worktrees and local state.
+.claude/
