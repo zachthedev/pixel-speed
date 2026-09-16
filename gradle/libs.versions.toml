@@ -42,7 +42,7 @@ aboutLibraries = "15.2.0"
 
 junitJupiter = "6.1.3"
 junit4 = "4.13.2"
-robolectric = "4.17-beta-4"
+robolectric = "4.17"
 androidxTest = "1.7.0"
 androidxTestExt = "1.3.0"
 androidxTestRunner = "1.7.0"
