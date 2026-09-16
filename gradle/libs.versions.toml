@@ -6,7 +6,7 @@ androidGradlePlugin = "9.4.0"
 # Kotlin rides in through the Compose and serialization plugins; AGP's built-in Kotlin picks up the
 # highest Kotlin Gradle plugin on the classpath.
 kotlin = "2.4.20"
-ksp = "2.3.11"
+ksp = "2.3.12"
 hilt = "2.60.1"
 androidJunit5Plugin = "2.0.1"
 composeScreenshot = "0.0.1-alpha16"
